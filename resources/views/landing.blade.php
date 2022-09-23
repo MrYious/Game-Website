@@ -28,7 +28,7 @@
                             <a href="#section4" class="hover:bg-slate-300">Modes & Levels</a>
                         </div>
                     </div>
-                    <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> White Paper </a>
+                    <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> Whitepaper </a>
                     <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> Marketplace </a>
                     <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> About Us </a>
                     <a href="" class="px-3 py-2 font-semibold text-white bg-gray-800 rounded-md"> SIGN IN </a>
