@@ -16,9 +16,9 @@
         <main id="home" class="flex flex-col w-full h-screen bg-red-900">
             <nav class="flex items-center justify-between w-full px-5 py-2 h-fit bg-slate-400">
                 <a href="#home" class="text-4xl font-bold">ChromaHunt</a>
-                <div class="flex gap-1">
-                    <div class="dropdown hover:bg-slate-500">
-                        <button class="px-3 py-2 border-b-4 border-transparent rounded-sm dropbtn hover:border-black hover:bg-slate-500">
+                <div class="flex items-center gap-2 ">
+                    <div class="border-transparent rounded-sm dropdown hover:bg-slate-300 border-y-4 hover:border-b-black ">
+                        <button class="px-3 py-2 dropbtn hover:bg-slate-300">
                             Game Info
                         </button>
                         <div class="bg-gray-200 dropdown-content">
@@ -28,10 +28,10 @@
                             <a href="#section4" class="hover:bg-slate-300">Modes & Levels</a>
                         </div>
                     </div>
-                    <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> Whitepaper </a>
-                    <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> Marketplace </a>
-                    <a href="" class="px-3 py-2 border-b-4 border-transparent rounded-sm hover:border-black hover:bg-slate-500"> About Us </a>
-                    <a href="" class="px-3 py-2 font-semibold text-white bg-gray-800 rounded-md"> SIGN IN </a>
+                    <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Whitepaper </a>
+                    <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Marketplace </a>
+                    <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> About us </a>
+                    <a href="" class="px-3 py-2 font-semibold text-white bg-gray-700 rounded-md"> SIGN IN </a>
                 </div>
             </nav>
             <div class="flex items-center justify-center w-full h-full gap-4 bg-slate-300">
@@ -41,11 +41,11 @@
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                     <div class="flex flex-col items-start justify-start">
-                        <button class="px-16 py-2 border-2 border-black hover:bg-black hover:text-white"> Play Now </button>
+                        <button class="px-16 py-2 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white"> Play Now </button>
                     </div>
                 </div>
                 <div class="flex justify-center items-center w-[50%] h-[90%] ml-[-100px] p-5 gap-5 border-2 border-black">
-                    Image here
+                    IMAGE HERE
                 </div>
             </div>
         </main>
@@ -69,11 +69,11 @@
             // Get the button:
             let btn_top = document.getElementById("btn_top");
 
-            // When the user scrolls down 200px from the top of the document, show the button
+            // When the user scrolls down 500px from the top of the document, show the button
             window.onscroll = function() {scrollFunction()};
 
             function scrollFunction() {
-                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
                     btn_top.style.display = "block";
                 } else {
                     btn_top.style.display = "none";
