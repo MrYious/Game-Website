@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- INSERT YOUR CODE HERE -->
-
+        
         <script>
         </script>
         @livewireScripts
