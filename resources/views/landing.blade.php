@@ -58,13 +58,13 @@
         <!-- LORE -->
         <section id="lore" class="flex items-center justify-between w-full min-h-screen gap-5 bg-slate-400">
             <!-- LEFT IMAGE -->
-            <div class="flex justify-end items-center w-[35%] h-[500px] border-2 border-black -ml-28 bg-slate-300">
+            <div class="flex justify-end items-center px-10 w-[35%] h-[500px] border-2 border-black -ml-28 bg-slate-300">
                 IMAGE HERE (PROTAGONISTs)
             </div>
             <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-[40%] py-1 gap-3 text-center bg-slate-200">
+            <div class="flex flex-col items-center justify-center w-[40%] p-2 gap-3 text-center bg-slate-200">
                 <!-- TITLE -->
-                <div class="px-3 text-4xl font-bold border-b-4 border-black ">THE LORE</div>
+                <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black ">THE LORE</div>
                 <!-- DESCRIPTION -->
                 <div class="flex flex-col w-full gap-1 ">
                     <div class="text-sm font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa suscipit! Omnis, eaque mollitia laborum nam saepe distinctio atque pariatur molestiae ullam ad voluptas, quam quia architecto fugit aperiam culpa veritatis maxime! Soluta, porro rem.</div>
@@ -74,14 +74,39 @@
                 <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- RIGHT IMAGE -->
-            <div class="flex justify-start items-center w-[35%] h-[500px] border-2 border-black -mr-28 bg-gray-300">
+            <div class="flex justify-start items-center px-10 w-[35%] h-[500px] border-2 border-black -mr-28 bg-gray-300">
                 IMAGE HERE (ANTAGONISTs)
             </div>
         </section>
 
-        <!--  -->
-        <section id="heroes" class="flex flex-col items-center justify-center w-full min-h-screen bg-slate-500">
-            <div class="p-4 bg-red-200">Section 2</div>
+        <!-- HEROES -->
+        <section id="heroes" class="flex items-center justify-center w-full min-h-screen gap-10 bg-slate-300">
+            <!-- IMAGE GROUPS -->
+            <div class="flex justify-start w-[60%] h-[550px] border-2 border-black ">
+                <div class="flex items-start w-1/4 ">
+                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 1</div>
+                </div>
+                <div class="flex items-end w-1/4 ">
+                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 2</div>
+                </div>
+                <div class="flex items-start w-1/4 ">
+                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 3</div>
+                </div>
+                <div class="flex items-end w-1/4 ">
+                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 4</div>
+                </div>
+            </div>
+            <!-- CONTENT -->
+            <div class="flex flex-col items-end justify-center w-[32%] gap-3 text-right bg-slate-400 p-2">
+                <!-- TITLE -->
+                <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black ">THE HEROES</div>
+                <!-- DESCRIPTION -->
+                <div class="text-sm font-semibold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                </div>
+                <!-- ACTION -->
+                <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+            </div>
         </section>
 
         <!--  -->
