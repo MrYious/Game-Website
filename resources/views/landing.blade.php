@@ -35,7 +35,7 @@
                     <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Whitepaper </a>
                     <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Marketplace </a>
                     <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> About us </a>
-                    <a href="" class="px-3 py-2 font-semibold text-white bg-gray-700 rounded-md"> SIGN IN </a>
+                    <a href="login" class="px-3 py-2 font-semibold text-white bg-gray-700 rounded-md"> SIGN IN </a>
                 </div>
             </nav>
             <!-- HERO SECTION -->
