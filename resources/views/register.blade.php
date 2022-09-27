@@ -17,10 +17,10 @@
                             Game Info
                         </button>
                         <div class="bg-gray-200 dropdown-content">
-                            <a href="#lore" class="hover:bg-slate-300">Lore</a>
-                            <a href="#heroes" class="hover:bg-slate-300">Heroes</a>
-                            <a href="#gameplay" class="hover:bg-slate-300">Gameplay</a>
-                            <a href="#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
+                            <a href="/#lore" class="hover:bg-slate-300">Lore</a>
+                            <a href="/#heroes" class="hover:bg-slate-300">Heroes</a>
+                            <a href="/#gameplay" class="hover:bg-slate-300">Gameplay</a>
+                            <a href="/#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
                         </div>
                     </div>
                     <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Whitepaper </a>

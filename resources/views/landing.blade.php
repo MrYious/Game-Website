@@ -120,7 +120,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                 </div>
                 <!-- ACTION -->
-                <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                <a href="gameplay" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- VIDEO SAMPLE -->
             <div class="flex items-center justify-center w-[60%] h-[550px] border-2 border-black ">
@@ -131,7 +131,7 @@
         <!-- MAPS/LEVELS -->
         <section id="modesLevels" class="flex flex-col items-start justify-start w-full min-h-screen ">
             <!-- MAPS -->
-            <div class="flex items-center  justify-between gap-[30px] bg-slate-300 px-[100px] h-[50vh]">
+            <div class="flex items-center w-full justify-between gap-[30px] bg-slate-300 px-[100px] h-[50vh]">
                 <!-- MAP IMAGES -->
                 <div class="flex items-center justify-center gap-3 ">
                     <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
@@ -154,7 +154,7 @@
                 </div>
             </div>
             <!-- LEVELS -->
-            <div class="flex items-center px-[100px] justify-between gap-[30px] bg-slate-400 h-[50vh]">
+            <div class="flex items-center w-full px-[100px] justify-between gap-[30px] bg-slate-400 h-[50vh]">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-start justify-end w-[32%] gap-3 text-left bg-slate-300 p-2">
                     <!-- TITLE -->
