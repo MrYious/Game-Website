@@ -30,5 +30,9 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/gameplay', function () {
+    return view('gameplay');
+});
+
 //Route::get('/login',[AuthController::class,'login']);
 //Route::get('/register',[AuthController::class,'register']);
