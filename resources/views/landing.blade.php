@@ -114,7 +114,7 @@
             <!-- CONTENT -->
             <div class="flex flex-col items-start justify-start w-[32%] gap-3 text-left bg-slate-300 p-2">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">GAMEPLAY</div>
+                <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">THE GAMEPLAY</div>
                 <!-- DESCRIPTION -->
                 <div class="text-sm font-semibold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -128,26 +128,26 @@
             </div>
         </section>
 
-        <!-- MAPS/LEVELS -->
+        <!-- MODES/LEVELS -->
         <section id="modesLevels" class="flex flex-col items-start justify-start w-full min-h-screen ">
             <!-- MAPS -->
             <div class="flex items-center w-full justify-between gap-[30px] bg-slate-300 px-[100px] h-[50vh]">
                 <!-- MAP IMAGES -->
                 <div class="flex items-center justify-center gap-3 ">
                     <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
-                        <div class="flex items-center justify-center">Maps1</div>
+                        <div class="flex items-center justify-center">Mode1</div>
                     </div>
                     <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
-                        <div class="flex items-center justify-center">Maps2</div>
+                        <div class="flex items-center justify-center">Mode2</div>
                     </div>
                 </div>
                 <!-- CONTENT -->
                 <div class="flex flex-col items-end justify-end w-[32%] gap-3 text-right bg-slate-400 p-2">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">MAPS</div>
+                    <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">THE GAMEMODES</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
                     <!-- ACTION -->
                     <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
@@ -158,7 +158,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-start justify-end w-[32%] gap-3 text-left bg-slate-300 p-2">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">LEVELS</div>
+                    <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">THE LEVELS</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
