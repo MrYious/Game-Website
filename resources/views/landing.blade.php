@@ -19,7 +19,7 @@
         <main id="home" class="flex flex-col w-full min-h-screen bg-red-900">
             <!-- NAVIGATION BAR -->
             <nav class="flex items-center justify-between w-full px-5 py-2 h-[10vh] bg-slate-400">
-                <a href="#home" class="text-4xl font-bold">ChromaHunt</a>
+                <a href="/" class="text-4xl font-bold">ChromaHunt</a>
                 <div class="flex items-center gap-2 ">
                     <div class="border-transparent rounded-sm dropdown hover:bg-slate-300 border-y-4 hover:border-b-black ">
                         <button class="px-3 py-2 dropbtn hover:bg-slate-300">
@@ -58,11 +58,11 @@
         <!-- LORE -->
         <section id="lore" class="flex items-center justify-between w-full min-h-screen gap-5 bg-slate-400">
             <!-- LEFT IMAGE -->
-            <div class="flex justify-end items-center px-10 w-[35%] h-[500px] border-2 border-black -ml-28 bg-slate-300">
+            <div class="flex justify-end items-center px-10 w-[35%] h-[500px] border-2 border-black -ml-28 ">
                 IMAGE HERE (PROTAGONISTs)
             </div>
             <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-[40%] p-2 gap-3 text-center bg-slate-200">
+            <div class="flex flex-col items-center justify-center w-[40%] p-2 gap-3 text-center bg-slate-300">
                 <!-- TITLE -->
                 <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black ">THE LORE</div>
                 <!-- DESCRIPTION -->
@@ -74,7 +74,7 @@
                 <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- RIGHT IMAGE -->
-            <div class="flex justify-start items-center px-10 w-[35%] h-[500px] border-2 border-black -mr-28 bg-gray-300">
+            <div class="flex justify-start items-center px-10 w-[35%] h-[500px] border-2 border-black -mr-28 ">
                 IMAGE HERE (ANTAGONISTs)
             </div>
         </section>
@@ -112,7 +112,7 @@
         <!-- GAMEPLAY -->
         <section id="gameplay" class="flex items-center justify-center w-full min-h-screen gap-10 bg-slate-400">
             <!-- CONTENT -->
-            <div class="flex flex-col items-start justify-start w-[32%] gap-3 text-left bg-slate-200 p-2">
+            <div class="flex flex-col items-start justify-start w-[32%] gap-3 text-left bg-slate-300 p-2">
                 <!-- TITLE -->
                 <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">GAMEPLAY</div>
                 <!-- DESCRIPTION -->
@@ -129,11 +129,20 @@
         </section>
 
         <!-- MAPS/LEVELS -->
-        <section id="modesLevels" class="flex flex-col items-start justify-start w-full min-h-screen bg-slate-300">
+        <section id="modesLevels" class="flex flex-col items-start justify-start w-full min-h-screen ">
             <!-- MAPS -->
-            <div class="flex items-start px-1 py-[100px] justify-between gap-[30px] bg-slate-200">
+            <div class="flex items-center  justify-between gap-[30px] bg-slate-300 px-[100px] h-[50vh]">
+                <!-- MAP IMAGES -->
+                <div class="flex items-center justify-center gap-3 ">
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
+                        <div class="flex items-center justify-center">Maps1</div>
+                    </div>
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
+                        <div class="flex items-center justify-center">Maps2</div>
+                    </div>
+                </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col ml-[100px] items-start justify-start w-[32%] gap-3 text-left bg-slate-200 p-2">
+                <div class="flex flex-col items-end justify-end w-[32%] gap-3 text-right bg-slate-400 p-2">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">MAPS</div>
                     <!-- DESCRIPTION -->
@@ -143,47 +152,85 @@
                     <!-- ACTION -->
                     <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
                 </div>
-                <!-- MAP IMAGES -->
-                <div class="flex mr-[100px] items-center justify-center gap-3">
-                    <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
-                        <div class="flex items-center justify-center">Maps1</div>
-                    </div>
-                    <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
-                        <div class="flex items-center justify-center">Maps2</div>
-                    </div>
-                </div>
             </div>
             <!-- LEVELS -->
-            <div class="flex items-start px-1 py-[100px] justify-between gap-[30px] bg-slate-600">
-                <!-- MAP IMAGES -->
-                <div class="flex ml-[100px] items-center justify-center gap-3">
-                    <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
-                        <div class="flex items-center justify-center">Level1</div>
-                    </div>
-                    <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
-                        <div class="flex items-center justify-center">Level2</div>
-                    </div>
-                    <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
-                        <div class="flex items-center justify-center">Level3</div>
-                    </div>
-                </div>
+            <div class="flex items-center px-[100px] justify-between gap-[30px] bg-slate-400 h-[50vh]">
                 <!-- CONTENT -->
-                <div class="flex flex-col mr-[100px] items-end justify-end w-[32%] gap-3 text-right bg-slate-600 p-2">
+                <div class="flex flex-col items-start justify-end w-[32%] gap-3 text-left bg-slate-300 p-2">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">LEVELS</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
                     <!-- ACTION -->
                     <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
                 </div>
+                <!-- MAP IMAGES -->
+                <div class="flex items-center justify-center gap-3">
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
+                        <div class="flex items-center justify-center">Level1</div>
+                    </div>
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
+                        <div class="flex items-center justify-center">Level2</div>
+                    </div>
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
+                        <div class="flex items-center justify-center">Level3</div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!--  -->
-        <footer class="flex items-center justify-center w-full h-64 tex bg-slate-500">
-            Footer
+        <!-- FOOTER -->
+        <footer class="flex items-center justify-center  w-full h-[40vh] bg-slate-300 gap-10">
+            <!-- COLUMN 1 -->
+            <div class="flex flex-col items-center justify-center p-2 gap-7 w-[25%] h-5/6">
+                <a href="" class="text-4xl font-bold tracking-tighter ">ChromaHunt</a>
+                <div class="flex flex-col gap-3 p-2 text-center ">
+                    <div class="text-xl font-bold">SOCIAL MEDIA</div>
+                    <div class="flex gap-4">
+                        <a href="">
+                            <img class="w-8" src="/images/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="">
+                            <img class="w-8" src="/images/twitter.svg" alt="twitter">
+                        </a>
+                        <a href="">
+                            <img class="w-8" src="/images/discord.svg" alt="discord">
+                        </a>
+                        <a href="">
+                            <img class="w-8" src="/images/instagram.svg" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="text-xs">ⓒ 2022 CHROMAHUNT. ALL RIGHTS RESERVED</div>
+            </div>
+            <!-- COLUMN 2 -->
+            <div class="flex h-5/6 w-[35%]">
+                <div class="flex flex-col items-start justify-center w-1/2 gap-3 p-3 ">
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">WHITEPAPER</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">MARKETPLACE</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">CORE TEAM</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">INVESTORS</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">PARTNERSHIPS</a>
+                </div>
+                <div class="flex flex-col items-start justify-center w-1/2 gap-3 p-3">
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">TERMS OF USE</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">PRIVACY POLICY</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">CODE OF CONDUCT</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">FAQ</a>
+                    <a class="border-b-[1px] border-transparent hover:border-black" href="">COOKIES</a>
+                </div>
+            </div>
+            <!-- COLUMN 3 -->
+            <form action="" method="post" class="flex flex-col items-center justify-start p-2 gap-2 w-[25%] ">
+                <div class="text-2xl font-semibold ">Send us a message</div>
+                <div class="flex flex-col w-full gap-2 px-2 text-sm text-center ">
+                    <input class="p-2 border-[1px] bg-gray-200 border-gray-800 rounded-sm" type="text" name="email" placeholder="Email" required >
+                    <textarea class="p-2 resize-none bg-gray-200 border-[1px] border-gray-800 rounded-sm h-20" name="message" id="message" placeholder="Message" ></textarea>
+                </div>
+                <button type="submit" class="px-6 py-1 text-xs border-2 border-gray-800 hover:bg-gray-800 hover:text-white">SUBMIT</button>
+            </form>
         </footer>
 
         <script>
