@@ -133,16 +133,18 @@
             <!-- MAPS -->
             <div class="flex items-start px-1 py-[100px] justify-between gap-[30px] bg-slate-200">
                 <!-- CONTENT -->
-                <div class="flex flex-col ml-[80px] items-start justify-start w-[32%] gap-3 text-left bg-slate-200 p-2">
+                <div class="flex flex-col ml-[100px] items-start justify-start w-[32%] gap-3 text-left bg-slate-200 p-2">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">MAPS</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
+                    <!-- ACTION -->
+                    <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
                 </div>
                 <!-- MAP IMAGES -->
-                <div class="flex mr-[80px] items-center justify-center gap-3">
+                <div class="flex mr-[100px] items-center justify-center gap-3">
                     <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
                         <div class="flex items-center justify-center">Maps1</div>
                     </div>
@@ -154,7 +156,7 @@
             <!-- LEVELS -->
             <div class="flex items-start px-1 py-[100px] justify-between gap-[30px] bg-slate-600">
                 <!-- MAP IMAGES -->
-                <div class="flex ml-[30px] items-center justify-center gap-3">
+                <div class="flex ml-[100px] items-center justify-center gap-3">
                     <div class="flex px-20 py-20 items-start justify-center border-2 border-black">
                         <div class="flex items-center justify-center">Level1</div>
                     </div>
@@ -166,13 +168,15 @@
                     </div>
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col mr-[30px] items-end justify-end w-[32%] gap-3 text-right bg-slate-600 p-2">
+                <div class="flex flex-col mr-[100px] items-end justify-end w-[32%] gap-3 text-right bg-slate-600 p-2">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">LEVELS</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
+                    <!-- ACTION -->
+                    <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
                 </div>
             </div>
         </section>
