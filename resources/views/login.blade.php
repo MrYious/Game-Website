@@ -10,17 +10,17 @@
     <body>
         <!-- INSERT YOUR CODE HERE -->
             <nav class="flex items-center justify-between w-full px-5 py-2 h-[10vh] bg-slate-400">
-                <a href="#home" class="text-4xl font-bold">ChromaHunt</a>
+                <a href="/" class="text-4xl font-bold">ChromaHunt</a>
                 <div class="flex items-center gap-2 ">
                     <div class="border-transparent rounded-sm dropdown hover:bg-slate-300 border-y-4 hover:border-b-black ">
                         <button class="px-3 py-2 dropbtn hover:bg-slate-300">
                             Game Info
                         </button>
                         <div class="bg-gray-200 dropdown-content">
-                            <a href="#lore" class="hover:bg-slate-300">Lore</a>
-                            <a href="#heroes" class="hover:bg-slate-300">Heroes</a>
-                            <a href="#gameplay" class="hover:bg-slate-300">Gameplay</a>
-                            <a href="#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
+                            <a href="/#lore" class="hover:bg-slate-300">Lore</a>
+                            <a href="/#heroes" class="hover:bg-slate-300">Heroes</a>
+                            <a href="/#gameplay" class="hover:bg-slate-300">Gameplay</a>
+                            <a href="/#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
                         </div>
                     </div>
                     <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Whitepaper </a>
@@ -37,7 +37,7 @@
                 <div>
                     Login
                 </div>
-                <form class="flex flex-col w-full h-fit bg-slate-500 p-6">
+                <form class="flex flex-col w-full p-6 h-fit bg-slate-500">
                     <div class="flex flex-col items-start text-[28px] ">
                         <div class="flex flex-row gap-3 p-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
