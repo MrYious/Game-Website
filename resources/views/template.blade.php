@@ -10,8 +10,8 @@
         @livewireStyles
     </head>
     <body>
+        <livewire:navbar />
         <!-- INSERT YOUR CODE HERE -->
-        
         <script>
         </script>
         @livewireScripts
