@@ -26,16 +26,16 @@
                             Game Info
                         </button>
                         <div class="bg-gray-200 dropdown-content">
-                            <a href="#lore" class="hover:bg-slate-300">Lore</a>
-                            <a href="#heroes" class="hover:bg-slate-300">Heroes</a>
-                            <a href="#gameplay" class="hover:bg-slate-300">Gameplay</a>
-                            <a href="#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
+                            <a href="/#lore" class="hover:bg-slate-300">Lore</a>
+                            <a href="/#heroes" class="hover:bg-slate-300">Heroes</a>
+                            <a href="/#gameplay" class="hover:bg-slate-300">Gameplay</a>
+                            <a href="/#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
                         </div>
                     </div>
-                    <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Whitepaper </a>
-                    <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Marketplace </a>
-                    <a href="" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> About us </a>
-                    <a href="login" class="px-3 py-2 font-semibold text-white bg-gray-700 rounded-md"> SIGN IN </a>
+                    <a href="/" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Whitepaper </a>
+                    <a href="/" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> Marketplace </a>
+                    <a href="/" class="px-3 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300"> About us </a>
+                    <a href="/login" class="px-3 py-2 font-semibold text-white bg-gray-700 rounded-md"> SIGN IN </a>
                 </div>
             </nav>
             <!-- HERO SECTION -->
@@ -71,7 +71,7 @@
                     <div class="text-xs ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa suscipit! Omnis, eaque mollitia laborum nam saepe distinctio atque pariatur molestiae ullam ad voluptas, quam quia architecto fugit aperiam culpa veritatis maxime! Soluta, porro rem.</div>
                 </div>
                 <!-- ACTION -->
-                <a href="" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                <a href="/lore" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- RIGHT IMAGE -->
             <div class="flex justify-start items-center px-10 w-[35%] h-[500px] border-2 border-black -mr-28 ">
@@ -120,7 +120,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                 </div>
                 <!-- ACTION -->
-                <a href="gameplay" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                <a href="/gameplay" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- VIDEO SAMPLE -->
             <div class="flex items-center justify-center w-[60%] h-[550px] border-2 border-black ">
