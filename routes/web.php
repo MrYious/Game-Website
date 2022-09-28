@@ -30,6 +30,10 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/lore', function () {
+    return view('lore');
+});
+
 Route::get('/gameplay', function () {
     return view('gameplay');
 });
