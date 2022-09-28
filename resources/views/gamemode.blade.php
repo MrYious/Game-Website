@@ -30,8 +30,8 @@
         <!-- GAME MODE -->
         <div class="flex flex-col justify-center items-center mb-20 mx-20">
                 <!-- CONTENT -->
-                <div class="flex flex-col relative w-full h-full justify-center items-center px-20 py-20 mx-10 m gap-3">
-                    <div class="text-4xl font-semibold text-left border-b-4 border-black">GAME MODES</div>
+                <div class="flex flex-col relative w-full h-full justify-center items-center px-10 py-10 m-10 bg-slate-400 gap-3">
+                    <div class="text-4xl font-semibold text-left border-b-4 border-black">THE GAME MODES</div>
                     <div class="text-left">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi earum voluptate quam eligendi fugiat laboriosam alias asperiores facilis ab dolorem corporis dolor cum saepe, architecto, adipisci non inventore et nostrum quia. Perspiciatis qui, quisquam deserunt debitis id itaque ratione magnam! Quas facere qui ea, natus cum, inventore et vel, tenetur esse voluptate quam veniam tempore reprehenderit obcaecati laudantium omnis fugiat voluptatibus tempora? Expedita in quod recusandae aut excepturi nostrum obcaecati facere perspiciatis quis ipsa? Beatae, illo quos eaque optio unde dolor, provident doloremque alias mollitia corporis corrupti eum, ad rerum. Ullam quam tempore perspiciatis, nostrum dolores non nobis tempora!
                     </div>
@@ -68,8 +68,8 @@
                             alt="..."
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
-                            <h5 class="text-xl">First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 class="text-xl">GAME MODE 1</h5>
+                            <p>Description.</p>
                         </div>
                         </div>
                         <div class="carousel-item relative float-left w-full">
@@ -79,8 +79,8 @@
                             alt="..."
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
-                            <h5 class="text-xl">Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5 class="text-xl">GAME MODE 2</h5>
+                            <p>Description.</p>
                         </div>
                         </div>
                         <div class="carousel-item relative float-left w-full">
@@ -90,8 +90,8 @@
                             alt="..."
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
-                            <h5 class="text-xl">Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5 class="text-xl">GAME MODE 3</h5>
+                            <p>Description.</p>
                         </div>
                         </div>
                     </div>
