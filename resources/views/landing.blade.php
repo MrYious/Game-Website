@@ -6,8 +6,6 @@
         @vite('resources/css/app.css')
         <title>ChromaHunt</title>
         @livewireStyles
-        <!-- TAILWIND ELEMENTS -->
-        <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
     </head>
     <body class="overflow-x-hidden">
         <!-- SCROLL TO TOP BUTTON -->
