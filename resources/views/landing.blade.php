@@ -6,8 +6,10 @@
         @vite('resources/css/app.css')
         <title>ChromaHunt</title>
         @livewireStyles
+        <!-- TAILWIND ELEMENTS -->
+        <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
     </head>
-    <body class="overflow-x-hidden ">
+    <body class="overflow-x-hidden">
         <!-- SCROLL TO TOP BUTTON -->
         <a href="#home" id="btn_top" class="fixed z-50 p-[2px] rounded-full bg-gray-800 text-white bottom-3 right-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
