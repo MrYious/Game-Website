@@ -21,7 +21,7 @@
             <livewire:navbar />
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center min-h-[90vh] w-full gap-4 bg-slate-300">
-                <div class="flex flex-col  w-[47%] p-5 bg-slate-400 gap-5 z-10">
+                <div class="flex flex-col  w-[47%] p-5 bg-slate-400 gap-5 z-[1]">
                     <div class="font-semibold text-8xl">LET THE GAME BEGIN</div>
                     <div class="">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
@@ -180,6 +180,7 @@
                 }
             }
         </script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @livewireScripts
     </body>
 </html>
