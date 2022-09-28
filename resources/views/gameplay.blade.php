@@ -70,6 +70,9 @@
             </div>
         </section>
 
+        <!-- FOOTER -->
+        <livewire:footer />
+
 
         <script>
             

@@ -12,6 +12,10 @@
     <body>
         <livewire:navbar />
         <!-- INSERT YOUR CODE HERE -->
+
+        <!-- FOOTER -->
+        <livewire:footer />
+
         <script>
         </script>
         @livewireScripts
