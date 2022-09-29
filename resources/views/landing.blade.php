@@ -16,17 +16,17 @@
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- HERO SECTION -->
-            <div class="flex items-center justify-center min-h-[90vh] w-full gap-4 bg-slate-300">
-                <div class="flex flex-col  w-[47%] p-5 bg-slate-400 gap-5 z-[1]">
-                    <div class="font-semibold text-8xl">LET THE GAME BEGIN</div>
-                    <div class="">
+            <div class="flex items-center justify-center min-h-[89vh] gap-1 w-full bg-slate-300 flex-col-reverse  md:min-h-[90vh] lg:flex-row lg:gap-4">
+                <div class="flex flex-col p-5 w-5/6 bg-slate-400 gap-2 z-[1] text-center lg:text-left -mt-20 md:w-4/6 lg:gap-5 lg:w-[48%] lg:m-0 ">
+                    <div class="text-2xl font-semibold lg:text-6xl xl:text-8xl">LET THE GAME BEGIN</div>
+                    <div class="text-xs lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
-                    <div class="flex flex-col items-start justify-start">
+                    <div class="flex flex-col items-center justify-start lg:items-start ">
                         <button class="px-16 py-2 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white"> Play Now </button>
                     </div>
                 </div>
-                <div class="flex justify-center items-center w-[45%] h-[500px] ml-[-100px] border-2 border-black ">
+                <div class="flex justify-center items-center h-[325px] lg:h-[500px] border-2 border-black lg:ml-[-100px] w-[90%] lg:w-[45%] lg:my-0">
                     IMAGE HERE
                 </div>
             </div>
