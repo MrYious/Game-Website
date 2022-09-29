@@ -42,5 +42,9 @@ Route::get('/gamemode', function () {
     return view('gamemode');
 });
 
+Route::get('/levels', function () {
+    return view('levels');
+});
+
 //Route::get('/login',[AuthController::class,'login']);
 //Route::get('/register',[AuthController::class,'register']);
