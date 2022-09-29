@@ -10,7 +10,11 @@
         @livewireStyles
     </head>
     <body>
+        <!-- SCROLL TO TOP BUTTON -->
+        <livewire:scroll-top />
+        <!-- NAVBAR -->
         <livewire:navbar />
+
         <!-- INSERT YOUR CODE HERE -->
 
         <!-- FOOTER -->
