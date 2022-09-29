@@ -18,7 +18,13 @@
                 Login
             </div>
             <!-- Login box -->
-            <form class="flex flex-col w-full p-6 h-fit bg-slate-500 rounded-lg">
+            <form action="loginuser" method="POST" class="flex flex-col w-full p-6 h-fit bg-slate-500 rounded-lg">
+                @csrf
+                @if (session('message'))
+                    <div class="w-full p-2 text-sm text-center bg-slate-300 rounded-full">
+                    {{ session('message') }}
+                    </div>
+                @endif
                 <div class="flex flex-col items-start text-[28px] ">
                     <div class="flex flex-row gap-3 p-3">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
