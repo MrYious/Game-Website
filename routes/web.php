@@ -46,5 +46,7 @@ Route::get('/levels', function () {
     return view('levels');
 });
 
-//Route::get('/login',[AuthController::class,'login']);
-//Route::get('/register',[AuthController::class,'register']);
+Route::get('/login',[AuthController::class,'login']);
+Route::get('/register',[AuthController::class,'register']);
+Route::post('/registeruser',[AuthController::class,'registeruser'])->name ('registeruser');
+Route::post('/loginuser',[AuthController::class,'loginuser'])->name ('loginuser');
