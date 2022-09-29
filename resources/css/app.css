@@ -20,15 +20,32 @@ html {
     margin: 0;
 }
 
-.dropdown-content {
+.dropdown-contentM {
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-contentM a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-contentD {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-contentD a {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -37,6 +54,10 @@ html {
     text-align: left;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-contentM {
+    display: block;
+}
+
+.dropdown:hover .dropdown-contentD {
     display: block;
 }
