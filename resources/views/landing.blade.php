@@ -16,7 +16,7 @@
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- HERO SECTION -->
-            <div class="flex items-center justify-center min-h-[89vh] gap-1 w-full bg-slate-300 flex-col-reverse  md:min-h-[90vh] lg:flex-row lg:gap-4">
+            <div class="flex items-center justify-center min-h-[89vh] gap-1 w-full bg-slate-300 flex-col-reverse  md:min-h-[90vh] lg:flex-row lg:gap-4 ">
                 <div class="flex flex-col p-5 w-5/6 bg-slate-400 gap-2 z-[1] text-center lg:text-left -mt-20 md:w-4/6 lg:gap-5 lg:w-[48%] lg:m-0 ">
                     <div class="text-2xl font-semibold lg:text-6xl xl:text-8xl">LET THE GAME BEGIN</div>
                     <div class="text-xs lg:text-base">
@@ -35,23 +35,23 @@
         <!-- LORE -->
         <section id="lore" class="flex items-center justify-between w-full min-h-screen gap-5 bg-slate-400">
             <!-- LEFT IMAGE -->
-            <div class="flex justify-end items-center px-10 w-[35%] h-[500px] border-2 border-black -ml-28 ">
+            <div class="flex justify-end items-start lg:items-center px-10 w-[47%] lg:w-[35%] h-[500px] border-2 border-black -mt-40 -mr-[50%] lg:-ml-28 lg:-mt-0">
                 IMAGE HERE (PROTAGONISTs)
             </div>
             <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-[40%] p-2 gap-3 text-center bg-slate-300">
+            <div class="flex flex-col items-center justify-center w-[50%] lg:w-[40%] p-2 gap-3 text-center bg-slate-300 z-[1]">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black ">THE LORE</div>
+                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">THE LORE</div>
                 <!-- DESCRIPTION -->
                 <div class="flex flex-col w-full gap-1 ">
-                    <div class="text-sm font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa suscipit! Omnis, eaque mollitia laborum nam saepe distinctio atque pariatur molestiae ullam ad voluptas, quam quia architecto fugit aperiam culpa veritatis maxime! Soluta, porro rem.</div>
+                    <div class="text-xs font-semibold lg:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa suscipit! Omnis, eaque mollitia laborum nam saepe distinctio atque pariatur molestiae ullam ad voluptas, quam quia architecto fugit aperiam culpa veritatis maxime! Soluta, porro rem.</div>
                     <div class="text-xs ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa suscipit! Omnis, eaque mollitia laborum nam saepe distinctio atque pariatur molestiae ullam ad voluptas, quam quia architecto fugit aperiam culpa veritatis maxime! Soluta, porro rem.</div>
                 </div>
                 <!-- ACTION -->
-                <a href="/lore" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                <a href="/lore" class="px-6 py-1 text-sm font-semibold border-2 border-gray-800 lg:text-base hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- RIGHT IMAGE -->
-            <div class="flex justify-start items-center px-10 w-[35%] h-[500px] border-2 border-black -mr-28 ">
+            <div class="flex justify-start items-end lg:items-center px-10 w-[47%] lg:w-[35%] h-[500px] border-2 border-black -mb-40 -ml-[50%] lg:-mr-28 lg:-mb-0">
                 IMAGE HERE (ANTAGONISTs)
             </div>
         </section>
