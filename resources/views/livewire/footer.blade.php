@@ -1,4 +1,4 @@
-<footer class="flex items-center justify-center  w-full h-[40vh] bg-slate-300 gap-10">
+<footer class="hidden  lg:flex items-center justify-center w-full h-[40vh] bg-slate-300 gap-10">
     <!-- COLUMN 1 -->
     <div class="flex flex-col items-center justify-center p-2 gap-7 w-[25%] h-5/6">
         <a href="" class="text-4xl font-bold tracking-tighter ">ChromaHunt</a>
@@ -19,7 +19,7 @@
                 </a>
             </div>
         </div>
-        <div class="text-xs">ⓒ 2022 CHROMAHUNT. ALL RIGHTS RESERVED</div>
+        <div class="text-xs text-center">ⓒ 2022 CHROMAHUNT. ALL RIGHTS RESERVED</div>
     </div>
     <!-- COLUMN 2 -->
     <div class="flex h-5/6 w-[35%]">
