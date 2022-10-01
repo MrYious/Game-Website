@@ -53,9 +53,26 @@ class AuthController extends Controller
 
         if(Auth::attempt($credentials))
         {
-            return redirect('');
+            return redirect('dashboard');
         }
 
         return redirect('login')->with('message', 'Incorrect email or password');
     }
+
+    function dashboard()
+    {
+        if(Auth::check())
+        {
+            return view('dashboard');
+        }
+
+        return redirect('')->with('message', 'Unauthorized Access. Login first');
+    }
+
+    function logout()
+    {
+        Auth::logout();
+        return redirect('');
+    }
 }
+
