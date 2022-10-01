@@ -18,16 +18,19 @@
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- GAMEPLAY -->
-            <div class="flex items-center justify-between min-h-[90vh] w-full gap-4 bg-slate-300">
+            <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full bg-slate-300 p-2">
                 <!-- CONTENT -->
-                <div class="flex flex-col ml-20 w-[47%] p-5 gap-5">
+                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
                     <div class="text-4xl font-semibold">BEGINNER'S GUIDE</div>
+                    <div class="">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                    </div>
                     <div class="">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                 </div>
                 <!-- IMAGE -->
-                <div class="flex mr-20 justify-center items-center w-[45%] h-[500px] ml-[100px] border-2 border-black ">
+                <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black">
                     IMAGE HERE
                 </div>
             </div>
@@ -35,15 +38,18 @@
 
         <!-- CONTROLS -->
         <section id="controls" class="flex items-center justify-between w-full min-h-screen bg-slate-400">
-            <div class="flex items-center justify-between min-h-[100vh] w-full gap-4 bg-slate-400">
+            <div class="flex flex-col md:flex-row items-center justify-around w-full min-h-screen bg-slate-400 p-2">
                 <!-- IMAGE -->
-                <div class="flex mr-20 justify-center items-center w-[45%] h-[500px] ml-[100px] border-2 border-black ">
+                <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black">
                     IMAGE HERE
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col ml-20 w-[47%] p-5 gap-5">
-                    <div class="mr-20 text-4xl font-semibold text-right">CONTROLS</div>
-                    <div class="mr-20 text-right">
+                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 md:text-right">
+                    <div class="text-4xl font-semibold">CONTROLS</div>
+                    <div class="">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                    </div>
+                    <div class="">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                 </div>
@@ -52,15 +58,18 @@
 
         <!-- SKILLS -->
         <section id="skills" class="flex items-center justify-between w-full min-h-screen bg-slate-400">
-            <div class="flex items-center justify-between min-h-[100vh] w-full gap-4 bg-slate-300">
+            <div class="flex flex-col md:flex-row items-center justify-around w-full min-h-screen bg-slate-300 p-2">
                 <!-- CONTENT -->
-                <div class="flex flex-col ml-20 w-[47%] p-5 gap-5">
+                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
                     <div class="text-4xl font-semibold">SKILLS</div>
                     <div class="">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
+                    <div class="">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                    </div>
                 <!-- IMAGE -->
-                </div><div class="flex mr-20 justify-center items-center w-[45%] h-[500px] ml-[100px] border-2 border-black ">
+                </div><div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black ">
                     IMAGE HERE
                 </div>
             </div>

@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite('resources/css/app.css')
-        <title>ChromaHunt Game modes</title>
+        <title>ChromaHunt Game Modes</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
@@ -30,13 +30,13 @@
         <!-- NAVBAR -->
         <livewire:navbar />
         <!-- GAME MODE -->
-        <div id="main" class="flex flex-col items-center justify-center mx-20 mb-20">
+        <main id="main" class="flex flex-col w-full min-h-screen items-center justify-center p-5 gap-3 bg-slate-100">
                 <!-- CONTENT -->
-                <div class="relative flex flex-col items-center justify-center w-full h-full gap-3 px-10 py-10 m-10 bg-slate-400">
+                <div class="flex flex-col items-center justify-start w-full h-full gap-3 p-5 bg-slate-400">
                     <div class="text-4xl font-semibold text-left border-b-4 border-black">THE GAME MODES</div>
                     <div class="text-left">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi earum voluptate quam eligendi fugiat laboriosam alias asperiores facilis ab dolorem corporis dolor cum saepe, architecto, adipisci non inventore et nostrum quia. Perspiciatis qui, quisquam deserunt debitis id itaque ratione magnam! Quas facere qui ea, natus cum, inventore et vel, tenetur esse voluptate quam veniam tempore reprehenderit obcaecati laudantium omnis fugiat voluptatibus tempora? Expedita in quod recusandae aut excepturi nostrum obcaecati facere perspiciatis quis ipsa? Beatae, illo quos eaque optio unde dolor, provident doloremque alias mollitia corporis corrupti eum, ad rerum. Ullam quam tempore perspiciatis, nostrum dolores non nobis tempora!
                     </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit molestiae aliquid odio qui neque ullam velit blanditiis cumque perspiciatis hic suscipit architecto animi vero mollitia optio necessitatibus quae nulla, similique, maiores magnam non eveniet tempore. Libero nisi temporibus aperiam numquam in id inventore ut, ducimus, beatae eveniet atque rerum?
                 </div>
                 <!-- CAROUSEL -->
                 <div id="carouselExampleCaptions" class="relative w-full h-full carousel slide" data-bs-ride="carousel">
@@ -116,7 +116,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-        </div>
+        </main>
 
         <livewire:footer />
 
