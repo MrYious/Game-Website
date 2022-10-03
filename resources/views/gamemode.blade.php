@@ -22,10 +22,10 @@
         <main id="main" class="flex flex-col items-center justify-center w-full min-h-screen gap-3 p-5 bg-slate-100">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-start w-full h-full gap-3 p-5 bg-slate-400">
-                    <div class="text-4xl font-semibold text-left border-b-4 border-black">THE GAME MODES</div>
-                    <div class="text-left">
-                    </div>
+                    <div class="text-2xl lg:text-4xl font-semibold text-left border-b-4 border-black">THE GAME MODES</div>
+                    <div class="text-xs lg:text-xl text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit molestiae aliquid odio qui neque ullam velit blanditiis cumque perspiciatis hic suscipit architecto animi vero mollitia optio necessitatibus quae nulla, similique, maiores magnam non eveniet tempore. Libero nisi temporibus aperiam numquam in id inventore ut, ducimus, beatae eveniet atque rerum?
+                    </div>
                 </div>
                 <!-- CAROUSEL -->
                 <div id="carouselExampleCaptions" class="relative w-full h-full carousel slide" data-bs-ride="carousel">
@@ -58,8 +58,8 @@
                             class="block w-full h-full"
                             alt="..."
                         />
-                        <div class="absolute hidden text-center carousel-caption md:block">
-                            <h5 class="text-xl">GAME MODE 1</h5>
+                        <div class="absolute text-center carousel-caption sm:block">
+                            <h5 class="">GAME MODE 1</h5>
                             <p>Description.</p>
                         </div>
                         </div>
@@ -69,8 +69,8 @@
                             class="block w-full"
                             alt="..."
                         />
-                        <div class="absolute hidden text-center carousel-caption md:block">
-                            <h5 class="text-xl">GAME MODE 2</h5>
+                        <div class="absolute text-center carousel-caption sm:block">
+                            <h5 class="lg:text-xl">GAME MODE 2</h5>
                             <p>Description.</p>
                         </div>
                         </div>
@@ -80,8 +80,8 @@
                             class="block w-full"
                             alt="..."
                         />
-                        <div class="absolute hidden text-center carousel-caption md:block">
-                            <h5 class="text-xl">GAME MODE 3</h5>
+                        <div class="absolute text-center carousel-caption sm:block">
+                            <h5 class="lg:text-xl">GAME MODE 3</h5>
                             <p>Description.</p>
                         </div>
                         </div>

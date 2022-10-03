@@ -21,10 +21,10 @@
         <!-- HEROES -->
         <section id="heroes" class="flex items-center justify-center w-full min-h-screen gap-10 bg-slate-300">
             <!-- IMAGE GROUPS -->
-            <div class="flex justify-start w-[60%] h-[550px] border-2 border-black ">
+            <div class="flex flex-wrap lg:flex-nowrap justify-start w-full lg:w-[60%] h-[900px] lg:h-[550px] border-2 border-black ">
                 <!-- IMAGE 1 -->
-                <div class="flex items-start w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button" aria-controls="offcanvasExample">Hero Image 1</div>
+                <div class="flex items-start w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button" aria-controls="offcanvasExample">Hero Image 1</div>
                 </div>
                 <!-- POP UP -->
                 <div class="fixed top-0 bottom-0 left-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-start w-96" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -41,8 +41,8 @@
                     </div>
                 </div>
                 <!-- IMAGE 2 -->
-                <div class="flex items-end w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" role="button" aria-controls="offcanvasTop">Hero Image 2</div>
+                <div class="flex items-end w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" role="button" aria-controls="offcanvasTop">Hero Image 2</div>
                 </div>
                 <!-- POP UP -->
                 <div class="fixed top-0 bottom-0 left-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-start h-96" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -59,8 +59,8 @@
                     </div>
                 </div>
                 <!-- IMAGE 3 -->
-                <div class="flex items-start w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" role="button" aria-controls="offcanvasBottom">Hero Image 3</div>
+                <div class="flex items-start w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" role="button" aria-controls="offcanvasBottom">Hero Image 3</div>
                 </div>
                 <!-- POP UP -->
                 <div class="fixed bottom-0 left-0 right-0 flex flex-col invisible max-w-full max-h-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-bottom bg-clip-padding h-1/3" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
@@ -77,8 +77,8 @@
                     </div>
                 </div>
                 <!-- IMAGE 4 -->
-                <div class="flex items-end w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasRight" role="button" aria-controls="offcanvasRight">Hero Image 4</div>
+                <div class="flex items-end w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasRight" role="button" aria-controls="offcanvasRight">Hero Image 4</div>
                 </div>
                 <!-- POP UP -->
                 <div class="fixed top-0 bottom-0 right-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-end bg-clip-padding w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
