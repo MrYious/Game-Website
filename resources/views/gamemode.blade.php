@@ -30,7 +30,7 @@
         <!-- NAVBAR -->
         <livewire:navbar />
         <!-- GAME MODE -->
-        <main id="main" class="flex flex-col w-full min-h-screen items-center justify-center p-5 gap-3 bg-slate-100">
+        <main id="main" class="flex flex-col items-center justify-center w-full min-h-screen gap-3 p-5 bg-slate-100">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-start w-full h-full gap-3 p-5 bg-slate-400">
                     <div class="text-4xl font-semibold text-left border-b-4 border-black">THE GAME MODES</div>
@@ -136,6 +136,7 @@
             }
         </script>
         <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @livewireScripts
     </body>
 </html>

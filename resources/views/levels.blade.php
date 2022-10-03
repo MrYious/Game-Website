@@ -31,7 +31,7 @@
         <livewire:navbar />
         <!-- LEVELS -->
         <!-- IMAGES -->
-        <div class="flex flex-row relative justify-center items-center gap-3 m-2">
+        <div class="relative flex flex-row items-center justify-center gap-3 m-2">
             <div class="flex justify-center items-center w-[33.33%] h-[500px] border-2 border-black ">
                     Level1
             </div>
@@ -95,6 +95,7 @@
             }
         </script>
         <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @livewireScripts
     </body>
 </html>

@@ -14,11 +14,11 @@
         <script>
             tailwind.config = {
                 theme: {
-                extend: {
-                    fontFamily: {
-                    sans: ['Inter', 'sans-serif'],
-                    },
-                }
+                    extend: {
+                        fontFamily: {
+                            sans: ['Inter', 'sans-serif'],
+                        },
+                    }
                 }
             }
         </script>
@@ -38,16 +38,16 @@
                     <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button" aria-controls="offcanvasExample">Hero Image 1</div>
                 </div>
                 <!-- POP UP -->
-                <div class="offcanvas offcanvas-start fixed bottom-0 flex flex-col max-w-full bg-white invisible shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 left-0 border-none w-96" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header flex items-center justify-between p-4">
-                        <h5 class="offcanvas-title mb-0 leading-normal font-semibold" id="offcanvasExampleLabel">Hero 1</h5>
+                <div class="fixed top-0 bottom-0 left-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-start w-96" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="flex items-center justify-between p-4 offcanvas-header">
+                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasExampleLabel">Hero 1</h5>
                         <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                     </div>
-                    <div class="offcanvas-body flex-grow p-4 overflow-y-auto">
+                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dignissimos nesciunt maiores voluptatem eius ipsum at natus labore veniam eum, dolorum corrupti a minima ab fugit. Quisquam modi sequi pariatur minus placeat. Temporibus sapiente aut soluta, blanditiis ipsam sint exercitationem sit, doloremque rem iure, quaerat qui quisquam ab corporis minima.
                     </div>
                 </div>
@@ -56,16 +56,16 @@
                     <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" role="button" aria-controls="offcanvasTop">Hero Image 2</div>
                 </div>
                 <!-- POP UP -->
-                <div class="offcanvas offcanvas-start fixed bottom-0 flex flex-col max-w-full bg-white invisible shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 left-0 border-none h-96" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-                    <div class="offcanvas-header flex items-center justify-between p-4">
-                        <h5 class="offcanvas-title mb-0 leading-normal font-semibold" id="offcanvasTopLabel">Hero 2</h5>
+                <div class="fixed top-0 bottom-0 left-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-start h-96" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                    <div class="flex items-center justify-between p-4 offcanvas-header">
+                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasTopLabel">Hero 2</h5>
                         <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                     </div>
-                    <div class="offcanvas-body flex-grow p-4 overflow-y-auto">
+                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dignissimos nesciunt maiores voluptatem eius ipsum at natus labore veniam eum, dolorum corrupti a minima ab fugit. Quisquam modi sequi pariatur minus placeat. Temporibus sapiente aut soluta, blanditiis ipsam sint exercitationem sit, doloremque rem iure, quaerat qui quisquam ab corporis minima.
                     </div>
                 </div>
@@ -74,16 +74,16 @@
                     <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" role="button" aria-controls="offcanvasBottom">Hero Image 3</div>
                 </div>
                 <!-- POP UP -->
-                <div class="offcanvas offcanvas-bottom fixed bottom-0 flex flex-col max-w-full bg-white invisible bg-clip-padding shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 left-0 right-0 border-none h-1/3 max-h-full" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                    <div class="offcanvas-header flex items-center justify-between p-4">
-                        <h5 class="offcanvas-title mb-0 leading-normal font-semibold" id="offcanvasBottomLabel">Hero 3</h5>
+                <div class="fixed bottom-0 left-0 right-0 flex flex-col invisible max-w-full max-h-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-bottom bg-clip-padding h-1/3" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <div class="flex items-center justify-between p-4 offcanvas-header">
+                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasBottomLabel">Hero 3</h5>
                         <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                     </div>
-                    <div class="offcanvas-body flex-grow p-4 overflow-y-auto small">
+                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body small">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est culpa aliquid voluptate ad, esse consequuntur illo odio eveniet dicta consectetur iure quis ipsa quod reprehenderit perferendis ducimus. Ratione dolores distinctio blanditiis in molestias repellat ipsa debitis, dolorum, quibusdam expedita libero delectus nostrum voluptas. Sunt recusandae impedit autem accusantium perspiciatis mollitia!
                     </div>
                 </div>
@@ -92,16 +92,16 @@
                     <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasRight" role="button" aria-controls="offcanvasRight">Hero Image 4</div>
                 </div>
                 <!-- POP UP -->
-                <div class="offcanvas offcanvas-end fixed bottom-0 flex flex-col max-w-full bg-white invisible bg-clip-padding shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 right-0 border-none w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header flex items-center justify-between p-4">
-                        <h5 class="offcanvas-title mb-0 leading-normal font-semibold" id="offcanvasRightLabel">Hero 4</h5>
+                <div class="fixed top-0 bottom-0 right-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-end bg-clip-padding w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="flex items-center justify-between p-4 offcanvas-header">
+                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasRightLabel">Hero 4</h5>
                         <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                     </div>
-                    <div class="offcanvas-body flex-grow p-4 overflow-y-auto">
+                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo autem perferendis qui ex, odit nemo id temporibus aliquam possimus excepturi! Cupiditate nesciunt voluptatum consequatur ex explicabo, ducimus magni adipisci dolor facilis. Ut expedita sed odit, quam atque error tenetur tempora itaque quia, suscipit dolorum veritatis praesentium accusantium quas deleniti.
                     </div>
                 </div>

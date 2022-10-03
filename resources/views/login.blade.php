@@ -18,10 +18,10 @@
                 Login
             </div>
             <!-- Login box -->
-            <form action="loginuser" method="POST" class="flex flex-col w-full p-6 h-fit bg-slate-500 rounded-lg">
+            <form action="loginuser" method="POST" class="flex flex-col w-full p-6 rounded-lg h-fit bg-slate-500">
                 @csrf
                 @if (session('message'))
-                    <div class="w-full p-2 text-sm text-center bg-slate-300 rounded-full">
+                    <div class="w-full p-2 text-sm text-center rounded-full bg-slate-300">
                     {{ session('message') }}
                     </div>
                 @endif
@@ -53,6 +53,7 @@
 
         <script>
         </script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @livewireScripts
     </body>
 </html>

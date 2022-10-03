@@ -18,10 +18,10 @@
                 Register
             </div>
             <!-- Register box -->
-            <form action="registeruser" method="POST"class="flex flex-col w-full p-6 h-fit bg-slate-500 rounded-lg">
+            <form action="registeruser" method="POST"class="flex flex-col w-full p-6 rounded-lg h-fit bg-slate-500">
                 @csrf
                 @if (session('message'))
-                    <div class="w-full p-2 text-sm text-center bg-slate-300 rounded-full">
+                    <div class="w-full p-2 text-sm text-center rounded-full bg-slate-300">
                     {{ session('message') }}
                     </div>
                 @endif
@@ -57,7 +57,7 @@
                 </button>
                 <div class="flex text-[20px] pt-3 gap-1 justify-center">
                     <span>Already have an account?</span>
-                    <a href="login" class=" text-red-500 font"> Login here. </a>
+                    <a href="login" class="text-red-500 font"> Login here. </a>
                 </div>
             </form>
             </div>
@@ -65,6 +65,7 @@
 
         <script>
         </script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @livewireScripts
     </body>
 </html>
