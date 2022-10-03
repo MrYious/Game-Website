@@ -1,5 +1,5 @@
 <a
-    href="#main"
+    href="#home"
     id="btn_top"
     class="hidden fixed z-50 p-[2px] rounded-full bg-gray-800 text-white right-3 bottom-3"
 >
