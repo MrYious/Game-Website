@@ -39,7 +39,7 @@
                 IMAGE HERE (PROTAGONISTs)
             </div>
             <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-[50%] lg:w-[40%] p-2 gap-3 text-center bg-slate-300 z-[1]">
+            <div class="flex flex-col items-center justify-center w-[60%] lg:w-[40%] p-2 gap-3 text-center bg-slate-300 z-[1]">
                 <!-- TITLE -->
                 <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">THE LORE</div>
                 <!-- DESCRIPTION -->
@@ -57,39 +57,39 @@
         </section>
 
         <!-- HEROES -->
-        <section id="heroes" class="flex items-center justify-center w-full min-h-screen gap-10 bg-slate-300">
+        <section id="heroes" class="flex flex-col-reverse items-center justify-center w-full min-h-screen gap-10 py-10 lg:flex-row bg-slate-300 lg:py-0">
             <!-- IMAGE GROUPS -->
-            <div class="flex justify-start w-[60%] h-[550px] border-2 border-black ">
-                <div class="flex items-start w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 1</div>
+            <div class="flex flex-wrap lg:flex-nowrap justify-start w-full lg:w-[60%] h-[900px] lg:h-[550px] border-2 border-black ">
+                <div class="flex items-start w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black">Hero Image 1</div>
                 </div>
-                <div class="flex items-end w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 2</div>
+                <div class="flex items-end w-1/2 lg:w-1/4">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5  h-full lg:h-4/5 border-[1px] border-black">Hero Image 2</div>
                 </div>
-                <div class="flex items-start w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 3</div>
+                <div class="flex items-start w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5  h-full lg:h-4/5 border-[1px] border-black">Hero Image 3</div>
                 </div>
-                <div class="flex items-end w-1/4 ">
-                    <div class="flex items-center justify-center w-[120%] -m-5  h-4/5 border-[1px] border-black">Hero Image 4</div>
+                <div class="flex items-end w-1/2 lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5  h-full lg:h-4/5 border-[1px] border-black">Hero Image 4</div>
                 </div>
             </div>
             <!-- CONTENT -->
-            <div class="flex flex-col items-end justify-center w-[32%] gap-3 text-right bg-slate-400 p-2">
+            <div class="flex flex-col absolute lg:static items-center lg:items-end justify-center w-[60%] lg:w-[32%] gap-3 lg:text-right bg-slate-400 p-2">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black ">THE HEROES</div>
+                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">THE HEROES</div>
                 <!-- DESCRIPTION -->
-                <div class="text-sm font-semibold">
+                <div class="text-xs font-semibold text-center lg:text-sm lg:text-right">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                 </div>
                 <!-- ACTION -->
-                <a href="/heroes" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                <a href="/heroes" class="px-6 py-1 text-sm font-semibold border-2 border-gray-800 lg:text-base hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
         </section>
 
         <!-- GAMEPLAY -->
         <section id="gameplay" class="flex items-center justify-center w-full min-h-screen gap-10 bg-slate-400">
             <!-- CONTENT -->
-            <div class="flex flex-col items-start justify-start sm:w-[32%] w-[40%] gap-3 text-left bg-slate-300 p-2">
+            <div class="flex flex-col items-start justify-start w-[32%] gap-3 text-left bg-slate-300 p-2">
                 <!-- TITLE -->
                 <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">THE GAMEPLAY</div>
                 <!-- DESCRIPTION -->
@@ -97,7 +97,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                 </div>
                 <!-- ACTION -->
-                <a href="/gameplay" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                <a href="/gameplay" class="px-6 py-1 text-sm font-semibold border-2 border-gray-800 lg:text-base hover:bg-gray-800 hover:text-white">Read More</a>
             </div>
             <!-- VIDEO SAMPLE -->
             <div class="flex items-center justify-center w-[60%] h-[550px] border-2 border-black ">
@@ -107,9 +107,9 @@
 
         <!-- MODES/LEVELS -->
         <section id="modesLevels" class="flex flex-col items-start justify-start w-full min-h-screen ">
-            <!-- MODES -->
-            <div class="flex flex-col lg:flex-row items-center w-full justify-between gap-[30px] bg-slate-300 px-[50px] lg:h-[50vh] py-2">
-                <!-- MODES IMAGES -->
+            <!-- MAPS -->
+            <div class="flex items-center w-full justify-between gap-[30px] bg-slate-300 px-[100px] h-[50vh]">
+                <!-- MAP IMAGES -->
                 <div class="flex items-center justify-center gap-3 ">
                     <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
                         <div class="flex items-center justify-center">Mode1</div>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col items-center justify-center lg:items-end lg:justify-end lg:text-right lg:w-[50%] lg:p-3 md:w-80 sm:w-52 gap-3 bg-slate-400 p-2">
+                <div class="flex flex-col items-end justify-end w-[32%] gap-3 text-right bg-slate-400 p-2">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">THE GAMEMODES</div>
                     <!-- DESCRIPTION -->
@@ -127,13 +127,13 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
                     <!-- ACTION -->
-                    <a href="/gamemode" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                    <a href="/gamemode" class="px-6 py-1 text-sm font-semibold border-2 border-gray-800 lg:text-base hover:bg-gray-800 hover:text-white">Read More</a>
                 </div>
             </div>
             <!-- LEVELS -->
-            <div class="flex flex-col lg:flex-row items-center w-full justify-between gap-[30px] bg-slate-400 px-[50px] lg:px-[25px] lg:h-[50vh] py-2">
+            <div class="flex items-center w-full px-[100px] justify-between gap-[30px] bg-slate-400 h-[50vh]">
                 <!-- CONTENT -->
-                <div class="flex flex-col items-center justify-center lg:items-start lg:justify-start lg:text-left lg:w-[50%] lg:p-3 md:w-80 sm:w-52 gap-3 bg-slate-300 p-2">
+                <div class="flex flex-col items-start justify-end w-[32%] gap-3 text-left bg-slate-300 p-2">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-4xl font-bold border-b-4 border-black">THE LEVELS</div>
                     <!-- DESCRIPTION -->
@@ -141,10 +141,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
                     <!-- ACTION -->
-                    <a href="/levels" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                    <a href="/levels" class="px-6 py-1 text-sm font-semibold border-2 border-gray-800 lg:text-base hover:bg-gray-800 hover:text-white">Read More</a>
                 </div>
                 <!-- MAP IMAGES -->
-                <div class="flex items-center justify-center gap-3 lg:gap-1">
+                <div class="flex items-center justify-center gap-3">
                     <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
                         <div class="flex items-center justify-center">Level1</div>
                     </div>
