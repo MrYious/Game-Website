@@ -19,11 +19,11 @@
         <!-- NAVBAR -->
         <livewire:navbar />
         <!-- GAME MODE -->
-        <main id="main" class="flex flex-col items-center justify-center w-full min-h-screen gap-3 p-5 bg-slate-100">
+        <main id="main" class="flex flex-col items-center justify-center w-full min-h-screen gap-3 p-5 bg-slate-300">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-start w-full h-full gap-3 p-5 bg-slate-400">
-                    <div class="text-2xl lg:text-4xl font-semibold text-left border-b-4 border-black">THE GAME MODES</div>
-                    <div class="text-xs lg:text-xl text-left">
+                    <div class="text-2xl font-semibold text-left border-b-4 border-black lg:text-4xl">THE GAME MODES</div>
+                    <div class="text-xs text-left lg:text-xl">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit molestiae aliquid odio qui neque ullam velit blanditiis cumque perspiciatis hic suscipit architecto animi vero mollitia optio necessitatibus quae nulla, similique, maiores magnam non eveniet tempore. Libero nisi temporibus aperiam numquam in id inventore ut, ducimus, beatae eveniet atque rerum?
                     </div>
                 </div>
@@ -31,24 +31,24 @@
                 <div id="carouselExampleCaptions" class="relative w-full h-full carousel slide" data-bs-ride="carousel">
                     <div class="absolute bottom-0 left-0 right-0 flex justify-center p-0 mb-4 carousel-indicators">
                         <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Slide 1"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                            <button
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
                         ></button>
                         <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="1"
-                        aria-label="Slide 2"
-                        ></button>
-                        <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
                         ></button>
                     </div>
                     <div class="w-full h-full overflow-hidden carousel">

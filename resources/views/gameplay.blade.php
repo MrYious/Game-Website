@@ -21,16 +21,16 @@
             <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full bg-slate-300 p-2">
                 <!-- CONTENT -->
                 <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                    <div class="text-4xl font-semibold">BEGINNER'S GUIDE</div>
-                    <div class="">
+                    <div class="text-3xl font-semibold lg:text-4xl">BEGINNER'S GUIDE</div>
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
-                    <div class="">
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                 </div>
                 <!-- IMAGE -->
-                <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black">
+                <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
                     IMAGE HERE
                 </div>
             </div>
@@ -38,18 +38,18 @@
 
         <!-- CONTROLS -->
         <section id="controls" class="flex items-center justify-between w-full min-h-screen bg-slate-400">
-            <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-400">
+            <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-400">
                 <!-- IMAGE -->
-                <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black">
+                <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
                     IMAGE HERE
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 md:text-right">
-                    <div class="text-4xl font-semibold">CONTROLS</div>
-                    <div class="">
+                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 text-right">
+                    <div class="text-3xl font-semibold lg:text-4xl">CONTROLS</div>
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
-                    <div class="">
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                 </div>
@@ -61,15 +61,15 @@
             <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-300">
                 <!-- CONTENT -->
                 <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                    <div class="text-4xl font-semibold">SKILLS</div>
-                    <div class="">
+                    <div class="text-3xl font-semibold lg:text-4xl">SKILLS</div>
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
-                    <div class="">
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                 <!-- IMAGE -->
-                </div><div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black ">
+                </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black ">
                     IMAGE HERE
                 </div>
             </div>

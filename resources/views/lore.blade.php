@@ -18,54 +18,54 @@
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- LORE -->
-            <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full bg-slate-300 p-2">
+            <div class="flex flex-col lg:flex-row items-center justify-around min-h-[90vh] w-full bg-slate-300 p-2">
                 <!-- CONTENT -->
-                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 ">
-                    <div class="text-4xl font-semibold">ONCE UPON A TIME</div>
-                    <div class="">
+                <div class="flex flex-col lg:w-[35%] w-[85%] p-5 gap-5 ">
+                    <div class="text-3xl font-semibold lg:text-4xl">ONCE UPON A TIME</div>
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
-                    <div class="">
+                    <div class="text-sm lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
                 </div>
                 <!-- IMAGE -->
-                <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black ">
+                <div class="flex justify-center items-center w-[90%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black ">
                     IMAGE HERE
                 </div>
             </div>
         </main>
 
-        <section id="" class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-400">
+        <section id="" class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-slate-400">
             <!-- IMAGE -->
-            <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black ">
+            <div class="flex justify-center items-center w-[90%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
                 IMAGE HERE
             </div>
             <!-- CONTENT -->
-            <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 md:text-right">
-                <div class="text-4xl font-semibold">FOUR HEROES GATHERED </div>
-                <div class="">
+            <div class="flex flex-col lg:w-[35%] w-[85%] p-5 gap-5 text-right">
+                <div class="text-3xl font-semibold lg:text-4xl">FOUR HEROES GATHERED </div>
+                <div class="text-sm lg:text-base">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                 </div>
-                <div class="">
+                <div class="text-sm lg:text-base">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                 </div>
             </div>
         </section>
 
-        <section id="" class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-300">
+        <section id="" class="flex flex-col items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-slate-300 ">
             <!-- CONTENT -->
-            <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 ">
-                <div class="text-4xl font-semibold">NOW OUR HEROES EMBARK</div>
-                <div class="">
+            <div class="flex flex-col lg:w-[35%] w-[85%] p-5 gap-5 ">
+                <div class="text-3xl font-semibold lg:text-4xl">NOW OUR HEROES EMBARK</div>
+                <div class="text-sm lg:text-base">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                 </div>
-                <div class="">
+                <div class="text-sm lg:text-base">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                 </div>
             </div>
             <!-- IMAGE -->
-            <div class="flex justify-center items-center w-[55%] h-[500px] border-2 border-black ">
+            <div class="flex justify-center items-center w-[90%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
                 IMAGE HERE
             </div>
         </section>

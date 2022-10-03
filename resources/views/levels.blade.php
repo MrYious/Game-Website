@@ -13,22 +13,22 @@
         <script src="https://cdn.tailwindcss.com"></script>
         @livewireStyles
     </head>
-    <body>
+    <body class="bg-slate-300">
         <!-- SCROLL TO TOP BUTTON -->
         <livewire:scroll-top />
         <!-- NAVBAR -->
         <livewire:navbar />
         <!-- LEVELS -->
         <!-- IMAGES -->
-        <div class="flex flex-col lg:flex-row items-center justify-center gap-3 m-2">
-            <div class="flex justify-center items-center w-[500px] h-[250px] lg:w-[33.33%] lg:h-[500px] border-2 border-black ">
-                    Level1
+        <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row">
+            <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-black ">
+                Level1
             </div>
-            <div class="flex justify-center items-center w-[500px] h-[250px] lg:w-[33.33%] lg:h-[500px] border-2 border-black ">
-                    Level2
+            <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-black ">
+                Level2
             </div>
-            <div class="flex justify-center items-center w-[500px] h-[250px] lg:w-[33.33%] lg:h-[500px] border-2 border-black ">
-                    Level3
+            <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-black ">
+                Level3
             </div>
         </div>
         <!-- STEPPER -->
@@ -39,7 +39,7 @@
                     <span class="stepper-head-text"> LEVEL 1 </span>
                 </div>
                 <div class="stepper-content">
-                    <div class="text-xl lg:text-4xl font-bold">LEVEL 1</div>
+                    <div class="text-xl font-bold lg:text-4xl">LEVEL 1</div>
                     <div class="text-xs lg:text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
                     </div>
@@ -51,7 +51,7 @@
                     <span class="stepper-head-text"> LEVEL 2 </span>
                 </div>
                 <div class="stepper-content">
-                    <div class="text-xl lg:text-4xl font-bold">LEVEL 2</div>
+                    <div class="text-xl font-bold lg:text-4xl">LEVEL 2</div>
                     <div class="text-xs lg:text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
                     </div>
@@ -63,7 +63,7 @@
                     <span class="stepper-head-text"> LEVEL 3 </span>
                 </div>
                 <div class="stepper-content">
-                    <div class="text-xl lg:text-4xl font-bold">LEVEL 3</div>
+                    <div class="text-xl font-bold lg:text-4xl">LEVEL 3</div>
                     <div class="text-xs lg:text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
                     </div>
