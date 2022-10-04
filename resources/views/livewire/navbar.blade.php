@@ -1,9 +1,9 @@
 <nav
     x-data="{ open: false, toggle() { this.open = ! this.open } }"
-    class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:p-0 md:px-2 min-h-[10vh] bg-main-200 select-none"
+    class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:p-0 md:px-2 min-h-[10vh] bg-main-200 select-none bg-opacity-50"
 >
     <!-- TITLE -->
-    <a href="/" class=" w-fit bg-slate-400">
+    <a href="/" class=" w-fit">
         <img class="h-16 " src="/images/logo.png" alt="logo">
         <!-- ChromaHunt -->
     </a>
@@ -53,6 +53,6 @@
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> Whitepaper </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> Marketplace </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> About us </a>
-        <a href="/login" class="flex items-center p-3 font-semibold text-white bg-gray-700 border-transparent rounded-md border-y-4 hover:bg-gray-800"> SIGN IN </a>
+        <a href="/login" class="flex items-center px-3 py-2 font-semibold text-white bg-gray-700 border-transparent rounded-md border-y-4 hover:bg-gray-800"> SIGN IN </a>
     </div>
 </nav>

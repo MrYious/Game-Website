@@ -12,13 +12,13 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen bg-red-900">
+        <main id="home" class="flex flex-col w-full min-h-screen bg-slate-300">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- HERO SECTION -->
-            <div class="flex items-center justify-center min-h-[89vh] gap-1 w-full bg-slate-300 flex-col-reverse  md:min-h-[90vh] lg:flex-row lg:gap-4 ">
+            <div class="flex items-center justify-center min-h-[89vh] gap-1 w-full  flex-col-reverse  md:min-h-[90vh] lg:flex-row lg:gap-4 ">
                 <div class="flex flex-col p-5 w-5/6 bg-slate-400 gap-2 z-[1] text-center lg:text-left -mt-20 md:w-4/6 lg:gap-5 lg:w-[48%] lg:m-0 ">
-                    <div class="text-2xl font-semibold lg:text-6xl xl:text-8xl">LET THE GAME BEGIN</div>
+                    <div class="text-2xl font-semibold tracking-wider lg:text-6xl xl:text-8xl font-title">Let the game begin</div>
                     <div class="text-xs lg:text-base">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
                     </div>
@@ -41,7 +41,7 @@
             <!-- CENTER CONTENT -->
             <div class="flex flex-col items-center justify-center w-[60%] lg:w-[40%] p-2 gap-3 text-center bg-slate-300 z-[1]">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">THE LORE</div>
+                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">The Lore</div>
                 <!-- DESCRIPTION -->
                 <div class="flex flex-col w-full gap-1 ">
                     <div class="text-xs font-semibold lg:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, culpa suscipit! Omnis, eaque mollitia laborum nam saepe distinctio atque pariatur molestiae ullam ad voluptas, quam quia architecto fugit aperiam culpa veritatis maxime! Soluta, porro rem.</div>

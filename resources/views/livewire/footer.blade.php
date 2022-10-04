@@ -1,7 +1,10 @@
 <footer class="hidden  lg:flex items-center justify-center w-full h-[40vh] bg-slate-300 gap-10">
     <!-- COLUMN 1 -->
-    <div class="flex flex-col items-center justify-center p-2 gap-7 w-[25%] h-5/6">
-        <a href="" class="text-4xl font-bold tracking-tighter ">ChromaHunt</a>
+    <div class="flex flex-col items-center justify-center p-2 gap-3 w-[25%] h-5/6 ">
+        <a href="" class="">
+            <!-- ChromaHunt -->
+            <img class="h-24 " src="/images/logo1.png" alt="logo1">
+        </a>
         <div class="flex flex-col gap-3 p-2 text-center ">
             <div class="text-xl font-bold">SOCIAL MEDIA</div>
             <div class="flex gap-4">
