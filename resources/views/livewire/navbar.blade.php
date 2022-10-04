@@ -53,6 +53,6 @@
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> Whitepaper </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> Marketplace </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> About us </a>
-        <a href="/login" class="flex items-center p-3 font-semibold text-white bg-gray-700 rounded-md hover:bg-gray-800"> SIGN IN </a>
+        <a href="/login" class="flex items-center p-3 font-semibold text-white bg-gray-700 border-transparent rounded-md border-y-4 hover:bg-gray-800"> SIGN IN </a>
     </div>
 </nav>
