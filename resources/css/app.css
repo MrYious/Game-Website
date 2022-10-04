@@ -13,11 +13,16 @@ html {
 
 .dropdown .dropbtn {
     font-size: 16px;
-    border: none;
     outline: none;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .dropdown:hover .dropbtn {
+        border-bottom: black 4px solid;
+    }
 }
 
 .dropdown-contentM {
