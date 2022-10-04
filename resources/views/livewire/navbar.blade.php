@@ -1,9 +1,12 @@
 <nav
     x-data="{ open: false, toggle() { this.open = ! this.open } }"
-    class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:py-2 min-h-[10vh] bg-slate-400 md:bg-slate-500 lg:bg-slate-600 xl:bg-slate-700 "
+    class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:p-0 md:px-2 min-h-[10vh] bg-slate-400 select-none"
 >
     <!-- TITLE -->
-    <a href="/" class="text-4xl font-bold ">ChromaHunt</a>
+    <a href="/" class=" w-fit bg-slate-400">
+        <img class="h-16 " src="/images/logo.png" alt="logo">
+        <!-- ChromaHunt -->
+    </a>
 
     <!-- MENU -->
     <div class="md:hidden">
@@ -35,9 +38,9 @@
     </div>
 
     <!-- DESKTOP -->
-    <div class="items-center hidden gap-1 md:flex w-fit h-fit lg:gap-2">
-        <div class="border-transparent rounded-sm dropdown hover:bg-slate-300 border-y-4 hover:border-b-black ">
-            <button class="px-2 py-2 dropbtn hover:bg-slate-300 lg:px-3">
+    <div class="items-center hidden gap-1 md:flex w-fit h-fit lg:gap-1">
+        <div class="rounded-sm dropdown hover:bg-slate-300">
+            <button class="flex items-center h-full p-3 border-transparent dropbtn hover:bg-slate-300 border-y-4 hover:border-b-black">
                 Game Info
             </button>
             <div class="bg-gray-200 dropdown-contentD">
@@ -47,9 +50,9 @@
                 <a href="/#modesLevels" class="hover:bg-slate-300">Modes & Levels</a>
             </div>
         </div>
-        <a href="/" class="px-2 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 lg:px-3"> Whitepaper </a>
-        <a href="/" class="px-2 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 lg:px-3"> Marketplace </a>
-        <a href="/" class="px-2 py-2 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 lg:px-3"> About us </a>
-        <a href="/login" class="px-3 py-2 font-semibold text-white bg-gray-700 rounded-md lg:px-3"> SIGN IN </a>
+        <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> Whitepaper </a>
+        <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> Marketplace </a>
+        <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-black hover:bg-slate-300 "> About us </a>
+        <a href="/login" class="flex items-center p-3 font-semibold text-white bg-gray-700 rounded-md hover:bg-gray-800"> SIGN IN </a>
     </div>
 </nav>
