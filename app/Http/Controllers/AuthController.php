@@ -28,14 +28,14 @@ class AuthController extends Controller
         ]);
 
         $data = $request->all();
-
+    
         if($data['password'] == $data['confirmPassword']){
             User::create([
                 'name'  =>  $data['name'],
                 'email' =>  $data['email'],
                 'password' => Hash::make($data['password'])
             ]);
-
+   
             return redirect('login')->with('message', 'Registration Successful');
         }
 
@@ -66,7 +66,7 @@ class AuthController extends Controller
             return view('dashboard');
         }
 
-        return redirect('')->with('message', 'Unauthorized Access. Login first');
+        return redirect('login')->with('message', 'Unauthorized Access. Login first');
     }
 
     function logout()

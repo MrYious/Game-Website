@@ -31,7 +31,7 @@
         <a href="/" class="w-full px-3 py-3 hover:bg-slate-300"> Whitepaper </a>
         <a href="/" class="w-full px-3 py-3 hover:bg-slate-300"> Marketplace </a>
         <a href="/" class="w-full px-3 py-3 hover:bg-slate-300"> About us </a>
-        <a href="/login" class="w-full px-3 py-3 font-semibold text-white bg-gray-700"> SIGN IN </a>
+        <a href="/logout" class="w-full px-3 py-3 font-semibold text-white bg-gray-700"> LOGOUT </a>
     </div>
 
     <!-- DESKTOP -->
