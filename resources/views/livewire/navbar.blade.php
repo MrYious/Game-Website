@@ -1,6 +1,6 @@
 <nav
     x-data="{ open: false, toggle() { this.open = ! this.open } }"
-    class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:p-0 md:px-2 min-h-[10vh] bg-slate-400 select-none"
+    class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:p-0 md:px-2 min-h-[10vh] bg-main-200 select-none"
 >
     <!-- TITLE -->
     <a href="/" class=" w-fit bg-slate-400">
