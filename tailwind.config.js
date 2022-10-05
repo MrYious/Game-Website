@@ -16,6 +16,26 @@ module.exports = {
           500: '#2a3e46',
         },
       },
+      fontFamily: {
+        // 'sans': [
+        //   'Enchanted Land Regular',
+        //   'Breathe Fire Regular',
+        //   "Segoe UI"
+        // ],
+        // 'title': [
+        //   // 'Enchanted Land Regular',
+        //   'Breathe Fire Regular',
+        //   "Segoe UI"
+        // ],
+        // 'body': [
+        //   'Karla',
+        //   'sans-serif',
+        // ],
+        // 'button': [
+        //   'Karla',
+        //   "Segoe UI"
+        // ],
+      }
     },
   },
   plugins: [
