@@ -9,60 +9,53 @@
     </head>
     <body>
         <livewire:navbar />
-        <div class="flex flex-col items-center justify-center w-full h-screen bg-slate-300">
-            <div class="flex flex-col items-center justify-center gap-3 text-4xl font-bold tracking-tight">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 p-1 border-4 border-black rounded-full" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
-                </svg>
-            <div>
+    <section class="flex flex-col items-center justify-center bg-white w-full h-screen">
+        <div class="flex flex-col items-center justify-center rounded-lg pt-6 w-1/3 h-fit bg-gray-100">
+            <div class="flex flex-col items-center justify-center p-2 gap-1 text-4xl tracking-tight">
+            <div class="text-[30px] font-bold pt-1">
                 Register
             </div>
             <!-- Register box -->
-            <form action="registeruser" method="POST"class="flex flex-col w-full p-6 rounded-lg h-fit bg-slate-500">
+            <form action="registeruser" method="POST"class="flex flex-col w-full rounded-lg h-fit">
                 @csrf
                 @if (session('message'))
                     <div class="w-full p-2 text-sm text-center rounded-full bg-slate-300">
                     {{ session('message') }}
                     </div>
                 @endif
-                <div class="flex flex-col items-start text-[28px] ">
+                <div class="flex flex-col items-start text-[25px] ">
+                    <!-- Name -->
                     <div class="flex flex-row gap-3 p-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
-                        </svg>
-                        <input class="font-semibold" maxlength="30" name="name" type="text" placeholder="Name*" required/>
+                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" maxlength="30" name="name" type="text" placeholder="NAME" required/>
                     </div>
-                    <div class="flex flex-row gap-3 p-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-                        </svg>
-                        <input class="font-semibold" name="email" type="email" placeholder="Email*" required/>
+                    <!-- Email -->
+                    <div class="flex flex-row items-center gap-3 p-3">
+                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" name="email" type="email" placeholder="EMAIL" required/>
                     </div>
+                    <!-- Password -->
                     <div class="flex flex-row gap-3 p-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path>
-                        </svg>
-                        <input class="font-semibold" minlength={6} maxlength="16" name="password" type="password" placeholder="Password*" required/>
+                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
                     </div>
-                    <div class="flex flex-row gap-3 p-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path>
-                        </svg>
-                        <input class="font-semibold" minlength={6} maxlength="16" name="confirmPassword" type="password" placeholder="Confirm Password*" required/>
+                    <!-- Confirm Password -->
+                    <div class="flex flex-row items-center gap-3 p-3">
+                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="confirmPassword" type="password" placeholder="CONFIRM PASSWORD" required/>
                     </div>
                 </div>
-                <button type="submit" class="flex justify-center w-full p-2 text-xl font-bold tracking-wide text-gray-200 bg-green-900 rounded-sm shadow-md shadow-black">
+                <!-- Register Button -->
+                <div class="flex flex-col pt-2 pb-2 items-center">
+                <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-bold tracking-wide text-gray-700 bg-gray-200 rounded-sm">
                 REGISTER
                 </button>
-                <div class="flex text-[20px] pt-3 gap-1 justify-center">
-                    <span>Already have an account?</span>
-                    <a href="login" class="text-red-500 font"> Login here. </a>
+                </div>
+                <!-- Register Anchor -->
+                <div class="flex flex-col items-center justify-center pt-2 pb-6 text-[16px] leading-normal text-gray-700">
+                    <span>ALREADY HAVE AN ACCOUNT?</span>
+                    <a href="login" class=""><strong>LOGIN HERE</strong></a>
                 </div>
             </form>
             </div>
         </div>
-
+    </section>
         <script>
         </script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
