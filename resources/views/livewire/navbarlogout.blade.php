@@ -28,7 +28,8 @@
                 <a href="/#lore" class="hover:bg-main-300">Lore</a>
                 <a href="/#heroes" class="hover:bg-main-300">Heroes</a>
                 <a href="/#gameplay" class="hover:bg-main-300">Gameplay</a>
-                <a href="/#modesLevels" class="hover:bg-main-300">Modes & Levels</a>
+                <a href="/#modes" class="hover:bg-main-300">Game Modes</a>
+                <a href="/#levels" class="hover:bg-main-300">Levels</a>
             </div>
         </div>
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> Whitepaper </a>
@@ -47,7 +48,8 @@
                 <a href="/#lore" class="hover:bg-main-200">Lore</a>
                 <a href="/#heroes" class="hover:bg-main-200">Heroes</a>
                 <a href="/#gameplay" class="hover:bg-main-200">Gameplay</a>
-                <a href="/#modesLevels" class="hover:bg-main-200">Modes & Levels</a>
+                <a href="/#modes" class="hover:bg-main-300">Game Modes</a>
+                <a href="/#levels" class="hover:bg-main-300">Levels</a>
             </div>
         </div>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-main-500 hover:bg-gradient-to-r hover:from-main-200 hover:to-main-200 "> Whitepaper </a>

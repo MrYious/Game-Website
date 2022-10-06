@@ -13,14 +13,14 @@
         <script src="https://cdn.tailwindcss.com"></script>
         @livewireStyles
     </head>
-    <body class="bg-slate-300">
+    <body class="bg-gradient-to-r from-main-200 to-main-300">
         <!-- SCROLL TO TOP BUTTON -->
         <livewire:scroll-top />
         <!-- NAVBAR -->
         <livewire:navbar />
         <!-- LEVELS -->
         <!-- IMAGES -->
-        <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row">
+        <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row ">
             <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-black ">
                 Level1
             </div>
@@ -70,6 +70,7 @@
                 </div>
             </li>
         </ul>
+        
 
 
         <livewire:footer />
