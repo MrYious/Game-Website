@@ -6,6 +6,9 @@
         @vite('resources/css/app.css')
         <title>ChromaHunt</title>
         @livewireStyles
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
     </head>
     <body class="overflow-x-hidden">
         <!-- SCROLL TO TOP BUTTON -->
@@ -18,7 +21,7 @@
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center min-h-[89vh] w-full md:min-h-[90vh] ">
                 <div class="flex flex-col p-5 w-5/6 gap-2 z-[1] text-center md:w-3/6 lg:gap-5 lg:w-3/6 -mb-[30%] md:m-0 md:-ml-[30%]">
-                    <div class="w-full text-4xl italic font-semibold leading-none tracking-widest lg:text-6xl xl:text-8xl font-title">
+                    <div class="w-full text-4xl font-semibold leading-none tracking-widest lg:text-6xl xl:text-8xl font-title">
                         FIGHT<br/>FOR THE<br/>LIGHT
                     </div>
                     <div class="flex flex-col items-center justify-start">

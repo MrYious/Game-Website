@@ -6,12 +6,15 @@
         @vite('resources/css/app.css')
         <title>ChromaHunt Register</title>
         @livewireStyles
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
     </head>
     <body>
         <livewire:navbar />
-    <section class="flex flex-col items-center justify-center bg-white w-full h-screen">
-        <div class="flex flex-col items-center justify-center rounded-lg pt-6 w-1/3 h-fit bg-gray-100">
-            <div class="flex flex-col items-center justify-center p-2 gap-1 text-4xl tracking-tight">
+    <section class="flex flex-col items-center justify-center w-full h-screen bg-white">
+        <div class="flex flex-col items-center justify-center w-1/3 pt-6 bg-gray-100 rounded-lg h-fit">
+            <div class="flex flex-col items-center justify-center gap-1 p-2 text-4xl tracking-tight">
             <div class="text-[30px] font-bold pt-1">
                 Register
             </div>
@@ -42,7 +45,7 @@
                     </div>
                 </div>
                 <!-- Register Button -->
-                <div class="flex flex-col pt-2 pb-2 items-center">
+                <div class="flex flex-col items-center pt-2 pb-2">
                 <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-bold tracking-wide text-gray-700 bg-gray-200 rounded-sm">
                 REGISTER
                 </button>

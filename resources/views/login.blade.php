@@ -6,12 +6,15 @@
         @vite('resources/css/app.css')
         <title>ChromaHunt Login</title>
         @livewireStyles
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
     </head>
     <body>
         <livewire:navbar />
-    <section class="flex flex-col items-center justify-center bg-white w-full h-screen">
-        <div class="flex flex-col items-center justify-center rounded-lg pt-6 w-1/3 h-fit bg-gray-100">
-            <div class="flex flex-col items-center justify-center p-2 gap-1 text-4xl tracking-tight">
+    <section class="flex flex-col items-center justify-center w-full h-screen bg-white">
+        <div class="flex flex-col items-center justify-center w-1/3 pt-6 bg-gray-100 rounded-lg h-fit">
+            <div class="flex flex-col items-center justify-center gap-1 p-2 text-4xl tracking-tight">
             <div class="text-[30px] font-bold pt-1">
                 Sign In
             </div>
@@ -34,14 +37,14 @@
                     </div>
                 </div>
                 <!-- Stay Signed In -->
-                <div class="form-check flex flex-row items-center justify-start pb-3 pl-3">
-                    <input class="form-check-input appearance-none h-5 w-5 border border-gray-300 rounded-sm bg-gray-200 checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
+                <div class="flex flex-row items-center justify-start pb-3 pl-3 form-check">
+                    <input class="float-left w-5 h-5 mt-1 mr-2 align-top transition duration-200 bg-gray-200 bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label inline-block pt-1 text-[15px] text-gray-800" for="flexCheckDefault">
                         Stay Signed In
                     </label>
                 </div>
                 <!-- Log In Button -->
-                <div class="flex flex-col pb-16 items-center">
+                <div class="flex flex-col items-center pb-16">
                 <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-bold tracking-wide text-gray-700 bg-gray-200 rounded-sm">
                 LOG IN
                 </button>
