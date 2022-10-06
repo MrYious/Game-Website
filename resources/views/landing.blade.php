@@ -34,9 +34,9 @@
         <!-- LORE -->
         <section id="lore" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-gradient-to-r from-main-200 to-main-300">
             <!-- CONTENT -->
-            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center ">
+            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center bg-green-100">
                 <!-- TITLE -->
-                <div class="flex items-center justify-center px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl font-header">
+                <div class="flex items-center justify-center px-4 py-1 text-2xl font-bold bg-red-300 border-b-4 border-black lg:text-5xl font-header">
                     The Lore
                 </div>
             </div>
@@ -58,7 +58,7 @@
             <!-- CENTER CONTENT -->
             <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">The Heroes</div>
+                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header">The Heroes</div>
             </div>
             <!-- IMAGES -->
             <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[600px] lg:h-[500px] border-2 border-black p-0 gap-0 lg:p-5 lg:gap-5">
@@ -94,7 +94,7 @@
             <!-- CONTENT -->
             <div class="flex flex-col items-center justify-center lg:items-end lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 p-5 lg:p-10">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-4xl">The Gameplay</div>
+                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-5xl font-header">The Gameplay</div>
                 <!-- DESCRIPTION -->
                 <div class="text-sm font-semibold text-center lg:text-right">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -118,9 +118,9 @@
                     </a>
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col items-center justify-center lg:items-center lg:justify-center w-[80%]  md:w-[60%] lg:w-[32%] gap-3 text-right p-2">
+                <div class="flex flex-col items-center justify-center lg:items-center lg:justify-center w-[80%]  md:w-[60%] lg:w-[35%] gap-3 text-right p-2">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl">The Gamemodes</div>
+                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header ">The Gamemodes</div>
                 </div>
             </div>
         <section>
@@ -131,7 +131,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl">The Levels</div>
+                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header">The Levels</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold text-center lg:text-left">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
