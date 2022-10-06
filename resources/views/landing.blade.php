@@ -21,7 +21,7 @@
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center min-h-[89vh] w-full md:min-h-[90vh] ">
                 <div class="flex flex-col p-5 w-5/6 gap-2 z-[1] text-center md:w-3/6 lg:gap-5 lg:w-3/6 -mb-[30%] md:m-0 md:-ml-[30%]">
-                    <div class="w-full text-4xl font-semibold leading-none tracking-widest lg:text-6xl xl:text-8xl font-title">
+                    <div class="w-full text-5xl font-semibold leading-none tracking-widest lg:text-6xl xl:text-7xl font-title">
                         FIGHT<br/>FOR THE<br/>LIGHT
                     </div>
                     <div class="flex flex-col items-center justify-start">
@@ -33,15 +33,24 @@
 
         <!-- LORE -->
         <section id="lore" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center">
+            <!-- CONTENT -->
+            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center ">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">The Lore</div>
+                <div class="flex items-center justify-center px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl font-header">
+                    The Lore
+                </div>
             </div>
-            <!-- RIGHT IMAGE -->
-            <a href="/lore" class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] lg:h-[500px] border-2 border-black">
-                IMAGE HERE
-            </a>
+            <!-- IMAGE -->
+            <div  class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] md:h-[400px]  lg:gap-9 md:gap-6 gap-3  lg:h-[500px] ">
+                <!-- LEFT IMAGE -->
+                <div href="/lore" class="flex items-center justify-center w-full h-full p-2 bg-main-100 lg:p-5">
+                    IMAGE HERE 1
+                </div>
+                <!-- RIGHT IMAGE -->
+                <div href="/lore" class="flex items-end justify-end w-full h-full p-2 bg-main-100 lg:p-5">
+                    <a href="/lore" class="px-3 py-1 text-xs font-medium border-2 md:text-base border-main-500 bg-main-500 text-main-100 ">Read More</a>
+                </div>
+            </div>
         </section>
 
         <!-- HEROES -->
@@ -95,7 +104,7 @@
 
         <!-- MODES -->
         <section id="modes" class="flex flex-col items-center justify-center w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <div class="flex flex-col-reverse justify-center items-center w-full min-h-screen gap-10 px-0 ">
+            <div class="flex flex-col-reverse items-center justify-center w-full min-h-screen gap-10 px-0 ">
                 <!-- MODES IMAGES -->
                 <div class="flex lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full lg:h-[50%] flex-wrap">
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
@@ -117,8 +126,8 @@
         <section>
 
         <!-- LEVELS -->
-        <section id="levels" class="flex flex-col items-center justify-center w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300 p-2">
-            <div class="flex flex-col lg:flex-row items-center w-full justify-center min-h-screen gap-20 lg:py-5 lg:px-6">
+        <section id="levels" class="flex flex-col items-center justify-center w-full min-h-screen p-2 bg-gradient-to-r from-main-200 to-main-300">
+            <div class="flex flex-col items-center justify-center w-full min-h-screen gap-20 lg:flex-row lg:py-5 lg:px-6">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
