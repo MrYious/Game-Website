@@ -14,11 +14,11 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen ">
+        <main id="home" class="flex flex-col w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- GAMEPLAY -->
-            <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full bg-slate-300 p-2">
+            <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full p-2">
                 <!-- CONTENT -->
                 <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
                     <div class="text-3xl font-semibold lg:text-4xl">BEGINNER'S GUIDE</div>
@@ -37,8 +37,8 @@
         </main>
 
         <!-- CONTROLS -->
-        <section id="controls" class="flex items-center justify-between w-full min-h-screen bg-slate-400">
-            <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-400">
+        <section id="controls" class="flex items-center justify-between w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+            <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row">
                 <!-- IMAGE -->
                 <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
                     IMAGE HERE
@@ -57,8 +57,8 @@
         </section>
 
         <!-- SKILLS -->
-        <section id="skills" class="flex items-center justify-between w-full min-h-screen bg-slate-400">
-            <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row bg-slate-300">
+        <section id="skills" class="flex items-center justify-between w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+            <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row ">
                 <!-- CONTENT -->
                 <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
                     <div class="text-3xl font-semibold lg:text-4xl">SKILLS</div>

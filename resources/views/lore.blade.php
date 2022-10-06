@@ -14,11 +14,11 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen ">
+        <main id="home" class="flex flex-col w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- LORE -->
-            <div class="flex flex-col lg:flex-row items-center justify-around min-h-[90vh] w-full bg-slate-300 p-2">
+            <div class="flex flex-col lg:flex-row items-center justify-around min-h-[90vh] w-full p-2">
                 <!-- CONTENT -->
                 <div class="flex flex-col lg:w-[35%] w-[85%] p-5 gap-5 ">
                     <div class="text-3xl font-semibold lg:text-4xl">ONCE UPON A TIME</div>
@@ -36,7 +36,7 @@
             </div>
         </main>
 
-        <section id="" class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-slate-400">
+        <section id="" class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-gradient-to-r from-main-200 to-main-300">
             <!-- IMAGE -->
             <div class="flex justify-center items-center w-[90%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
                 IMAGE HERE
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section id="" class="flex flex-col items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-slate-300 ">
+        <section id="" class="flex flex-col items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-gradient-to-r from-main-200 to-main-300 ">
             <!-- CONTENT -->
             <div class="flex flex-col lg:w-[35%] w-[85%] p-5 gap-5 ">
                 <div class="text-3xl font-semibold lg:text-4xl">NOW OUR HEROES EMBARK</div>
