@@ -69,9 +69,9 @@
         </section>
 
         <!-- GAMEPLAY -->
-        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full min-h-screen p-10 lg:flex-row bg-gradient-to-r from-main-200 to-main-300">
+        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full min-h-screen gap-10 p-5 lg:flex-row bg-gradient-to-r from-main-200 to-main-300">
             <!-- VIDEO SAMPLE -->
-            <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] pt-20 lg:p-0">
+            <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] lg:p-0">
                 <a href="/gameplay#home" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
                     <div class="flex items-center justify-center m-1 lg:-mb-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-4">Gameplay sample 1</div>
                 </a>
@@ -79,13 +79,13 @@
                     <div class="flex items-center justify-center m-1 lg:ml-52 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-5">Gameplay sample 2</div>
                 </a>
                 <a href="/gameplay#skills" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                    <div class="flex items-center justify-center mt-16 lg:-mt-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-6">Gameplay sample 3</div>
+                    <div class="flex items-center justify-center mt-20 lg:-mt-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-6">Gameplay sample 3</div>
                 </a>
             </div>
             <!-- CONTENT -->
-            <div class="flex flex-col items-center justify-center lg:items-end lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 p-10">
+            <div class="flex flex-col items-center justify-center lg:items-end lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 p-5 lg:p-10">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-4xl">THE GAMEPLAY</div>
+                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-4xl">The Gameplay</div>
                 <!-- DESCRIPTION -->
                 <div class="text-sm font-semibold text-center lg:text-right">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -93,12 +93,11 @@
             </div>
         </section>
 
-        <!-- MODES/LEVELS -->
-        <section id="modesLevels" class="flex flex-col items-center justify-center w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <!-- MODES -->
-            <div class="flex flex-col-reverse justify-center items-center w-full min-h-[50vh] gap-10 px-0 ">
+        <!-- MODES -->
+        <section id="modes" class="flex flex-col items-center justify-center w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+            <div class="flex flex-col-reverse justify-center items-center w-full min-h-screen gap-10 px-0 ">
                 <!-- MODES IMAGES -->
-                <div class="flex lg:flex-row items-center justify-center gap-3 w-full lg:h-[50%] flex-wrap">
+                <div class="flex lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full lg:h-[50%] flex-wrap">
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode1</div>
                     </a>
@@ -112,33 +111,34 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-center lg:justify-center w-[80%]  md:w-[60%] lg:w-[32%] gap-3 text-right p-2">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl">THE GAMEMODES</div>
+                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl">The Gamemodes</div>
                 </div>
             </div>
-             <!-- LEVELS -->
-             <div class="flex flex-col lg:flex-row items-center w-full justify-center bg-gradient-to-r from-main-200 to-main-300 min-h-[50vh] gap-10 py-10">
+        <section>
+
+        <!-- LEVELS -->
+        <section id="levels" class="flex flex-col items-center justify-center w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300 p-2">
+            <div class="flex flex-col lg:flex-row items-center w-full justify-center min-h-screen gap-20 lg:py-5 lg:px-6">
                 <!-- CONTENT -->
-                <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[32%] gap-3 text-left p-2">
+                <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl">THE LEVELS</div>
+                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl">The Levels</div>
                     <!-- DESCRIPTION -->
                     <div class="text-sm font-semibold text-center lg:text-left">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
-                    <!-- ACTION -->
-                    <a href="/levels" class="px-6 py-1 font-semibold border-2 border-main-500 hover:bg-main-500 hover:text-white">Read More</a>
                 </div>
                 <!-- LEVEL IMAGES -->
-                <div class="flex items-center justify-center gap-3 w-full lg:w-[50%] flex-wrap">
-                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
-                        <div class="flex items-center justify-center">Level1</div>
-                    </div>
-                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
-                        <div class="flex items-center justify-center">Level2</div>
-                    </div>
-                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black">
-                        <div class="flex items-center justify-center">Level3</div>
-                    </div>
+                <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[80%] lg:h-[600px]">
+                    <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
+                        <div class="flex items-center justify-center m-1 lg:-mb-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-4">Level1</div>
+                    </a>
+                    <a href="/levels" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
+                        <div class="flex items-center justify-center m-1 lg:ml-28 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-5">Level2</div>
+                    </a>
+                    <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
+                        <div class="flex items-center justify-center mt-20 lg:-mt-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-6">Level3</div>
+                    </a>
                 </div>
             </div>
         </section>

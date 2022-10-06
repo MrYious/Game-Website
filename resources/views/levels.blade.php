@@ -16,14 +16,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
     </head>
-    <body class="bg-slate-300">
+    <body class="bg-gradient-to-r from-main-200 to-main-300">
         <!-- SCROLL TO TOP BUTTON -->
         <livewire:scroll-top />
         <!-- NAVBAR -->
         <livewire:navbar />
         <!-- LEVELS -->
         <!-- IMAGES -->
-        <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row">
+        <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row ">
             <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-black ">
                 Level1
             </div>
@@ -73,6 +73,7 @@
                 </div>
             </li>
         </ul>
+        
 
 
         <livewire:footer />
