@@ -36,9 +36,9 @@
                 <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl ">The Lore</div>
             </div>
             <!-- RIGHT IMAGE -->
-            <div class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] lg:h-[500px] border-2 border-black">
+            <a href="/lore" class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] lg:h-[500px] border-2 border-black">
                 IMAGE HERE
-            </div>
+            </a>
         </section>
 
         <!-- HEROES -->
@@ -50,18 +50,18 @@
             </div>
             <!-- IMAGES -->
             <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[600px] lg:h-[500px] border-2 border-black p-0 gap-0 lg:p-5 lg:gap-5">
-                <div class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
+                <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
                     <div class="flex cursor-pointer items-center justify-center w-[100%] h-full  border-[1px] border-black">Hero Image 1</div>
-                </div>
-                <div class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
+                </a>
+                <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
                     <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-black">Hero Image 2</div>
-                </div>
-                <div class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
+                </a>
+                <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
                     <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-black">Hero Image 3</div>
-                </div>
-                <div class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
+                </a>
+                <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
                     <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-black">Hero Image 4</div>
-                </div>
+                </a>
             </div>
         </section>
 
@@ -69,15 +69,15 @@
         <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full min-h-screen p-10 lg:flex-row bg-gradient-to-r from-main-200 to-main-300">
             <!-- VIDEO SAMPLE -->
             <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] pt-20 lg:p-0">
-                <div class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
+                <a href="/gameplay#home" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
                     <div class="flex items-center justify-center m-1 lg:-mb-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-4">Gameplay sample 1</div>
-                </div>
-                <div class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
+                </a>
+                <a href="/gameplay#controls" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
                     <div class="flex items-center justify-center m-1 lg:ml-52 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-5">Gameplay sample 2</div>
-                </div>
-                <div class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
+                </a>
+                <a href="/gameplay#skills" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
                     <div class="flex items-center justify-center mt-16 lg:-mt-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-2 border-black z-6">Gameplay sample 3</div>
-                </div>
+                </a>
             </div>
             <!-- CONTENT -->
             <div class="flex flex-col items-center justify-center lg:items-end lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 p-10">
@@ -96,15 +96,15 @@
             <div class="flex flex-col-reverse justify-center items-center w-full min-h-[50vh] gap-10 px-0 ">
                 <!-- MODES IMAGES -->
                 <div class="flex lg:flex-row items-center justify-center gap-3 w-full lg:h-[50%] flex-wrap">
-                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
+                    <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode1</div>
-                    </div>
-                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
+                    </a>
+                    <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode2</div>
-                    </div>
-                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
+                    </a>
+                    <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode3</div>
-                    </div>
+                    </a>
                 </div>
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-center lg:justify-center w-[80%]  md:w-[60%] lg:w-[32%] gap-3 text-right p-2">
