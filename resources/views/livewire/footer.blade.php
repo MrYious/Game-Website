@@ -1,4 +1,4 @@
-<footer class="hidden  lg:flex items-center justify-center w-full h-[40vh] bg-slate-300 gap-10">
+<footer class="hidden  lg:flex items-center justify-center w-full h-[40vh] bg-gradient-to-r from-main-100 to-main-200 gap-10">
     <!-- COLUMN 1 -->
     <div class="flex flex-col items-center justify-center p-2 gap-3 w-[25%] h-5/6 ">
         <a href="" class="">
@@ -48,6 +48,6 @@
             <input class="p-2 border-[1px] bg-gray-200 border-gray-800 rounded-sm" type="text" name="email" placeholder="Email" required >
             <textarea class="p-2 resize-none bg-gray-200 border-[1px] border-gray-800 rounded-sm h-20" name="message" id="message" placeholder="Message" ></textarea>
         </div>
-        <button type="submit" class="px-6 py-1 text-xs border-2 border-gray-800 hover:bg-gray-800 hover:text-white">SUBMIT</button>
+        <button type="submit" class="px-6 py-1 text-xs border-2 border-main-500 hover:bg-main-500 hover:text-white">SUBMIT</button>
     </form>
 </footer>
