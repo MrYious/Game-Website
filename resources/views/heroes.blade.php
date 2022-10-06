@@ -12,90 +12,83 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
         <script src="https://cdn.tailwindcss.com"></script>
         @livewireStyles
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="bg-gradient-to-r from-main-200 to-main-300">
         <!-- SCROLL TO TOP BUTTON -->
         <livewire:scroll-top />
-        <!-- NAVBAR -->
-        <livewire:navbar />
-        <!-- HEROES -->
-        <section id="heroes" class="flex items-center justify-center w-full min-h-screen gap-10 bg-slate-300">
-            <!-- IMAGE GROUPS -->
-            <div class="flex flex-wrap lg:flex-nowrap justify-start w-full lg:w-[60%] h-[900px] lg:h-[550px] border-2 border-black ">
-                <!-- IMAGE 1 -->
-                <div class="flex items-start w-1/2 lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button" aria-controls="offcanvasExample">Hero Image 1</div>
-                </div>
-                <!-- POP UP -->
-                <div class="fixed top-0 bottom-0 left-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-start w-96" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                    <div class="flex items-center justify-between p-4 offcanvas-header">
-                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasExampleLabel">Hero 1</h5>
-                        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dignissimos nesciunt maiores voluptatem eius ipsum at natus labore veniam eum, dolorum corrupti a minima ab fugit. Quisquam modi sequi pariatur minus placeat. Temporibus sapiente aut soluta, blanditiis ipsam sint exercitationem sit, doloremque rem iure, quaerat qui quisquam ab corporis minima.
-                    </div>
-                </div>
-                <!-- IMAGE 2 -->
-                <div class="flex items-end w-1/2 lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" role="button" aria-controls="offcanvasTop">Hero Image 2</div>
-                </div>
-                <!-- POP UP -->
-                <div class="fixed top-0 bottom-0 left-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-start h-96" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-                    <div class="flex items-center justify-between p-4 offcanvas-header">
-                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasTopLabel">Hero 2</h5>
-                        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dignissimos nesciunt maiores voluptatem eius ipsum at natus labore veniam eum, dolorum corrupti a minima ab fugit. Quisquam modi sequi pariatur minus placeat. Temporibus sapiente aut soluta, blanditiis ipsam sint exercitationem sit, doloremque rem iure, quaerat qui quisquam ab corporis minima.
-                    </div>
-                </div>
-                <!-- IMAGE 3 -->
-                <div class="flex items-start w-1/2 lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" role="button" aria-controls="offcanvasBottom">Hero Image 3</div>
-                </div>
-                <!-- POP UP -->
-                <div class="fixed bottom-0 left-0 right-0 flex flex-col invisible max-w-full max-h-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-bottom bg-clip-padding h-1/3" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                    <div class="flex items-center justify-between p-4 offcanvas-header">
-                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasBottomLabel">Hero 3</h5>
-                        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body small">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est culpa aliquid voluptate ad, esse consequuntur illo odio eveniet dicta consectetur iure quis ipsa quod reprehenderit perferendis ducimus. Ratione dolores distinctio blanditiis in molestias repellat ipsa debitis, dolorum, quibusdam expedita libero delectus nostrum voluptas. Sunt recusandae impedit autem accusantium perspiciatis mollitia!
-                    </div>
-                </div>
-                <!-- IMAGE 4 -->
-                <div class="flex items-end w-1/2 lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[120%] m-0 lg:-m-5 h-full lg:h-4/5 border-[1px] border-black" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasRight" role="button" aria-controls="offcanvasRight">Hero Image 4</div>
-                </div>
-                <!-- POP UP -->
-                <div class="fixed top-0 bottom-0 right-0 flex flex-col invisible max-w-full text-gray-700 transition duration-300 ease-in-out bg-white border-none shadow-sm outline-none offcanvas offcanvas-end bg-clip-padding w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="flex items-center justify-between p-4 offcanvas-header">
-                        <h5 class="mb-0 font-semibold leading-normal offcanvas-title" id="offcanvasRightLabel">Hero 4</h5>
-                        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="flex-grow p-4 overflow-y-auto offcanvas-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur explicabo autem perferendis qui ex, odit nemo id temporibus aliquam possimus excepturi! Cupiditate nesciunt voluptatum consequatur ex explicabo, ducimus magni adipisci dolor facilis. Ut expedita sed odit, quam atque error tenetur tempora itaque quia, suscipit dolorum veritatis praesentium accusantium quas deleniti.
+        <!-- HOME -->
+        <main id="home" class="flex flex-col w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+            <!-- NAVIGATION BAR -->
+            <livewire:navbar />
+            <!-- HERO SECTION -->
+            <div class="flex items-center justify-start min-h-[89vh] w-full md:min-h-[90vh] lg:px-56 ">
+                <!-- CONTENT -->
+                <div class="flex flex-col  items-start justify-center w-[80%] md:w-[60%] lg:w-[50%] gap-1 p-10 bg-main-100">
+                    <!-- NAME -->
+                    <div class="text-2xl font-semibold text-left lg:text-4xl">LANCET</div>
+                    <!-- ROLE -->
+                    <div class="text-xl font-medium text-left lg:text-2xl">TANK</div>
+                    <!-- DESCRIPTION -->
+                    <div class="flex flex-col gap-1 py-2 text-sm font-semibold text-justify">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </main>
+        <!-- STATS SECTION -->
+        <div class="flex items-start justify-center min-h-[60vh] w-full gap-10 py-10  bg-gradient-to-r from-main-300 to-main-400">
+            <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[30%] gap-1 p-10 bg-main-200">
+                <div class="text-2xl font-semibold text-left lg:text-4xl">STATS</div>
+                <div class="flex flex-col w-full gap-1 py-2 text-sm font-semibold text-justify">
+                    <div class="flex gap-10 ">
+                        <div>Lorem</div>
+                        <input class="w-full" type="range" name="sample" id="sample" disabled value="100">
+                    </div>
+                    <div class="flex gap-10 ">
+                        <div>Lorem</div>
+                        <input class="w-full" type="range" name="sample" id="sample" disabled value="100">
+                    </div>
+                    <div class="flex gap-10 ">
+                        <div>Lorem</div>
+                        <input class="w-full" type="range" name="sample" id="sample" disabled value="100">
+                    </div>
+                    <div class="flex gap-10 ">
+                        <div>Lorem</div>
+                        <input class="w-full" type="range" name="sample" id="sample" disabled value="100">
+                    </div>
+                </div>
+            </div>
+            <!-- RIGHT -->
+            <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[35%] gap-4 p-10 bg-main-200">
+                <div class="text-2xl font-semibold text-left lg:text-4xl">
+                    ABILITIES
+                </div>
+                <div class="text-lg font-medium text-left lg:text-xl">
+                    Ability Name
+                </div>
+                <div class="flex flex-col text-sm font-semibold text-justify">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis delectus recusandae placeat corrupti et voluptates qui natus ut nostrum nisi consequatur ea, iusto molestias minus? Corporis vitae odit sapiente ipsam fugit mollitia possimus nulla!
+                </div>
+                <div class="flex gap-4">
+                    <div class="w-16 h-16 bg-main-500">
+                    </div>
+                    <div class="w-16 h-16 bg-main-500">
+                    </div>
+                    <div class="w-16 h-16 bg-main-500">
+                    </div>
+                    <div class="w-16 h-16 bg-main-500">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <livewire:footer />
