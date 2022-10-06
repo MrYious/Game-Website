@@ -1,4 +1,4 @@
-<footer class="hidden  lg:flex items-center justify-center w-full h-[40vh] bg-gradient-to-r from-main-100 to-main-200 gap-10">
+<footer class="hidden  lg:flex items-center justify-center w-full h-[40vh] gap-10 bg-main-footer text-white">
     <!-- COLUMN 1 -->
     <div class="flex flex-col items-center justify-center p-2 gap-3 w-[25%] h-5/6 ">
         <a href="" class="">
@@ -27,18 +27,18 @@
     <!-- COLUMN 2 -->
     <div class="flex h-5/6 w-[35%]">
         <div class="flex flex-col items-start justify-center w-1/2 gap-3 p-3 ">
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">WHITEPAPER</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">MARKETPLACE</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">CORE TEAM</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">INVESTORS</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">PARTNERSHIPS</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">WHITEPAPER</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">MARKETPLACE</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">CORE TEAM</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">INVESTORS</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">PARTNERSHIPS</a>
         </div>
         <div class="flex flex-col items-start justify-center w-1/2 gap-3 p-3">
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">TERMS OF USE</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">PRIVACY POLICY</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">CODE OF CONDUCT</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">FAQ</a>
-            <a class="border-b-[1px] border-transparent hover:border-black" href="">COOKIES</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">TERMS OF USE</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">PRIVACY POLICY</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">CODE OF CONDUCT</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">FAQ</a>
+            <a class="border-b-[1px] border-transparent hover:border-white" href="">COOKIES</a>
         </div>
     </div>
     <!-- COLUMN 3 -->

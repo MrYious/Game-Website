@@ -21,7 +21,7 @@
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center min-h-[89vh] w-full md:min-h-[90vh] ">
                 <div class="flex flex-col p-5 w-5/6 gap-2 z-[1] text-center md:w-3/6 lg:gap-5 lg:w-3/6 -mb-[30%] md:m-0 md:-ml-[30%]">
-                    <div class="w-full text-4xl font-semibold leading-none tracking-widest lg:text-6xl xl:text-8xl font-title">
+                    <div class="w-full text-5xl font-semibold leading-none tracking-widest lg:text-6xl xl:text-7xl font-title">
                         FIGHT<br/>FOR THE<br/>LIGHT
                     </div>
                     <div class="flex flex-col items-center justify-start">
@@ -33,15 +33,29 @@
 
         <!-- LORE -->
         <section id="lore" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center">
+            <!-- CONTENT -->
+            <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="w-full border-2 border-black"></div>
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold lg:text-4xl ">The Lore</div>
+                <div class="flex items-center justify-center px-8 py-1 text-2xl font-bold whitespace-nowrap w-fit lg:text-5xl font-header">
+                    The Lore
+                </div>
+                <div class="w-full border-2 border-black"></div>
             </div>
-            <!-- RIGHT IMAGE -->
-            <a href="/lore" class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] lg:h-[500px] border-2 border-black">
-                IMAGE HERE
-            </a>
+            <!-- IMAGE -->
+            <div  class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] md:h-[400px]  lg:gap-9 md:gap-6 gap-3  lg:h-[500px] ">
+                <!-- LEFT IMAGE -->
+                <div href="/lore" class="flex items-center justify-center w-full h-full p-2 bg-main-100 lg:p-5">
+                    IMAGE HERE 1
+                </div>
+                <!-- RIGHT IMAGE -->
+                <div href="/lore" class="flex items-end justify-end w-full h-full p-2 bg-main-100 lg:p-5">
+                    <a href="/lore" class="px-3 py-1 text-xs font-medium border-2 md:text-base border-main-500 bg-main-500 text-main-100 ">Read More</a>
+                </div>
+            </div>
+            <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="w-full border-2 border-black"></div>
+            </div>
         </section>
 
         <!-- HEROES -->
@@ -49,7 +63,7 @@
             <!-- CENTER CONTENT -->
             <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold lg:text-4xl ">The Heroes</div>
+                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header">The Heroes</div>
             </div>
             <!-- IMAGES -->
             <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[600px] lg:h-[500px] border-2 border-black p-0 gap-0 lg:p-5 lg:gap-5">
@@ -85,7 +99,7 @@
             <!-- CONTENT -->
             <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-10 p-5 lg:p-10">
                 <!-- TITLE -->
-                <div class="px-4 py-4 font-header text-main-gold text-4xl text-left lg:text-6xl">GAMEPLAY</div>
+                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-5xl font-header">The Gameplay</div>
                 <!-- DESCRIPTION -->
                 <div class="text-md font-body text-center text-white lg:text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -122,7 +136,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
-                    <div class="px-4 py-4 text-4xl font-header text-main-gold lg:text-6xl">Levels</div>
+                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header">The Levels</div>
                     <!-- DESCRIPTION -->
                     <div class="text-md font-body text-white text-center lg:text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.                    </div>
