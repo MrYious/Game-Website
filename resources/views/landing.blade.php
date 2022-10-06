@@ -22,7 +22,7 @@
                         FIGHT<br/>FOR THE<br/>LIGHT
                     </div>
                     <div class="flex flex-col items-center justify-start">
-                        <button class="px-4 py-2 text-sm font-semibold border-2 md:text-base md:px-12 border-main-500 bg-main-400 text-main-100 "> Play Now </button>
+                        <button class="px-4 py-2 text-sm font-semibold border-2 md:text-base md:px-12 border-main-500 bg-main-500 text-main-100 "> Play Now </button>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
         </section>
 
         <!-- GAMEPLAY -->
-        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full min-h-screen lg:flex-row bg-gradient-to-r from-main-200 to-main-300 p-10">
+        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full min-h-screen p-10 lg:flex-row bg-gradient-to-r from-main-200 to-main-300">
             <!-- VIDEO SAMPLE -->
             <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] pt-20 lg:p-0">
                 <div class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
@@ -82,7 +82,7 @@
             <!-- CONTENT -->
             <div class="flex flex-col items-center justify-center lg:items-end lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 p-10">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-4xl text-right">THE GAMEPLAY</div>
+                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-4xl">THE GAMEPLAY</div>
                 <!-- DESCRIPTION -->
                 <div class="text-sm font-semibold text-center lg:text-right">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -96,13 +96,13 @@
             <div class="flex flex-col-reverse justify-center items-center w-full min-h-[50vh] gap-10 px-0 ">
                 <!-- MODES IMAGES -->
                 <div class="flex lg:flex-row items-center justify-center gap-3 w-full lg:h-[50%] flex-wrap">
-                    <div class="flex items-start justify-center px-20 lg:px-40 py-20 lg:py-40 border-2 border-black">
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode1</div>
                     </div>
-                    <div class="flex items-start justify-center px-20 lg:px-40 py-20 lg:py-40 border-2 border-black">
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode2</div>
                     </div>
-                    <div class="flex items-start justify-center px-20 lg:px-40 py-20 lg:py-40 border-2 border-black">
+                    <div class="flex items-start justify-center px-20 py-20 border-2 border-black lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center">Mode3</div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                     </div>
                     <!-- ACTION -->
-                    <a href="/levels" class="px-6 py-1 font-semibold border-2 border-gray-800 hover:bg-gray-800 hover:text-white">Read More</a>
+                    <a href="/levels" class="px-6 py-1 font-semibold border-2 border-main-500 hover:bg-main-500 hover:text-white">Read More</a>
                 </div>
                 <!-- LEVEL IMAGES -->
                 <div class="flex items-center justify-center gap-3 w-full lg:w-[50%] flex-wrap">

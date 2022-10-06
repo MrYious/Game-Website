@@ -24,7 +24,7 @@
             <button class="px-3 py-3 dropbtn hover:bg-main-300 ">
                 Game Info
             </button>
-            <div class="bg-gray-200 dropdown-contentM">
+            <div class="bg-main-100 dropdown-contentM">
                 <a href="/#lore" class="hover:bg-main-300">Lore</a>
                 <a href="/#heroes" class="hover:bg-main-300">Heroes</a>
                 <a href="/#gameplay" class="hover:bg-main-300">Gameplay</a>
