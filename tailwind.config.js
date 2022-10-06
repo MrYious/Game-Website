@@ -15,7 +15,7 @@ module.exports = {
           400: '#2d4f52',
           500: '#2a3e46',
           'gold': '#B79C3D',
-          'main': '0B1516',
+          'main': '#0B1516',
           'footer': '#000200',
         },
 
