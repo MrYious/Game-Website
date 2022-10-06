@@ -14,27 +14,26 @@ module.exports = {
           300: '#467970',
           400: '#2d4f52',
           500: '#2a3e46',
+          'gold': '#B79C3D',
+          'main': '0B1516',
+          'footer': '#000200',
         },
+
       },
       fontFamily: {
-        // 'sans': [
-        //   'Enchanted Land Regular',
-        //   'Breathe Fire Regular',
-        //   "Segoe UI"
-        // ],
-        // 'title': [
-        //   // 'Enchanted Land Regular',
-        //   'Breathe Fire Regular',
-        //   "Segoe UI"
-        // ],
-        // 'body': [
-        //   'Karla',
-        //   'sans-serif',
-        // ],
-        // 'button': [
-        //   'Karla',
-        //   "Segoe UI"
-        // ],
+        'title': [
+          'Metamorphous',
+          'cursive',
+          "Segoe UI"
+        ],
+        'header': [
+          'Cinzel',
+          "Segoe UI"
+        ],
+        'body': [
+          'Karla',
+          'sans-serif',
+        ],
       }
     },
   },

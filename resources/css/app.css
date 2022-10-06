@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'Breathe Fire Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Breathe Fire Regular'), url('Breathe Fire.woff') format('woff');
-}
-@font-face {
-    font-family: 'Enchanted Land Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Enchanted Land Regular'), url('Enchanted Land DEMO.woff') format('woff');
-}
-
 html {
     scroll-behavior: smooth;
 }
