@@ -34,11 +34,13 @@
         <!-- LORE -->
         <section id="lore" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-gradient-to-r from-main-200 to-main-300">
             <!-- CONTENT -->
-            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center bg-green-100">
+            <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="w-full border-2 border-black"></div>
                 <!-- TITLE -->
-                <div class="flex items-center justify-center px-4 py-1 text-2xl font-bold bg-red-300 border-b-4 border-black lg:text-5xl font-header">
+                <div class="flex items-center justify-center px-8 py-1 text-2xl font-bold whitespace-nowrap w-fit lg:text-5xl font-header">
                     The Lore
                 </div>
+                <div class="w-full border-2 border-black"></div>
             </div>
             <!-- IMAGE -->
             <div  class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] md:h-[400px]  lg:gap-9 md:gap-6 gap-3  lg:h-[500px] ">
@@ -50,6 +52,9 @@
                 <div href="/lore" class="flex items-end justify-end w-full h-full p-2 bg-main-100 lg:p-5">
                     <a href="/lore" class="px-3 py-1 text-xs font-medium border-2 md:text-base border-main-500 bg-main-500 text-main-100 ">Read More</a>
                 </div>
+            </div>
+            <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="w-full border-2 border-black"></div>
             </div>
         </section>
 
