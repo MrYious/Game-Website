@@ -28,7 +28,7 @@
                 <a href="/#lore" class="hover:bg-main-300">Lore</a>
                 <a href="/#heroes" class="hover:bg-main-300">Heroes</a>
                 <a href="/#gameplay" class="hover:bg-main-300">Gameplay</a>
-                <a href="/#modes" class="hover:bg-main-300">Game Modes</a>
+                <a href="/#modes" class="hover:bg-main-300">Gamemodes</a>
                 <a href="/#levels" class="hover:bg-main-300">Levels</a>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <a href="/#lore" class="hover:bg-main-200">Lore</a>
                 <a href="/#heroes" class="hover:bg-main-200">Heroes</a>
                 <a href="/#gameplay" class="hover:bg-main-200">Gameplay</a>
-                <a href="/#modes" class="hover:bg-main-300">Game Modes</a>
+                <a href="/#modes" class="hover:bg-main-300">Gamemodes</a>
                 <a href="/#levels" class="hover:bg-main-300">Levels</a>
             </div>
         </div>
