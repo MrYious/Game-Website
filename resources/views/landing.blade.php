@@ -99,7 +99,7 @@
             <!-- CONTENT -->
             <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-10 p-5 lg:p-10">
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold text-right border-b-4 border-black lg:text-5xl font-header">The Gameplay</div>
+                <div class="px-4 py-1 text-2xl text-right text-main-gold lg:text-5xl font-header">The Gameplay</div>
                 <!-- DESCRIPTION -->
                 <div class="text-md font-body text-center text-white lg:text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -111,7 +111,7 @@
         <section id="modes" class="flex flex-col items-center justify-center w-full lg:min-h-screen" style="background-image:url('../images/GameModes.png'); background-size: 100%; background-repeat:no-repeat">
             <div class="flex flex-col-reverse justify-center items-center w-full h-full gap-10 px-0 ">
                 <!-- MODES IMAGES -->
-                <div class="flex lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full lg:h-full lg:flex-wrap pb-[230px]">
+                <div class="flex lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full lg:h-full lg:flex-wrap lg:pb-[240px]">
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
                         <div class="flex items-center text-white justify-center">Mode1</div>
                     </a>
@@ -123,10 +123,17 @@
                     </a>
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col items-center justify-center lg:items-center lg:justify-center w-[80%]  md:w-[60%] lg:w-[32%] gap-10 text-right p-2">
-                    <!-- TITLE -->
-                    <div class="px-4 py-1 text-4xl font-header text-main-gold lg:text-6xl md:text-center">GAME MODES</div>
+                <div class="flex items-center justify-center w-full px-16 text-center ">
+                    <div class="w-full border-2 border-main-gold"></div>
+                        <!-- TITLE -->
+                        <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
+                        GAME MODES
+                        </div>
+                    <div class="w-full border-2 border-main-gold"></div>
                 </div>
+            </div>
+            <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="w-full border-2 border-main-gold"></div>
             </div>
         <section>
 
@@ -136,7 +143,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header">The Levels</div>
+                    <div class="px-4 py-1 text-2xl text-main-gold lg:text-5xl font-header">The Levels</div>
                     <!-- DESCRIPTION -->
                     <div class="text-md font-body text-white text-center lg:text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.                    </div>
