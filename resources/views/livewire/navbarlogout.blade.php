@@ -3,7 +3,7 @@
     class=" flex flex-wrap items-center justify-between w-full px-5 py-5 gap-5 md:p-0 md:px-2 min-h-[10vh] select-none "
 >
     <!-- TITLE -->
-    <a href="/" class="w-fit">
+    <a href="/dashboard" class="w-fit">
         <img class="h-16" src="/images/logo.png" alt="logo">
         <!-- ChromaHunt -->
     </a>
@@ -35,7 +35,7 @@
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> Whitepaper </a>
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> Marketplace </a>
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> About us </a>
-        <a href="/login" class="w-full px-3 py-3 font-semibold text-white bg-main-500"> SIGN IN </a>
+        <a href="/logout" class="w-full px-3 py-3 font-semibold text-white bg-main-500"> LOGOUT </a>
     </div>
 
     <!-- DESKTOP -->
