@@ -91,7 +91,7 @@
         </section>
 
         <!-- GAMEPLAY -->
-        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full gap-10 lg:min-h-screen lg:flex-row bg-gameplay" style="background-image:url('../images/Gameplay.png'); background-size: cover">
+        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full gap-10 lg:min-h-screen lg:flex-row" style="background-image:url('../images/Gameplay.png'); background-size: cover">
             <!-- VIDEO SAMPLE -->
             <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] lg:p-0">
                 <a href="/gameplay#home" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
@@ -116,10 +116,10 @@
         </section>
 
         <!-- MODES -->
-        <section id="modes" class="flex flex-col items-center justify-center w-full lg:min-h-screen" style="background-image:url('../images/GameModes.png'); background-size: 100%; background-repeat:no-repeat">
-            <div class="flex flex-col-reverse items-center justify-center w-full h-full gap-10 px-0 ">
+        <section id="modes" class="flex flex-col items-center justify-center w-full min-h-screen" style="background-image:url('../images/GameModes.png'); background-size: 100%; background-repeat:no-repeat">
+            <div class="flex flex-col-reverse items-center justify-center w-full h-full gap-10 py-32">
                 <!-- MODES IMAGES -->
-                <div class="flex lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full lg:h-full lg:flex-wrap lg:pb-[240px]">
+                <div class="flex flex-wrap lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full">
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
                         <div class="flex items-center justify-center text-white">Mode1</div>
                     </a>
@@ -131,7 +131,7 @@
                     </a>
                 </div>
                 <!-- CONTENT -->
-                <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="flex items-center justify-center w-full lg:px-16 text-center ">
                     <div class="w-full border-2 border-main-gold"></div>
                         <!-- TITLE -->
                         <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
@@ -146,8 +146,8 @@
         <section>
 
         <!-- LEVELS -->
-        <section id="levels" class="flex flex-col items-center justify-center w-full lg:min-h-screen" style="background-image:url('../images/Levels.png'); background-size: cover">
-            <div class="flex flex-col items-center justify-center w-full min-h-screen gap-20 lg:flex-row lg:py-0 lg:px-6">
+        <section id="levels" class="flex flex-col items-center justify-center w-full min-h-screen" style="background-image:url('../images/Levels.png'); background-size: cover">
+            <div class="flex flex-col items-center justify-center w-full h-full gap-20 lg:flex-row lg:py-0 lg:px-6">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
