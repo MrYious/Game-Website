@@ -15,7 +15,7 @@
     <section class="flex flex-col items-center justify-center w-full h-screen bg-white">
         <div class="flex flex-col items-center justify-center w-1/3 pt-6 bg-gray-100 rounded-lg h-fit">
             <div class="flex flex-col items-center justify-center gap-1 p-2 text-4xl tracking-tight">
-            <div class="text-[30px] font-bold pt-1">
+            <div class="text-[30px] font-title font-bold pt-1">
                 Register
             </div>
             <!-- Register box -->
@@ -29,29 +29,29 @@
                 <div class="flex flex-col items-start text-[25px] ">
                     <!-- Name -->
                     <div class="flex flex-row gap-3 p-3">
-                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" maxlength="30" name="name" type="text" placeholder="NAME" required/>
+                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" maxlength="30" name="name" type="text" placeholder="NAME" required/>
                     </div>
                     <!-- Email -->
                     <div class="flex flex-row items-center gap-3 p-3">
-                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" name="email" type="email" placeholder="EMAIL" required/>
+                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" name="email" type="email" placeholder="EMAIL" required/>
                     </div>
                     <!-- Password -->
                     <div class="flex flex-row gap-3 p-3">
-                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
+                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
                     </div>
                     <!-- Confirm Password -->
                     <div class="flex flex-row items-center gap-3 p-3">
-                        <input class="font-semibold rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="confirmPassword" type="password" placeholder="CONFIRM PASSWORD" required/>
+                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="confirmPassword" type="password" placeholder="CONFIRM PASSWORD" required/>
                     </div>
                 </div>
                 <!-- Register Button -->
                 <div class="flex flex-col items-center pt-2 pb-2">
-                <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-bold tracking-wide text-gray-700 bg-gray-200 rounded-sm">
+                <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-title font-bold tracking-wide text-gray-700 bg-gray-200 rounded-sm">
                 REGISTER
                 </button>
                 </div>
                 <!-- Register Anchor -->
-                <div class="flex flex-col items-center justify-center pt-2 pb-6 text-[16px] leading-normal text-gray-700">
+                <div class="flex flex-col items-center justify-center pt-2 pb-6 text-[16px] leading-normal text-gray-700 font-header">
                     <span>ALREADY HAVE AN ACCOUNT?</span>
                     <a href="login" class=""><strong>LOGIN HERE</strong></a>
                 </div>
