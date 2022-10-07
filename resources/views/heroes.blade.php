@@ -24,9 +24,9 @@
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- HERO SECTION -->
-            <div class="flex items-center justify-start min-h-[89vh] w-full md:min-h-[90vh] lg:px-56 ">
+            <div class="flex items-center justify-center lg:justify-start min-h-[89vh] w-full md:min-h-[90vh] lg:px-56 ">
                 <!-- CONTENT -->
-                <div class="flex flex-col  items-start justify-center w-[80%] md:w-[60%] lg:w-[50%] gap-1 p-10 bg-main-100">
+                <div class="flex flex-col  items-start justify-center w-[100%] md:w-[60%] -mb-32 lg:m-0 lg:w-[50%] gap-1 p-10 bg-main-100">
                     <!-- NAME -->
                     <div class="text-2xl font-semibold text-left lg:text-4xl">LANCET</div>
                     <!-- ROLE -->
@@ -44,7 +44,8 @@
             </div>
         </main>
         <!-- STATS SECTION -->
-        <div class="flex items-start justify-center min-h-[60vh] w-full gap-10 py-10  bg-gradient-to-r from-main-300 to-main-400">
+        <div class="flex flex-col lg:flex-row items-center lg:items-start justify-center min-h-[60vh] w-full gap-10 py-10  bg-gradient-to-r from-main-300 to-main-400">
+            <!-- LEFT -->
             <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[30%] gap-1 p-10 bg-main-200">
                 <div class="text-2xl font-semibold text-left lg:text-4xl">STATS</div>
                 <div class="flex flex-col w-full gap-1 py-2 text-sm font-semibold text-justify">
