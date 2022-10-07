@@ -29,11 +29,11 @@
                 <!-- Email Input -->
                 <div class="flex flex-col items-center text-[25px] ">
                     <div class="flex flex-row gap-3 p-3">
-                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200 placeholder:font-body" name="email" type="email" placeholder="EMAIL" required/>
+                        <input class="font-body rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200 placeholder:font-body" name="email" type="email" placeholder="EMAIL" required/>
                     </div>
                 <!-- Password Input -->
                     <div class="flex flex-row items-center gap-3 p-3">
-                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200 placeholder:font-body" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
+                        <input class="font-body rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200 placeholder:font-body" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
                     </div>
                 </div>
                 <!-- Stay Signed In -->

@@ -29,19 +29,19 @@
                 <div class="flex flex-col items-start text-[25px] ">
                     <!-- Name -->
                     <div class="flex flex-row gap-3 p-3">
-                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" maxlength="30" name="name" type="text" placeholder="NAME" required/>
+                        <input class="font-body rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" maxlength="30" name="name" type="text" placeholder="NAME" required/>
                     </div>
                     <!-- Email -->
                     <div class="flex flex-row items-center gap-3 p-3">
-                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" name="email" type="email" placeholder="EMAIL" required/>
+                        <input class="font-body rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" name="email" type="email" placeholder="EMAIL" required/>
                     </div>
                     <!-- Password -->
                     <div class="flex flex-row gap-3 p-3">
-                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
+                        <input class="font-body rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="password" type="password" placeholder="PASSWORD" required/>
                     </div>
                     <!-- Confirm Password -->
                     <div class="flex flex-row items-center gap-3 p-3">
-                        <input class="font-header rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="confirmPassword" type="password" placeholder="CONFIRM PASSWORD" required/>
+                        <input class="font-body rounded-sm p-2 placeholder:text-gray-700 placeholder:text-[18px] placeholder:p-2 bg-gray-200" minlength={6} maxlength="16" name="confirmPassword" type="password" placeholder="CONFIRM PASSWORD" required/>
                     </div>
                 </div>
                 <!-- Register Button -->
