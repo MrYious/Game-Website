@@ -15,75 +15,83 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+        <main id="home" class="flex flex-col w-full min-h-screen bg-main-main">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center min-h-[89vh] w-full md:min-h-[90vh] ">
                 <div class="flex flex-col p-5 w-5/6 gap-2 z-[1] text-center md:w-3/6 lg:gap-5 lg:w-3/6 -mb-[30%] md:m-0 md:-ml-[30%]">
-                    <div class="w-full text-5xl font-semibold leading-none tracking-widest lg:text-6xl xl:text-7xl font-title">
+                    <div class="w-full text-5xl font-semibold leading-none tracking-widest text-white lg:text-6xl xl:text-7xl font-title">
                         FIGHT<br/>FOR THE<br/>LIGHT
                     </div>
                     <div class="flex flex-col items-center justify-start">
-                        <button class="px-4 py-2 text-sm font-semibold border-2 md:text-base md:px-12 border-main-500 bg-main-500 text-main-100 "> Play Now </button>
+                        <button class="px-4 py-2 text-sm font-semibold border-2 md:text-base md:px-12 border-main-500 bg-main-400 text-main-100 "> Play Now </button>
                     </div>
                 </div>
             </div>
         </main>
 
         <!-- LORE -->
-        <section id="lore" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+        <section id="lore" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-main-main">
             <!-- CONTENT -->
-            <div class="flex items-center justify-center w-full px-16 text-center ">
-                <div class="w-full border-2 border-black"></div>
+            <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                <div class="w-full border-2 border-main-gold"></div>
                 <!-- TITLE -->
-                <div class="flex items-center justify-center px-8 py-1 text-2xl font-bold whitespace-nowrap w-fit lg:text-5xl font-header">
+                <div class="flex items-center justify-center px-8 py-1 text-2xl text-main-gold whitespace-nowrap w-fit lg:text-5xl font-header">
                     The Lore
                 </div>
-                <div class="w-full border-2 border-black"></div>
+                <div class="w-full border-2 border-main-gold"></div>
             </div>
             <!-- IMAGE -->
-            <div  class="flex justify-center items-center w-[90%] md:w-[75%] lg:w-[60%] h-[300px] md:h-[400px]  lg:gap-9 md:gap-6 gap-3  lg:h-[500px] ">
+            <div  class="flex justify-center items-center w-[90%] md:w-[70%] lg:w-[50%] h-fit lg:gap-9 md:gap-6 gap-3   ">
                 <!-- LEFT IMAGE -->
-                <div href="/lore" class="flex items-center justify-center w-full h-full p-2 bg-main-100 lg:p-5">
-                    IMAGE HERE 1
+                <div href="/lore" class="flex items-center justify-center w-fit h-fit bg-main-100">
+                    <img class="" src="/images/Lore1.png" alt="Lore1">
                 </div>
-                <!-- RIGHT IMAGE -->
-                <div href="/lore" class="flex items-end justify-end w-full h-full p-2 bg-main-100 lg:p-5">
-                    <a href="/lore" class="px-3 py-1 text-xs font-medium border-2 md:text-base border-main-500 bg-main-500 text-main-100 ">Read More</a>
+                <!-- LEFT IMAGE -->
+                <div href="/lore" class="flex items-end justify-end w-fit h-fit bg-main-100">
+                    <a href="/lore" class="absolute px-3 py-1 mx-10 my-12 text-xs font-medium border-2 md:text-sm border-main-500 bg-main-500 text-main-100">Read More</a>
+                    <img class="" src="/images/Lore2.png" alt="Lore2">
                 </div>
             </div>
-            <div class="flex items-center justify-center w-full px-16 text-center ">
-                <div class="w-full border-2 border-black"></div>
+            <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                <div class="w-full border-2 border-main-gold"></div>
             </div>
         </section>
 
         <!-- HEROES -->
-        <section id="heroes" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+        <section id="heroes" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-main-main">
             <!-- CENTER CONTENT -->
-            <div class="flex flex-col items-center justify-center w-full gap-3 p-2 text-center">
+            <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                <div class="w-full border-2 border-main-gold"></div>
                 <!-- TITLE -->
-                <div class="px-4 py-1 text-2xl font-bold border-b-4 border-black lg:text-5xl font-header">The Heroes</div>
+                <div class="flex items-center justify-center px-8 py-1 text-2xl text-main-gold whitespace-nowrap w-fit lg:text-5xl font-header">
+                    The Heroes
+                </div>
+                <div class="w-full border-2 border-main-gold"></div>
             </div>
             <!-- IMAGES -->
-            <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[600px] lg:h-[500px] border-2 border-black p-0 gap-0 lg:p-5 lg:gap-5">
+            <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[700px] lg:h-[500px] p-0 gap-0 lg:gap-5 text-main-gold">
                 <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full  border-[1px] border-black">Hero Image 1</div>
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full  border-[1px] border-main-gold">Hero Image 1</div>
                 </a>
                 <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-black">Hero Image 2</div>
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Hero Image 2</div>
                 </a>
                 <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-black">Hero Image 3</div>
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Hero Image 3</div>
                 </a>
                 <a href="/heroes" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-black">Hero Image 4</div>
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Hero Image 4</div>
                 </a>
+            </div>
+            <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                <div class="w-full border-2 border-main-gold"></div>
             </div>
         </section>
 
         <!-- GAMEPLAY -->
-        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full lg:min-h-screen gap-10 lg:flex-row bg-gameplay" style="background-image:url('../images/Gameplay.png'); background-size: cover">
+        <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full gap-10 lg:min-h-screen lg:flex-row bg-gameplay" style="background-image:url('../images/Gameplay.png'); background-size: cover">
             <!-- VIDEO SAMPLE -->
             <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] lg:p-0">
                 <a href="/gameplay#home" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
@@ -101,7 +109,7 @@
                 <!-- TITLE -->
                 <div class="px-4 py-1 text-2xl text-right text-main-gold lg:text-5xl font-header">The Gameplay</div>
                 <!-- DESCRIPTION -->
-                <div class="text-md font-body text-center text-white lg:text-justify">
+                <div class="text-center text-white text-md font-body lg:text-justify">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
                 </div>
             </div>
@@ -109,17 +117,17 @@
 
         <!-- MODES -->
         <section id="modes" class="flex flex-col items-center justify-center w-full lg:min-h-screen" style="background-image:url('../images/GameModes.png'); background-size: 100%; background-repeat:no-repeat">
-            <div class="flex flex-col-reverse justify-center items-center w-full h-full gap-10 px-0 ">
+            <div class="flex flex-col-reverse items-center justify-center w-full h-full gap-10 px-0 ">
                 <!-- MODES IMAGES -->
                 <div class="flex lg:flex-row items-center justify-center gap-3 md:gap-10 lg:gap-20 w-full lg:h-full lg:flex-wrap lg:pb-[240px]">
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
-                        <div class="flex items-center text-white justify-center">Mode1</div>
+                        <div class="flex items-center justify-center text-white">Mode1</div>
                     </a>
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
-                        <div class="flex items-center text-white justify-center">Mode2</div>
+                        <div class="flex items-center justify-center text-white">Mode2</div>
                     </a>
                     <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
-                        <div class="flex items-center text-white justify-center">Mode3</div>
+                        <div class="flex items-center justify-center text-white">Mode3</div>
                     </a>
                 </div>
                 <!-- CONTENT -->
@@ -132,20 +140,20 @@
                     <div class="w-full border-2 border-main-gold"></div>
                 </div>
             </div>
-            <div class="flex items-center justify-center w-full px-16 text-center ">
+            <!-- <div class="flex items-center justify-center w-full px-16 text-center ">
                 <div class="w-full border-2 border-main-gold"></div>
-            </div>
+            </div> -->
         <section>
 
         <!-- LEVELS -->
         <section id="levels" class="flex flex-col items-center justify-center w-full lg:min-h-screen" style="background-image:url('../images/Levels.png'); background-size: cover">
-            <div class="flex flex-col lg:flex-row items-center w-full justify-center min-h-screen gap-20 lg:py-0 lg:px-6">
+            <div class="flex flex-col items-center justify-center w-full min-h-screen gap-20 lg:flex-row lg:py-0 lg:px-6">
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-2xl text-main-gold lg:text-5xl font-header">The Levels</div>
                     <!-- DESCRIPTION -->
-                    <div class="text-md font-body text-white text-center lg:text-justify">
+                    <div class="text-center text-white text-md font-body lg:text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.                    </div>
                 </div>
                 <!-- LEVEL IMAGES -->
