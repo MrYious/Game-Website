@@ -79,14 +79,14 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis delectus recusandae placeat corrupti et voluptates qui natus ut nostrum nisi consequatur ea, iusto molestias minus? Corporis vitae odit sapiente ipsam fugit mollitia possimus nulla!
                 </div>
                 <div class="flex gap-4">
-                    <div class="w-16 h-16 bg-main-500">
-                    </div>
-                    <div class="w-16 h-16 bg-main-500">
-                    </div>
-                    <div class="w-16 h-16 bg-main-500">
-                    </div>
-                    <div class="w-16 h-16 bg-main-500">
-                    </div>
+                    <button class="w-16 h-16 bg-main-500">
+                    </button>
+                    <button class="w-16 h-16 bg-main-500">
+                    </button>
+                    <button class="w-16 h-16 bg-main-500">
+                    </button>
+                    <button class="w-16 h-16 bg-main-500">
+                    </button>
                 </div>
             </div>
         </div>
