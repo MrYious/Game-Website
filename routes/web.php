@@ -55,4 +55,4 @@ Route::get('/register',[AuthController::class,'register']);
 Route::post('/registeruser',[AuthController::class,'registeruser'])->name ('registeruser');
 Route::post('/loginuser',[AuthController::class,'loginuser'])->name ('loginuser');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
-Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
+Route::get('/landing', [AuthController::class, 'landing'])->name('landing');

@@ -35,7 +35,11 @@
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> Whitepaper </a>
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> Marketplace </a>
         <a href="/" class="w-full px-3 py-3 hover:bg-main-300"> About us </a>
-        <a href="/login" class="w-full px-3 py-3 font-semibold text-white bg-main-500"> SIGN IN </a>
+        @if (Auth::guest())
+            <a href="/login" class="w-full px-3 py-3 font-semibold text-white bg-main-500"> SIGN IN </a>
+        @else
+            <a href="/logout" class="w-full px-3 py-3 font-semibold text-white bg-main-500"> LOGOUT </a>
+        @endif
     </div>
 
     <!-- DESKTOP -->
@@ -55,6 +59,10 @@
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-white hover:bg-main-mainl "> Whitepaper </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-white hover:bg-main-mainl "> Marketplace </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-white hover:bg-main-mainl "> About us </a>
-        <a href="/login" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-main-400 to-main-500 border-y-4 shadow-main-500"> SIGN IN </a>
+        @if (Auth::guest())
+            <a href="/login" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-main-400 to-main-500 border-y-4 shadow-main-500"> SIGN IN </a>
+        @else
+            <a href="/logout" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-main-400 to-main-500 border-y-4 shadow-main-500"> LOGOUT </a>
+        @endif
     </div>
 </nav>
