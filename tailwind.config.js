@@ -17,8 +17,8 @@ module.exports = {
           'gold': '#B79C3D',
           'main': '#0B1516',
           'footer': '#000200',
+          'mainl': '#1a3336',
         },
-
       },
       fontFamily: {
         'title': [
