@@ -18,6 +18,17 @@
         <main id="home" class="flex flex-col w-full min-h-screen bg-main-main">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
+            <!-- Logged in Alert -->
+            @if (Auth::user())
+            <div class="flex flex-wrap justify-center">
+                <div class="flex flex-row justify-between bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative w-1/6" role="alert">
+                    <span class="flex w-fit"> You are logged in! </span>
+                    <strong class="flex justify-between cursor-pointer alert-del">
+                        &times;
+                    </strong>
+                </div>
+            </div>
+            @endif
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center min-h-[89vh] w-full md:min-h-[90vh] ">
                 <div class="flex flex-col p-5 w-5/6 gap-2 z-[1] text-center md:w-3/6 lg:gap-5 lg:w-3/6 -mb-[30%] md:m-0 md:-ml-[30%]">
@@ -191,6 +202,16 @@
                     btn_top.style.display = "none";
                 }
             }
+
+            // X button on successful login/logout
+
+                var alert_del = document.querySelectorAll(".alert-del");
+
+                alert_del.forEach((x) => {
+                    x.addEventListener('click', () => 
+                        x.parentElement.classList.add('hidden')
+                    );
+                });
         </script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @livewireScripts
