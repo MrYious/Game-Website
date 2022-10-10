@@ -21,7 +21,7 @@
             <!-- Logged in Alert -->
             @if (Auth::user())
             <div class="flex flex-wrap justify-center">
-                <div class="flex flex-row justify-between bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative w-1/6" role="alert">
+                <div class="relative flex flex-row justify-between w-1/6 px-4 py-3 text-green-700 bg-green-100 border border-green-400 rounded" role="alert">
                     <span class="flex w-fit"> You are logged in! </span>
                     <strong class="flex justify-between cursor-pointer alert-del">
                         &times;
@@ -54,15 +54,18 @@
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
             <!-- IMAGE -->
-            <div  class="flex justify-center items-center w-[90%] md:w-[70%] lg:w-[50%] h-fit lg:gap-9 md:gap-6 gap-3   ">
+            <div  class="flex justify-center items-center w-[90%] md:w-[70%] lg:w-[90%] h-fit lg:gap-9 md:gap-6 gap-3   ">
                 <!-- LEFT IMAGE -->
-                <div href="/lore" class="flex items-center justify-center w-fit h-fit bg-main-100">
-                    <img class="" src="/images/Lore1.png" alt="Lore1">
+                <div class="flex items-center justify-center w-[80%] lg:w-[30%] ">
+                    <img class="w-full h-full" src="/images/Lore1.png" alt="Lore1">
                 </div>
-                <!-- LEFT IMAGE -->
-                <div href="/lore" class="flex items-end justify-end w-fit h-fit bg-main-100">
+                <!-- RIGHT IMAGE -->
+                <div class="flex items-end justify-end w-[80%] lg:w-[30%] ">
+                    <!-- <div class="absolute flex flex-col -translate-x-1/2 -translate-y-1/2 bg-red-100 w-fit top-1/2 left-1/2 ">
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ea.</div>
+                    </div> -->
                     <a href="/lore" class="absolute px-3 py-1 mx-10 my-12 text-xs font-medium border-2 md:text-sm border-main-500 bg-main-500 text-main-100">Read More</a>
-                    <img class="" src="/images/Lore2.png" alt="Lore2">
+                    <img class="w-full h-full" src="/images/Lore2.png" alt="Lore2">
                 </div>
             </div>
             <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
@@ -144,7 +147,7 @@
                         </a>
                     </div>
                     <!-- CONTENT -->
-                    <div class="flex items-center justify-center w-full text-center px-10 lg:px-16 ">
+                    <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
                         <div class="w-full border-2 border-main-gold"></div>
                             <!-- TITLE -->
                             <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
@@ -208,7 +211,7 @@
                 var alert_del = document.querySelectorAll(".alert-del");
 
                 alert_del.forEach((x) => {
-                    x.addEventListener('click', () => 
+                    x.addEventListener('click', () =>
                         x.parentElement.classList.add('hidden')
                     );
                 });
