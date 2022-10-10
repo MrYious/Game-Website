@@ -9,10 +9,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     </head>
     <body class="bg-[#1B3131]">
         <livewire:navbar />
-    <section class="flex flex-col items-center justify-center w-full h-screen">
+    <section class="flex flex-row items-center justify-center w-full h-screen">
+        <div class="pt-60 pr-20 flex flex-row items-center justify-center">
+            <img class="w-[150px] h-[150px]" src="/images/sprite1.png" alt="Ezra">
+            <img class="w-[150px] h-[150px]" src="/images/sprite2.png" alt="Signe">
+        </div>
         <div class="flex flex-col items-center justify-center w-1/3 pt-6 bg-[#091010] rounded-lg h-fit">
             <div class="flex flex-col items-center justify-center gap-1 p-2 text-4xl tracking-tight">
             <div class="text-[30px] text-white font-title font-bold pt-1">
@@ -22,7 +27,7 @@
             <form action="loginuser" method="POST" class="flex flex-col w-full p-6 rounded-lg h-fit">
                 @csrf
                 @if (session('message'))
-                    <div class="w-full p-2 text-sm text-center rounded-full bg-slate-300">
+                    <div class="w-full p-2 text-sm text-center rounded-full bg-red-300">
                     {{ session('message') }}
                     </div>
                 @endif
@@ -56,6 +61,10 @@
                 </div>
             </form>
             </div>
+        </div>
+        <div class="pt-60 pl-20 flex flex-wrap  items-justify-center">
+            <img class="w-[150px] h-[150px]" src="/images/sprite3.png" alt="Lancet">
+            <img class="w-[150px] h-[150px]" src="/images/sprite4.png" alt="Giannis">
         </div>
     </section>
         <script>
