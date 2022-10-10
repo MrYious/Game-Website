@@ -46,8 +46,20 @@ Route::get('/levels', function () {
     return view('levels');
 });
 
-Route::get('/heroes', function () {
-    return view('heroes');
+Route::get('/heroes/hero1', function () {
+    return view('hero1');
+});
+
+Route::get('/heroes/hero2', function () {
+    return view('hero2');
+});
+
+Route::get('/heroes/hero3', function () {
+    return view('hero3');
+});
+
+Route::get('/heroes/hero4', function () {
+    return view('hero4');
 });
 
 Route::get('/login',[AuthController::class,'login']);

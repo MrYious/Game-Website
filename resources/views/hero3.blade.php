@@ -28,7 +28,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col  items-start justify-center w-[100%] md:w-[60%] -mb-32 lg:m-0 lg:w-[50%] gap-1 p-10 bg-main-100">
                     <!-- NAME -->
-                    <div class="text-2xl font-semibold text-left lg:text-4xl">LANCET</div>
+                    <div class="text-2xl font-semibold text-left lg:text-4xl">LANCET 3</div>
                     <!-- ROLE -->
                     <div class="text-xl font-medium text-left lg:text-2xl">TANK</div>
                     <!-- DESCRIPTION -->
