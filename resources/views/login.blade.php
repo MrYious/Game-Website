@@ -10,12 +10,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metamorphous&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="bg-[#1B3131]">
         <livewire:navbar />
-    <section class="flex flex-col items-center justify-center w-full h-screen bg-white">
-        <div class="flex flex-col items-center justify-center w-1/3 pt-6 bg-gray-100 rounded-lg h-fit">
+    <section class="flex flex-col items-center justify-center w-full h-screen">
+        <div class="flex flex-col items-center justify-center w-1/3 pt-6 bg-[#091010] rounded-lg h-fit">
             <div class="flex flex-col items-center justify-center gap-1 p-2 text-4xl tracking-tight">
-            <div class="text-[30px] font-title font-bold pt-1">
+            <div class="text-[30px] text-white font-title font-bold pt-1">
                 Sign In
             </div>
             <!-- Login box -->
@@ -39,18 +39,18 @@
                 <!-- Stay Signed In -->
                 <div class="flex flex-row items-center justify-start pb-3 pl-3 form-check">
                     <input class="float-left w-5 h-5 mt-1 mr-2 align-top transition duration-200 bg-gray-200 bg-center bg-no-repeat bg-contain border border-gray-300 rounded-sm appearance-none cursor-pointer form-check-input checked:bg-blue-600 checked:border-blue-600 focus:outline-none" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="font-body form-check-label inline-block pt-1 text-[15px] text-gray-800" for="flexCheckDefault">
+                    <label class="font-body form-check-label inline-block pt-1 text-[15px] text-white" for="flexCheckDefault">
                         Stay Signed In
                     </label>
                 </div>
                 <!-- Log In Button -->
                 <div class="flex flex-col items-center pb-16">
-                <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-title font-bold tracking-wide text-gray-700 bg-gray-200 rounded-sm">
+                <button type="submit" class="flex flex-row justify-center w-1/2 pt-2 pb-2 text-[12px] font-title font-bold tracking-wide text-white bg-[#3F7373] rounded-sm">
                 LOG IN
                 </button>
                 </div>
                 <!-- Register Anchor -->
-                <div class="flex flex-col items-center justify-center pt-2 pb-6 text-[16px] leading-normal text-gray-700 font-header">
+                <div class="flex flex-col items-center justify-center pt-2 pb-6 text-[16px] leading-normal text-white font-header">
                     <span>CAN'T SIGN IN?</span>
                     <a href="register" class=""><strong>CREATE ACCOUNT</strong></a>
                 </div>
