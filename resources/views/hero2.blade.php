@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite('resources/css/app.css')
-        <title>ChromaHunt Heroes</title>
+        <title>Hero2 | ChromaHunt </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
@@ -28,7 +28,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col  items-start justify-center w-[100%] md:w-[60%] -mb-32 lg:m-0 lg:w-[50%] gap-1 p-10 bg-main-100">
                     <!-- NAME -->
-                    <div class="text-2xl font-semibold text-left lg:text-4xl">LANCET</div>
+                    <div class="text-2xl font-semibold text-left lg:text-4xl">LANCET 2</div>
                     <!-- ROLE -->
                     <div class="text-xl font-medium text-left lg:text-2xl">TANK</div>
                     <!-- DESCRIPTION -->
