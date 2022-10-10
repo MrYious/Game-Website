@@ -109,7 +109,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-10 p-5 lg:p-10">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl text-right text-main-gold lg:text-5xl font-header">The Gameplay</div>
+                    <div class="px-4 py-1 text-2xl text-right text-main-gold lg:text-5xl font-header">Gameplay</div>
                     <!-- DESCRIPTION -->
                     <div class="text-center text-white text-md font-body lg:text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
@@ -133,7 +133,7 @@
                         </a>
                     </div>
                     <!-- CONTENT -->
-                    <div class="flex items-center justify-center w-full text-center lg:px-16 ">
+                    <div class="flex items-center justify-center w-full text-center px-10 lg:px-16 ">
                         <div class="w-full border-2 border-main-gold"></div>
                             <!-- TITLE -->
                             <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
@@ -153,7 +153,7 @@
                     <!-- CONTENT -->
                     <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
                         <!-- TITLE -->
-                        <div class="px-4 py-1 text-2xl text-main-gold lg:text-5xl font-header">The Levels</div>
+                        <div class="px-4 py-1 text-2xl text-main-gold lg:text-5xl font-header">Levels</div>
                         <!-- DESCRIPTION -->
                         <div class="text-center text-white text-md font-body lg:text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.                    </div>
