@@ -17,66 +17,79 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <!-- NAVIGATION BAR -->
-            <livewire:navbar />
-            <!-- GAMEPLAY -->
-            <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full p-2">
-                <!-- CONTENT -->
-                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                    <div class="text-3xl font-semibold lg:text-4xl">BEGINNER'S GUIDE</div>
-                    <div class="text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+        <div class="w-full h-full bg-main-main">
+            <main id="home" class="flex flex-col w-full min-h-screen">
+                <!-- NAVIGATION BAR -->
+                <livewire:navbar />
+                <!-- GAMEPLAY -->
+                <div class="flex items-center justify-center w-full px-16 text-center ">
+                    <div class="w-full border-2 border-main-gold"></div>
+                        <!-- TITLE -->
+                        <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
+                        Gameplay
+                        </div>
+                    <div class="w-full border-2 border-main-gold"></div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full p-2">
+                    <!-- CONTENT -->
+                    <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
+                        <div class="text-2xl font-semibold lg:text-4xl text-white font-header">BEGINNER'S GUIDE</div>
+                        <div class="text-sm lg:text-base text-white font-body text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        </div>
+                        <div class="text-sm lg:text-base text-white font-body text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        </div>
                     </div>
-                    <div class="text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                    <!-- IMAGE -->
+                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white">
+                        IMAGE HERE
                     </div>
                 </div>
-                <!-- IMAGE -->
-                <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
-                    IMAGE HERE
-                </div>
-            </div>
-        </main>
+            </main>
 
-        <!-- CONTROLS -->
-        <section id="controls" class="flex items-center justify-between w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row">
-                <!-- IMAGE -->
-                <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black">
-                    IMAGE HERE
-                </div>
-                <!-- CONTENT -->
-                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 text-right">
-                    <div class="text-3xl font-semibold lg:text-4xl">CONTROLS</div>
-                    <div class="text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+            <!-- CONTROLS -->
+            <section id="controls" class="flex items-center justify-between w-full min-h-screen">
+                <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row">
+                    <!-- IMAGE -->
+                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white">
+                        IMAGE HERE
                     </div>
-                    <div class="text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                    <!-- CONTENT -->
+                    <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 text-right">
+                        <div class="text-2xl font-semibold lg:text-4xl text-white font-header">CONTROLS</div>
+                        <div class="text-sm lg:text-base text-white font-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        </div>
+                        <div class="text-sm lg:text-base text-white font-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- SKILLS -->
-        <section id="skills" class="flex items-center justify-between w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
-            <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row ">
-                <!-- CONTENT -->
-                <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                    <div class="text-3xl font-semibold lg:text-4xl">SKILLS</div>
-                    <div class="text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+            <!-- SKILLS -->
+            <section id="skills" class="flex items-center justify-between w-full min-h-screen">
+                <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row ">
+                    <!-- CONTENT -->
+                    <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
+                        <div class="text-2xl font-semibold lg:text-4xl text-white font-header">SKILLS</div>
+                        <div class="text-sm lg:text-base text-white font-body text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        </div>
+                        <div class="text-sm lg:text-base text-white font-body text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        </div>
+                    <!-- IMAGE -->
+                    </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white ">
+                        IMAGE HERE
                     </div>
-                    <div class="text-sm lg:text-base">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                    </div>
-                <!-- IMAGE -->
-                </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-black ">
-                    IMAGE HERE
                 </div>
+            </section>
+            <div class="flex items-center justify-center w-full px-16 pb-10 text-center ">
+                <div class="w-full border-2 border-main-gold"></div>
             </div>
-        </section>
+        </div>
 
         <!-- FOOTER -->
         <livewire:footer />
