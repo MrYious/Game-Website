@@ -34,6 +34,9 @@ module.exports = {
           'Karla',
           'sans-serif',
         ],
+        'form': [
+          'Roboto'
+        ]
       }
     },
   },
