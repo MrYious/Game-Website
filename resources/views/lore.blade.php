@@ -17,61 +17,31 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen bg-main-main">
+        <main id="home" class="flex flex-col w-full min-h-screen bg-main-lore">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- LORE -->
-            <div class="flex flex-col lg:flex-row items-center justify-around min-h-[90vh] w-full py-10 gap-10">
+            <div class="flex flex-col items-center justify-start w-full gap-10 py-8 lg:gap-16 h-fit lg:min-h-screen">
                 <!-- CONTENT -->
-                <div class="flex flex-col lg:w-[50%] w-[85%] p-5 gap-5 ">
-                    <div class="text-3xl lg:text-5xl text-main-gold font-header">Once Upon A Time</div>
-                    <div class="text-sm text-white lg:text-base font-body">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                    <div class="w-full border-2 border-main-400"></div>
+                    <!-- TITLE -->
+                    <div class="flex items-center justify-center px-8 py-1 text-2xl font-medium text-main-500 whitespace-nowrap w-fit lg:text-5xl font-header">
+                        The Lore
                     </div>
-                    <div class="text-sm text-white lg:text-base font-body">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                    </div>
+                    <div class="w-full border-2 border-main-400"></div>
                 </div>
-                <!-- IMAGE -->
-                <div class="flex items-center justify-center w-[80%] lg:w-[30%] ">
-                    <img class="w-full h-full" src="/images/Lore2.png" alt="Lore2">
+                <div class="flex flex-col items-center justify-center w-[80%] lg:w-[75%] gap-5 lg:gap-10">
+                    <img class="w-full h-full" src="/images/lorepage(1).png" alt="Lore">
+                    <img class="w-full h-full" src="/images/lorepage(2).png" alt="Lore">
+                    <img class="w-full h-full" src="/images/lorepage(3).png" alt="Lore">
+                    <img class="w-full h-full" src="/images/lorepage(4).png" alt="Lore">
+                </div>
+                <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                    <div class="w-full border-2 border-main-400"></div>
                 </div>
             </div>
         </main>
-
-        <section id="" class="flex flex-col-reverse items-center justify-around w-full min-h-screen gap-10 py-10 lg:flex-row bg-main-main ">
-            <!-- IMAGE -->
-            <div class="flex items-center justify-center  w-[80%] lg:w-[30%] ">
-                <img class="w-full h-full" src="/images/Lore2.png" alt="Lore2">
-            </div>
-            <!-- CONTENT -->
-            <div class="flex flex-col lg:w-[50%] w-[85%] p-5 gap-5 text-right">
-                <div class="text-3xl lg:text-4xl text-main-gold font-header">Four Heroes Gathered </div>
-                <div class="text-sm text-white lg:text-base font-body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                </div>
-                <div class="text-sm text-white lg:text-base font-body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                </div>
-            </div>
-        </section>
-
-        <section id="" class="flex flex-col items-center justify-around w-full min-h-screen p-2 lg:flex-row bg-main-main ">
-            <!-- CONTENT -->
-            <div class="flex flex-col lg:w-[50%] w-[85%] p-5 gap-5 ">
-                <div class="text-3xl lg:text-5xl font-header text-main-gold">NOW OUR HEROES EMBARK</div>
-                <div class="text-sm text-white lg:text-base font-body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                </div>
-                <div class="text-sm text-white lg:text-base font-body">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                </div>
-            </div>
-            <!-- IMAGE -->
-            <div class="flex items-center justify-center  w-[80%] lg:w-[30%] ">
-                <img class="w-full h-full" src="/images/Lore2.png" alt="Lore2">
-            </div>
-        </section>
 
         <!-- FOOTER -->
         <livewire:footer />

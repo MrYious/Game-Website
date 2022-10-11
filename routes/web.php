@@ -46,19 +46,19 @@ Route::get('/levels', function () {
     return view('levels');
 });
 
-Route::get('/heroes/hero1', function () {
+Route::get('/heroes/lancet', function () {
     return view('hero1');
 });
 
-Route::get('/heroes/hero2', function () {
+Route::get('/heroes/signe', function () {
     return view('hero2');
 });
 
-Route::get('/heroes/hero3', function () {
+Route::get('/heroes/giannis', function () {
     return view('hero3');
 });
 
-Route::get('/heroes/hero4', function () {
+Route::get('/heroes/ezra', function () {
     return view('hero4');
 });
 

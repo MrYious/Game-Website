@@ -75,7 +75,7 @@
 
         <!-- HEROES -->
         <section id="heroes" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-main-main">
-            <!-- CENTER CONTENT -->
+            <!-- CONTENT -->
             <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
                 <div class="w-full border-2 border-main-gold"></div>
                 <!-- TITLE -->
@@ -86,17 +86,17 @@
             </div>
             <!-- IMAGES -->
             <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[700px] lg:h-[500px] p-0 gap-0 lg:gap-5 text-main-gold">
-                <a href="/heroes/hero1" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full  border-[1px] border-main-gold">Hero Image 1</div>
+                <a href="/heroes/lancet" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full  border-[1px] border-main-gold">Lancet Image</div>
                 </a>
-                <a href="/heroes/hero2" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Hero Image 2</div>
+                <a href="/heroes/signe" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Signe Image</div>
                 </a>
-                <a href="/heroes/hero3" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Hero Image 3</div>
+                <a href="/heroes/giannis" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Giannis Image</div>
                 </a>
-                <a href="/heroes/hero4" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Hero Image 4</div>
+                <a href="/heroes/ezra" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
+                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Ezra Image</div>
                 </a>
             </div>
             <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
