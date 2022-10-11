@@ -75,7 +75,7 @@
                             </div>
                             <div class="relative float-left w-full carousel-item">
                             <img
-                            src="images/level2.png"
+                                src="images/level2.png"
                                 class="block w-full"
                                 alt="..."
                             />
@@ -84,13 +84,14 @@
                             </div>
                             </div>
                             <div class="relative float-left w-full carousel-item">
+                                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-50"></div>
                             <img
                                 src="images/level3.png"
                                 class="block w-full"
                                 alt="..."
                             />
                             <div class="absolute text-center carousel-caption sm:block">
-                                <h5 class="lg:text-xl font-title mb-6">Level 3 - Finale</h5>
+                                <h5 class="lg:text-xl font-title mb-6">Level 3 - Coming soon</h5>
                             </div>
                             </div>
                         </div>
