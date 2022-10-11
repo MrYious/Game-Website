@@ -60,9 +60,9 @@
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-white hover:bg-main-mainl "> Marketplace </a>
         <a href="/" class="flex items-center p-3 border-transparent rounded-sm border-y-4 hover:border-b-white hover:bg-main-mainl "> About us </a>
         @if (Auth::guest())
-            <a href="/login" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-main-400 to-main-500 border-y-4 shadow-main-500"> SIGN IN </a>
+            <a href="/login" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-green-600 to-main-400 border-y-4 shadow-main-500"> SIGN IN </a>
         @else
-            <a href="/logout" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-main-400 to-main-500 border-y-4 shadow-main-500"> LOGOUT </a>
+            <a href="/logout" class="flex items-center px-3 py-2 font-semibold text-white border-transparent rounded-md shadow-md bg-gradient-to-r from-green-600 to-main-gold border-y-4 shadow-main-500"> LOGOUT </a>
         @endif
     </div>
 </nav>

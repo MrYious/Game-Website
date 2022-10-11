@@ -27,7 +27,7 @@
             <form action="registeruser" method="POST"class="flex flex-col w-full rounded-lg h-fit">
                 @csrf
                 @if (session('message'))
-                    <div class="w-full p-2 text-sm text-center rounded-full bg-slate-300">
+                    <div class="w-full p-2 text-sm text-center rounded-full bg-red-300">
                     {{ session('message') }}
                     </div>
                 @endif
