@@ -39,80 +39,80 @@
                     </div>
                 </div>
                 <!-- CAROUSEL -->
-                <div id="carouselExampleCaptions" class="relative w-full lg:w-[70%] h-full carousel slide" data-bs-ride="carousel">
-                    <div class="absolute bottom-0 left-0 right-0 flex justify-center p-0 mb-4 carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
+                 <div id="carouselExampleCaptions" class="relative w-full lg:w-[70%] h-full carousel slide" data-bs-ride="carousel">
+                        <div class="absolute bottom-0 left-0 right-0 flex justify-center p-0 mb-4 carousel-indicators">
                             <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                                <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                        <div class="w-full h-full overflow-hidden carousel">
+                            <div class="float-left w-full h-full carousel-item active">
+                            <img
+                                src="images/level1.png"
+                                class="block w-full h-full"
+                                alt="..."
+                            />
+                            <div class="absolute text-center carousel-caption sm:block">
+                                <h5 class="lg:text-xl font-title mb-6">Level 1 - Dull Woods</h5>
+                            </div>
+                            </div>
+                            <div class="relative float-left w-full carousel-item">
+                            <img
+                            src="images/level2.png"
+                                class="block w-full"
+                                alt="..."
+                            />
+                            <div class="absolute text-center carousel-caption sm:block">
+                                <h5 class="lg:text-xl font-title mb-6">Level 2 - Dungeons</h5>
+                            </div>
+                            </div>
+                            <div class="relative float-left w-full carousel-item">
+                            <img
+                                src="images/level3.png"
+                                class="block w-full"
+                                alt="..."
+                            />
+                            <div class="absolute text-center carousel-caption sm:block">
+                                <h5 class="lg:text-xl font-title mb-6">Level 3 - Finale</h5>
+                            </div>
+                            </div>
+                        </div>
                         <button
+                            class="absolute top-0 bottom-0 left-0 flex items-center justify-center p-0 text-center border-0 carousel-control-prev hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
                             type="button"
                             data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
-                    </div>
-                    <div class="w-full h-full overflow-hidden carousel">
-                        <div class="float-left w-full h-full carousel-item active">
-                        <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                            class="block w-full h-full"
-                            alt="..."
-                        />
-                        <div class="absolute text-center carousel-caption sm:block">
-                            <h5 class="lg:text-xl font-title">Level 1 - Dull Woods</h5>
-                        </div>
-                        </div>
-                        <div class="relative float-left w-full carousel-item">
-                        <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-                            class="block w-full"
-                            alt="..."
-                        />
-                        <div class="absolute text-center carousel-caption sm:block">
-                            <h5 class="lg:text-xl font-title">Level 2</h5>
-                        </div>
-                        </div>
-                        <div class="relative float-left w-full carousel-item">
-                        <img
-                            src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-                            class="block w-full"
-                            alt="..."
-                        />
-                        <div class="absolute text-center carousel-caption sm:block">
-                            <h5 class="lg:text-xl font-title">Level 3</h5>
-                        </div>
-                        </div>
-                    </div>
-                    <button
-                        class="absolute top-0 bottom-0 left-0 flex items-center justify-center p-0 text-center border-0 carousel-control-prev hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev"
-                    >
-                        <span class="inline-block bg-no-repeat carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="absolute top-0 bottom-0 right-0 flex items-center justify-center p-0 text-center border-0 carousel-control-next hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next"
-                    >
-                        <span class="inline-block bg-no-repeat carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+                            data-bs-slide="prev"
+                        >
+                            <span class="inline-block bg-no-repeat carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="absolute top-0 bottom-0 right-0 flex items-center justify-center p-0 text-center border-0 carousel-control-next hover:outline-none hover:no-underline focus:outline-none focus:no-underline"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next"
+                        >
+                            <span class="inline-block bg-no-repeat carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>   
             </main>
             <div class="flex items-center justify-center w-full px-16 pb-10 text-center ">
                 <div class="w-full border-2 border-main-gold"></div>
