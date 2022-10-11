@@ -17,7 +17,7 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <div class="w-full h-full bg-main-main">
+        <div class="w-full h-full bg-main-main" style="background-image:url('../images/Gameplay inner1.png'); background-size: cover">
             <main id="home" class="flex flex-col w-full min-h-screen">
                 <!-- NAVIGATION BAR -->
                 <livewire:navbar />
@@ -33,12 +33,9 @@
                 <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full p-2">
                     <!-- CONTENT -->
                     <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                        <div class="text-2xl font-semibold lg:text-4xl text-white font-header">BEGINNER'S GUIDE</div>
+                        <div class="text-2xl lg:text-4xl text-main-gold font-header">Character Progression</div>
                         <div class="text-sm lg:text-base text-white font-body text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                        </div>
-                        <div class="text-sm lg:text-base text-white font-body text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        Each character will gain experience points from every stage cleared and as the players level up they will gain affinity points that can be used to upgrade skills. Once a character reaches a certain level, they can select a new Job Tier (i.e, Knight -> Holy Knight). Once selected a path, the player must do a prerequisite quest to advance to the new Job. 
                         </div>
                     </div>
                     <!-- IMAGE -->
@@ -57,12 +54,13 @@
                     </div>
                     <!-- CONTENT -->
                     <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 text-right">
-                        <div class="text-2xl font-semibold lg:text-4xl text-white font-header">CONTROLS</div>
+                        <div class="text-2xl lg:text-4xl text-main-gold font-header">Dungeon Rewards</div>
                         <div class="text-sm lg:text-base text-white font-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                        </div>
-                        <div class="text-sm lg:text-base text-white font-body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        Each Dungeon will have X number of stages. Each stage will be composed of basic level mobs to elite level mobs. The monsters become stronger as the floors go higher. The last stage in every dungeon will be a Boss Stage.
+                        <br><br>
+                        Exp points are gained equally for all players every stage finished/cleared. Every stage has a chance to drop gem shards, while the Boss stage will have a higher chance to drop Chroma Gems (Chroma Gem Remnant) with additional stats that can be slotted to boost characters.
+                        <br><br>
+                        The Chroma Gem Remnant is different per character class, and per boss. (i.e, Goblin King will drop Red Chroma Gem Remnant, which can be used by Rogue Class).
                         </div>
                     </div>
                 </div>
@@ -73,12 +71,17 @@
                 <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row ">
                     <!-- CONTENT -->
                     <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                        <div class="text-2xl font-semibold lg:text-4xl text-white font-header">SKILLS</div>
+                        <div class="text-2xl lg:text-4xl text-main-gold font-header">Controls</div>
                         <div class="text-sm lg:text-base text-white font-body text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
-                        </div>
-                        <div class="text-sm lg:text-base text-white font-body text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus nihil quas fugit nostrum voluptas sit laboriosam, alias quod eos recusandae, aspernatur necessitatibus assumenda laborum, sequi at.
+                        Players can press:
+                        <br>
+                        <br>
+                        Up arrow key to jump <br>
+                        Down arrow key to descend a platform <br>
+                        Left and Right arrow keys to move forwards or backwards <br>
+                        Attack – Space Bar <br>
+                        Basic Skill – E <br>
+                        Special Skill - Q 
                         </div>
                     <!-- IMAGE -->
                     </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white ">
