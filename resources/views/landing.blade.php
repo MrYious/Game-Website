@@ -105,7 +105,7 @@
         </section>
 
         <!-- BACKGROUND -->
-        <div style="background-image:url('../images/Gameplay-levels bg.png'); background-size: cover">
+        <div style="background-image:url('../images/Gameplay-levels-full-bg.png'); background-size: cover">
             <!-- GAMEPLAY -->
             <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full gap-10 lg:min-h-screen lg:flex-row">
                 <!-- VIDEO SAMPLE -->
@@ -136,8 +136,7 @@
                 <div class="flex flex-col-reverse items-center justify-center w-full h-full gap-10 py-32">
                     <!-- MODES IMAGES -->
                     <div class="flex flex-wrap items-center justify-center w-full gap-3 lg:flex-row md:gap-10 lg:gap-20">
-                        <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
-                            <div class="flex items-center justify-center text-white">Mode1</div>
+                        <a href="/gamemode" class="flex items-start justify-center px-20 py-20 lg:px-40 lg:py-40" style="background-image:url('../images/gmodes_coop.png'); background-size: cover">
                         </a>
                         <a href="/gamemode" class="flex items-start justify-center px-20 py-20 border-2 border-white lg:px-40 lg:py-40">
                             <div class="flex items-center justify-center text-white">Mode2</div>
@@ -175,13 +174,13 @@
                     <!-- LEVEL IMAGES -->
                     <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[80%] lg:h-[600px]">
                         <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                            <div class="flex items-center justify-center m-1 lg:-mb-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-white z-4">Level1</div>
+                            <div class="flex items-center justify-center m-1 lg:-mb-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-main-gold z-4" style="background-image:url('../images/level1BG.png'); background-size: cover"></div>
                         </a>
                         <a href="/levels" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
-                            <div class="flex items-center justify-center m-1 lg:ml-28 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-white z-5">Level2</div>
+                            <div class="flex items-center justify-center m-1 lg:ml-28 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-main-gold z-5" style="background-image:url('../images/level2BG.png'); background-size: cover"></div>
                         </a>
                         <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                            <div class="flex items-center justify-center mt-20 lg:-mt-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-white z-6">Level3</div>
+                            <div class="flex items-center justify-center mt-20 lg:-mt-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-main-gold z-6" style="background-image:url('../images/level3BG.png'); background-size: cover"></div>
                         </a>
                     </div>
                 </div>

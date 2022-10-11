@@ -33,13 +33,12 @@
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
             <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row ">
-                <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-white text-white ">
-                    4-player Co-op
+                <div class="flex justify-center items-center w-[490px] lg:w-[33.33%] h-[490px]" style="background-image:url('../images/gmodes_coop.png'); background-size: cover">
                 </div>
-                <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-white text-white">
+                <div class="flex justify-center items-center w-[490px] h-[250px] lg:w-[33.33%] lg:h-[490px] border-2 border-white text-white">
                     Story mode
                 </div>
-                <div class="flex justify-center items-center w-[450px] h-[250px] lg:w-[33.33%] lg:h-[380px] border-2 border-white text-white">
+                <div class="flex justify-center items-center w-[490px] h-[250px] lg:w-[33.33%] lg:h-[490px] border-2 border-white text-white">
                     Battle Royale
                 </div>
             </div>
