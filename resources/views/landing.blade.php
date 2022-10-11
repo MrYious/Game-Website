@@ -75,7 +75,7 @@
 
         <!-- HEROES -->
         <section id="heroes" class="flex flex-col items-center justify-start w-full gap-8 py-8 h-fit lg:min-h-screen bg-main-main">
-            <!-- CENTER CONTENT -->
+            <!-- CONTENT -->
             <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
                 <div class="w-full border-2 border-main-gold"></div>
                 <!-- TITLE -->
