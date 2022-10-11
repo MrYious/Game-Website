@@ -35,11 +35,7 @@
             <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row ">
                 <div class="flex justify-center items-center w-[490px] lg:w-[33.33%] h-[490px]" style="background-image:url('../images/gmodes_coop.png'); background-size: cover">
                 </div>
-                <div class="flex justify-center items-center w-[490px] h-[250px] lg:w-[33.33%] lg:h-[490px] border-2 border-white text-white">
-                    Story mode
-                </div>
-                <div class="flex justify-center items-center w-[490px] h-[250px] lg:w-[33.33%] lg:h-[490px] border-2 border-white text-white">
-                    Battle Royale
+                <div class="flex justify-center items-center w-[490px] lg:w-[33.33%] h-[490px]" style="background-image:url('../images/gmode_story.png'); background-size: cover">
                 </div>
             </div>
             <!-- STEPPER -->
@@ -63,18 +59,6 @@
                     </div>
                     <div class="stepper-content">
                         <div class="text-xl font-bold lg:text-4xl font-header text-white px-10">Story Mode</div>
-                        <div class="text-xs lg:text-xl font-body text-white text-justify px-10">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
-                        </div>
-                    </div>
-                </li>
-                <li class="stepper-step">
-                    <div class="stepper-head">
-                        <span class="stepper-head-icon"> 3 </span>
-                        <span class="stepper-head-text font-title text-white"> Battle Royale </span>
-                    </div>
-                    <div class="stepper-content">
-                        <div class="text-xl font-bold lg:text-4xl font-header text-white px-10">Battle Royale</div>
                         <div class="text-xs lg:text-xl font-body text-white text-justify px-10">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
                         </div>
