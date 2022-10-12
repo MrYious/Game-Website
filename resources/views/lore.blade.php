@@ -19,7 +19,9 @@
         <!-- HOME -->
         <main id="home" class="flex flex-col w-full min-h-screen bg-main-lore">
             <!-- NAVIGATION BAR -->
-            <livewire:navbar />
+            <div class=" bg-main-lore-nav">
+                <livewire:navbar />
+            </div>
             <!-- LORE -->
             <div class="flex flex-col items-center justify-start w-full gap-10 py-8 lg:gap-16 h-fit lg:min-h-screen">
                 <!-- CONTENT -->
