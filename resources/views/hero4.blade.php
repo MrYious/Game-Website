@@ -20,13 +20,13 @@
         <!-- SCROLL TO TOP BUTTON -->
         <livewire:scroll-top />
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen bg-gradient-to-r from-main-200 to-main-300">
+        <main id="home" class="flex flex-col w-full min-h-screen bg-[#1B3131]">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- HERO SECTION -->
             <div class="flex items-center justify-center lg:justify-start min-h-[89vh] w-full md:min-h-[90vh] lg:px-56 ">
                 <!-- CONTENT -->
-                <div class="flex flex-col  items-start justify-center w-[100%] md:w-[60%] -mb-32 lg:m-0 lg:w-[50%] gap-1 p-10 bg-main-100">
+                <div class="flex flex-col  items-start justify-center w-[100%] md:w-[60%] -mb-32 lg:m-0 lg:w-[50%] gap-1 p-10 bg-[#091010] text-white">
                     <!-- NAME -->
                     <div class="text-2xl font-semibold text-left lg:text-5xl font-header">EZRA</div>
                     <!-- ROLE -->
