@@ -15,7 +15,7 @@
         <livewire:scroll-top />
 
         <!-- HOME -->
-        <main id="home" class="flex flex-col w-full min-h-screen bg-main-main">
+        <main id="home" class="flex flex-col w-full min-h-screen" style="background-image:url('../images/herobanner.png'); background-size: cover">
             <!-- NAVIGATION BAR -->
             <livewire:navbar />
             <!-- Logged in Alert -->
