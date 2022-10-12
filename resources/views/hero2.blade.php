@@ -34,49 +34,46 @@
                     <!-- DESCRIPTION -->
                     <div class="flex flex-col gap-1 py-2 text-sm font-semibold text-justify font-body">
                         <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
-                        </div>
-                        <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                            Being brought up by assassins, Signe was destined to be an assassin. She was carrying out assassination missions for the Queen in secret, but following the fall of the Queen's empire, her identity was revealed, leaving her with no choice but to flee as she was being mobbed by the public and sentenced to death. In her exile, she has found her way to the kingdom of Akromos. Since then, she has been executing orders in exchange for money.
                         </div>
                     </div>
                 </div>
             </div>
         </main>
         <!-- STATS SECTION -->
-        <div class="flex flex-col lg:flex-row items-center lg:items-start justify-center min-h-[60vh] w-full gap-10 py-10  bg-gradient-to-r from-main-300 to-main-400">
+        <div class="flex flex-col lg:flex-row items-center lg:items-start justify-center min-h-[60vh] w-full gap-10 py-10  bg-[#1B3131]">
             <!-- LEFT -->
-            <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[30%] gap-1 p-10 bg-main-200">
+            <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[30%] gap-1 p-10 bg-[#091010] text-white">
                 <div class="text-2xl font-semibold text-left lg:text-4xl font-header">Stats</div>
                 <div class="flex flex-col w-full gap-3 py-2 text-sm font-semibold text-justify text-body">
                     <div class="flex items-center gap-10 ">
                         <div>Lorem</div>
-                        <div class="w-full h-3 rounded-full bg-main-100">
-                            <div class="w-1/2 h-full rounded-full bg-main-500"></div>
+                        <div class="w-full h-3 rounded-full bg-main-400">
+                            <div class="w-1/2 h-full bg-white rounded-full"></div>
                         </div>
                     </div>
                     <div class="flex items-center gap-10 ">
                         <div>Lorem</div>
-                        <div class="w-full h-3 rounded-full bg-main-100">
-                            <div class="w-5/6 h-full rounded-full bg-main-500"></div>
+                        <div class="w-full h-3 rounded-full bg-main-400">
+                            <div class="w-5/6 h-full bg-white rounded-full"></div>
                         </div>
                     </div>
                     <div class="flex items-center gap-10 ">
                         <div>Lorem</div>
-                        <div class="w-full h-3 rounded-full bg-main-100">
-                            <div class="w-2/3 h-full rounded-full bg-main-500"></div>
+                        <div class="w-full h-3 rounded-full bg-main-400">
+                            <div class="w-2/3 h-full bg-white rounded-full"></div>
                         </div>
                     </div>
                     <div class="flex items-center gap-10 ">
                         <div>Lorem</div>
-                        <div class="w-full h-3 rounded-full bg-main-100">
-                            <div class="w-1/6 h-full rounded-full bg-main-500"></div>
+                        <div class="w-full h-3 rounded-full bg-main-400">
+                            <div class="w-1/6 h-full bg-white rounded-full"></div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- RIGHT -->
-            <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[35%] gap-4 p-10 bg-main-200">
+            <div class="flex flex-col items-start justify-center w-[80%] md:w-[60%] lg:w-[35%] gap-4 p-10 bg-[#091010] text-white">
                 <div class="text-2xl font-semibold text-left lg:text-4xl font-header">
                     Abilities
                 </div>
@@ -87,17 +84,18 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis delectus recusandae placeat corrupti et voluptates qui natus ut nostrum nisi consequatur ea, iusto molestias minus? Corporis vitae odit sapiente ipsam fugit mollitia possimus nulla!
                 </div>
                 <div class="flex gap-4">
-                    <button class="w-16 h-16 rounded-md bg-main-500 hover:shadow-md hover:shadow-black">
+                    <button class="w-16 h-16 rounded-md bg-main-100 hover:shadow-sm hover:shadow-white">
                     </button>
-                    <button class="w-16 h-16 rounded-md bg-main-500 hover:shadow-md hover:shadow-black">
+                    <button class="w-16 h-16 rounded-md bg-main-100 hover:shadow-sm hover:shadow-white">
                     </button>
-                    <button class="w-16 h-16 rounded-md bg-main-500 hover:shadow-md hover:shadow-black">
+                    <button class="w-16 h-16 rounded-md bg-main-100 hover:shadow-sm hover:shadow-white">
                     </button>
-                    <button class="w-16 h-16 rounded-md bg-main-500 hover:shadow-md hover:shadow-black">
+                    <button class="w-16 h-16 rounded-md bg-main-100 hover:shadow-sm hover:shadow-white">
                     </button>
                 </div>
             </div>
         </div>
+
 
 
         <livewire:footer />
