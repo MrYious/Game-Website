@@ -86,17 +86,17 @@
             </div>
             <!-- IMAGES -->
             <div class="flex flex-wrap justify-center items-center lg:flex-nowrap w-[90%] lg:w-[80%] h-[700px] lg:h-[500px] p-0 gap-0 lg:gap-5 text-main-gold">
-                <a href="/heroes/lancet" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full  border-[1px] border-main-gold">Lancet Image</div>
+                <a href="/heroes/lancet" class="flex items-center w-1/2 lg:w-1/4">
+                    <img class="w-full h-full" src="/images/char_lancet.png" alt="Character Image">
                 </a>
-                <a href="/heroes/signe" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Signe Image</div>
+                <a href="/heroes/signe" class="flex items-center w-1/2 lg:w-1/4">
+                    <img class="w-full h-full" src="/images/char_signe.png" alt="Character Image">
                 </a>
-                <a href="/heroes/giannis" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Giannis Image</div>
+                <a href="/heroes/giannis" class="flex items-center w-1/2 lg:w-1/4 ">
+                    <img class="w-full h-full" src="/images/char_giannis.png" alt="Character Image">
                 </a>
-                <a href="/heroes/ezra" class="flex items-center w-1/2 h-1/2 lg:h-full lg:w-1/4 ">
-                    <div class="flex cursor-pointer items-center justify-center w-[100%] h-full border-[1px] border-main-gold">Ezra Image</div>
+                <a href="/heroes/ezra" class="flex items-center w-1/2 lg:w-1/4 ">
+                    <img class="w-full h-full" src="/images/char_ezra.png" alt="Character Image">
                 </a>
             </div>
             <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">

@@ -19,6 +19,7 @@ module.exports = {
           'footer': '#000200',
           'mainl': '#1a3336',
           'lore' : '#B9AA91',
+          'lore-nav': '#5e5648'
         },
       },
       fontFamily: {
