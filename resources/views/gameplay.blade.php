@@ -39,18 +39,16 @@
                         </div>
                     </div>
                     <!-- IMAGE -->
-                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white">
-                        IMAGE HERE
+                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[620px]" style="background-image:url('../images/gp_playprog.png'); background-size: cover">
                     </div>
                 </div>
             </main>
 
-            <!-- CONTROLS -->
-            <section id="controls" class="flex items-center justify-between w-full min-h-screen">
+            <!-- REWARDS -->
+            <section id="rewards" class="flex items-center justify-between w-full min-h-screen">
                 <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row">
                     <!-- IMAGE -->
-                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white">
-                        IMAGE HERE
+                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[620px] " style="background-image:url('../images/gp_dungeonreward.png'); background-size: cover">
                     </div>
                     <!-- CONTENT -->
                     <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 text-right">
@@ -66,8 +64,8 @@
                 </div>
             </section>
 
-            <!-- SKILLS -->
-            <section id="skills" class="flex items-center justify-between w-full min-h-screen">
+            <!-- CONTROLS -->
+            <section id="controls" class="flex items-center justify-between w-full min-h-screen">
                 <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row ">
                     <!-- CONTENT -->
                     <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
@@ -84,8 +82,7 @@
                         Special Skill - Q 
                         </div>
                     <!-- IMAGE -->
-                    </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[500px] border-2 border-white text-white ">
-                        IMAGE HERE
+                    </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[620px] border-4 border-main-gold" style="background-image:url('../images/gp_controls.png'); background-size: cover">
                     </div>
                 </div>
             </section>

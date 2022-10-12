@@ -111,13 +111,13 @@
                 <!-- VIDEO SAMPLE -->
                 <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] lg:p-0">
                     <a href="/gameplay#home" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                        <div class="flex items-center justify-center m-1 lg:-mb-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-white z-4">Gameplay sample 1</div>
+                        <div class="flex items-center justify-center m-1 lg:-mb-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[260px] z-30" style="background-image:url('../images/gp_playprog.png'); background-size: cover"></div>
                     </a>
-                    <a href="/gameplay#controls" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
-                        <div class="flex items-center justify-center m-1 lg:ml-52 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-white z-5">Gameplay sample 2</div>
+                    <a href="/gameplay#rewards" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
+                        <div class="flex items-center justify-center m-1 lg:ml-52 w-[250px] lg:w-[350px] h-[200px] lg:h-[260px] z-20" style="background-image:url('../images/gp_dungeonreward.png'); background-size: cover"></div>
                     </a>
-                    <a href="/gameplay#skills" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                        <div class="flex items-center justify-center mt-20 lg:-mt-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] text-white border-2 border-white z-6">Gameplay sample 3</div>
+                    <a href="/gameplay#controls" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
+                        <div class="flex items-center justify-center mt-20 lg:-mt-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[260px] z-10 border-4 border-main-gold" style="background-image:url('../images/gp_controls.png'); background-size: cover"></div>
                     </a>
                 </div>
                 <!-- CONTENT -->
