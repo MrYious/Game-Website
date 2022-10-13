@@ -54,19 +54,9 @@
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
             <!-- IMAGE -->
-            <div  class="flex justify-center items-center w-[90%] md:w-[70%] lg:w-[90%] h-fit lg:gap-9 md:gap-6 gap-3   ">
-                <!-- LEFT IMAGE -->
-                <div class="flex items-center justify-center w-[80%] lg:w-[30%] ">
-                    <img class="w-full h-full" src="/images/Lore1.png" alt="Lore1">
-                </div>
-                <!-- RIGHT IMAGE -->
-                <div class="flex items-end justify-end w-[80%] lg:w-[30%] ">
-                    <!-- <div class="absolute flex flex-col -translate-x-1/2 -translate-y-1/2 bg-red-100 w-fit top-1/2 left-1/2 ">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ea.</div>
-                    </div> -->
-                    <a href="/lore" class="absolute px-3 py-1 mx-10 my-12 text-xs font-medium border-2 md:text-sm border-main-500 bg-main-500 text-main-100">Read More</a>
-                    <img class="w-full h-full" src="/images/Lore2.png" alt="Lore2">
-                </div>
+            <div  class="flex justify-end items-end w-[85%] md:w-[80%] lg:w-[75%] h-fit lg:gap-9 md:gap-6 gap-3   ">
+                <img class="w-full h-full" src="/images/lorepage(1).png" alt="Lore">
+                <a href="/lore" class="absolute px-3 py-1 mx-[6%] my-[4%] text-xs font-medium border-2 md:text-sm border-main-500 bg-main-500 text-main-100">Read More</a>
             </div>
             <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
                 <div class="w-full border-2 border-main-gold"></div>
@@ -107,7 +97,7 @@
         <!-- BACKGROUND -->
         <div style="background-image:url('../images/Gameplay-levels-full-bg.png'); background-size: cover">
             <!-- GAMEPLAY -->
-            <section id="gameplay" class="flex flex-col-reverse items-center justify-center gap-10 w-full min-h-screen lg:min-h-screen lg:flex-row py-10">
+            <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full min-h-screen gap-10 py-10 lg:min-h-screen lg:flex-row">
                 <!-- IMAGES -->
                 <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-full lg:w-[60%] lg:h-[600px] lg:p-0">
                     <div class="flex items-center justify-center lg:-mb-10 lg:mr-52 w-[300px] lg:w-[350px] z-30">
@@ -131,7 +121,7 @@
                     <!-- TITLE -->
                     <div class="px-4 py-1 text-3xl text-right text-main-gold lg:text-5xl font-header">Gameplay</div>
                     <!-- DESCRIPTION -->
-                    <div class=" text-white text-md font-body text-justify">
+                    <div class="text-justify text-white text-md font-body">
                     Chromahunt is a 2D Side-Scrolling Multiplayer Online Role-Playing Game where players will need to work together to retrieve the lost ChromaGems and defeat The Colorless King. 
                     The players would travel through Iris' eight kingdoms, defeating creatures that guard the ChromaGems. Each kingdom has one ChromaGem, which is obtained at the end of each boss. The players begin their trip in the forest, where they may encounter monsters such as goblins.
                     </div>
@@ -167,13 +157,13 @@
 
             <!-- LEVELS -->
             <section id="levels" class="flex flex-col items-center justify-center w-full min-h-screen">
-                <div class="flex flex-col items-center justify-center w-full h-full gap-10 lg:flex-row lg:py-0 lg:px-6 py-10">
+                <div class="flex flex-col items-center justify-center w-full h-full gap-10 py-10 lg:flex-row lg:py-0 lg:px-6">
                     <!-- CONTENT -->
                     <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 lg:pl-10">
                         <!-- TITLE -->
                         <div class="px-4 py-1 text-3xl text-main-gold lg:text-5xl font-header">Levels</div>
                         <!-- DESCRIPTION -->
-                        <div class=" text-white text-md font-body text-justify">
+                        <div class="text-justify text-white text-md font-body">
                         Explore the eight kingdoms in the world of Iris. Each kingdom will have an arbitrary amount of stages. Each stage will have mobs ranging from basic to elite level. As the levels rise, the monsters become more powerful. Every kingdom’s last stage will be a Boss Stage, ranging from the Goblin King to The Colorless King himself.
                         </div>
                     </div>
