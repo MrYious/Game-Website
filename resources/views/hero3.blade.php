@@ -32,9 +32,12 @@
                     <!-- ROLE -->
                     <div class="text-xl font-medium text-left lg:text-2xl font-header">Ranger</div>
                     <!-- DESCRIPTION -->
-                    <div class="flex flex-col gap-1 py-2 text-sm font-semibold text-justify font-body">
+                    <div class="flex flex-col gap-3 py-2 text-sm font-semibold text-justify font-body">
                         <div>
-                            Giannis is a skilled archer and the heir to his father’s throne. Being of royal descent, he grew up in affluence but has since been exposed to the difficulties that the common person experiences. His parents were killed by the Colorless King’s army in a brutal raid. During his escapade, he passed out in a dark forest while still being hunted by the Colorless King’s Army. To his surprise when he woke up, he found himself in a hut in a small village. It was there that he met his savior who found him passed out in the woods. With this tragedy, he dedicated his life preparing one day to have his revenge on the King. The hunter from the small village decided to teach him the ways of a Ranger. Giannis gained a mentor and was given his special bow as a graduating gift.
+                            Giannis is a skilled archer and the heir to his father’s throne. Being of royal descent, he grew up in affluence but has since been exposed to the difficulties that the common person experiences. His parents were killed by the Colorless King’s army in a brutal raid. During his escapade, he passed out in a dark forest while still being hunted by the Colorless King’s Army. 
+                        </div>
+                        <div>
+                            To his surprise when he woke up, he found himself in a hut in a small village. It was there that he met his savior who found him passed out in the woods. With this tragedy, he dedicated his life preparing one day to have his revenge on the King. The hunter from the small village decided to teach him the ways of a Ranger. Giannis gained a mentor and was given his special bow as a graduating gift.
                         </div>
                     </div>
                 </div>
