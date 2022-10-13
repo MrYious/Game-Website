@@ -24,18 +24,20 @@
         <!-- GAMEMODES -->
         <div class="w-full h-full py-10">
             <!-- IMAGES -->
-            <div class="flex items-center justify-center w-full lg:px-16 text-center ">
+            <div class="flex items-center justify-center w-full px-10 text-center ">
                 <div class="w-full border-2 border-main-gold"></div>
                     <!-- TITLE -->
-                    <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
+                    <div class="flex items-center justify-center px-8 py-1 text-3xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
                     GAME MODES
                     </div>
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
             <div class="flex flex-col items-center justify-center gap-3 m-2 lg:flex-row ">
-                <div class="flex justify-center items-center w-[490px] lg:w-[33.33%] h-[490px]" style="background-image:url('../images/gmodes_coop.png'); background-size: cover">
+                <div class="flex justify-center items-center w-[350px] lg:w-[550px]">
+                    <img class="w-full h-full" src="/images/gmodes_coop.png" alt="Coop Mode">
                 </div>
-                <div class="flex justify-center items-center w-[490px] lg:w-[33.33%] h-[490px]" style="background-image:url('../images/gmode_story.png'); background-size: cover">
+                <div class="flex justify-center items-center w-[350px] lg:w-[550px]">
+                    <img class="w-full h-full" src="/images/gmode_story.png" alt="Story Mode">
                 </div>
             </div>
             <!-- STEPPER -->
@@ -47,8 +49,9 @@
                     </div>
                     <div class="stepper-content">
                         <div class="text-xl font-bold lg:text-4xl font-header text-white px-10">4-player Co-op</div>
-                        <div class="text-xs lg:text-xl font-body text-white text-justify px-10">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
+                        <div class="text-md lg:text-xl font-body text-white text-justify px-10">
+                        <br>Traverse the world of Iris with your friends! Team up with up to four players to earn rewards and defeat The Colorless King.
+                        In this Game mode, you can team-up with your friends up to four players. You need to defeat opponents to earn rewards in order to defeat The Colorless King. You can choose different characters with different set of skills.
                         </div>
                     </div>
                 </li>
@@ -59,13 +62,13 @@
                     </div>
                     <div class="stepper-content">
                         <div class="text-xl font-bold lg:text-4xl font-header text-white px-10">Story Mode</div>
-                        <div class="text-xs lg:text-xl font-body text-white text-justify px-10">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi asperiores maiores tempore nulla nihil suscipit labore deserunt. Reiciendis ea voluptate alias? Libero dolorem adipisci nobis repudiandae assumenda harum reprehenderit maxime? Earum velit, accusamus dolorum minima nam error unde soluta optio? Impedit sint velit ab. Quam vero quidem facere quos blanditiis?
+                        <div class="text-md lg:text-xl font-body text-white text-justify px-10">
+                        <br>Begin your quest to retrieve the seven ChromaGems and fight The Colorless King. In this Game mode, you are going to follow a story progression that will let you collect the seven ChromaGems to defeat The Colorless King. You will learn the story of the world of Iris and understand the backstory of each character in the game.
                         </div>
                     </div>
                 </li>
             </ul>
-            <div class="flex items-center justify-center w-full px-16 pb-10 text-center ">
+            <div class="flex items-center justify-center w-full px-10 pb-10 text-center ">
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
         </div>

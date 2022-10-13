@@ -23,10 +23,10 @@
         <livewire:navbar />
         <!-- GAME MODE -->
         <div class="w-full h-full py-10">
-            <div class="flex items-center justify-center w-full px-16 text-center ">
+            <div class="flex items-center justify-center w-full px-10 text-center ">
                     <div class="w-full border-2 border-main-gold"></div>
                         <!-- TITLE -->
-                        <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
+                        <div class="flex items-center justify-center px-8 py-1 text-3xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
                         Levels
                         </div>
                     <div class="w-full border-2 border-main-gold"></div>
@@ -35,7 +35,7 @@
                 <!-- CONTENT -->
                 <div class="flex flex-col items-center justify-start w-[80%] h-full gap-3 p-5 ">
                     <div class="text-xs lg:text-lg font-body text-white text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit molestiae aliquid odio qui neque ullam velit blanditiis cumque perspiciatis hic suscipit architecto animi vero mollitia optio necessitatibus quae nulla, similique, maiores magnam non eveniet tempore. Libero nisi temporibus aperiam numquam in id inventore ut, ducimus, beatae eveniet atque rerum?
+                    Explore the eight kingdoms in the world of Iris. Each kingdom will have an arbitrary amount of stages. Each stage will have mobs ranging from basic to elite level. As the levels rise, the monsters become more powerful. Every kingdom’s last stage will be a Boss Stage, ranging from the Goblin King to The Colorless King himself.
                     </div>
                 </div>
                 <!-- CAROUSEL -->
@@ -67,7 +67,7 @@
                             <img
                                 src="images/level1.png"
                                 class="block w-full h-full"
-                                alt="..."
+                                alt="Level 1"
                             />
                             <div class="absolute text-center carousel-caption sm:block">
                                 <h5 class="lg:text-xl font-title mb-6">Level 1 - Dull Woods</h5>
@@ -77,18 +77,17 @@
                             <img
                                 src="images/level2.png"
                                 class="block w-full"
-                                alt="..."
+                                alt="Level 2"
                             />
                             <div class="absolute text-center carousel-caption sm:block">
                                 <h5 class="lg:text-xl font-title mb-6">Level 2 - Dungeons</h5>
                             </div>
                             </div>
                             <div class="relative float-left w-full carousel-item">
-                                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black opacity-50"></div>
                             <img
                                 src="images/level3.png"
                                 class="block w-full"
-                                alt="..."
+                                alt="Level 3"
                             />
                             <div class="absolute text-center carousel-caption sm:block">
                                 <h5 class="lg:text-xl font-title mb-6">Level 3 - Coming soon</h5>
@@ -115,7 +114,7 @@
                         </button>
                     </div>   
             </main>
-            <div class="flex items-center justify-center w-full px-16 pb-10 text-center ">
+            <div class="flex items-center justify-center w-full px-10 pb-10 text-center ">
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
         </div>

@@ -107,69 +107,96 @@
         <!-- BACKGROUND -->
         <div style="background-image:url('../images/Gameplay-levels-full-bg.png'); background-size: cover">
             <!-- GAMEPLAY -->
-            <section id="gameplay" class="flex flex-col-reverse items-center justify-center w-full gap-10 lg:min-h-screen lg:flex-row">
-                <!-- VIDEO SAMPLE -->
-                <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[60%] lg:h-[600px] lg:p-0">
-                    <a href="/gameplay#home" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                        <div class="flex items-center justify-center m-1 lg:-mb-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[260px] z-30" style="background-image:url('../images/gp_playprog.png'); background-size: cover"></div>
-                    </a>
-                    <a href="/gameplay#rewards" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
-                        <div class="flex items-center justify-center m-1 lg:ml-52 w-[250px] lg:w-[350px] h-[200px] lg:h-[260px] z-20" style="background-image:url('../images/gp_dungeonreward.png'); background-size: cover"></div>
-                    </a>
-                    <a href="/gameplay#controls" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
-                        <div class="flex items-center justify-center mt-20 lg:-mt-20 w-[250px] lg:w-[350px] h-[200px] lg:h-[260px] z-10 border-4 border-main-gold" style="background-image:url('../images/gp_controls.png'); background-size: cover"></div>
-                    </a>
+            <section id="gameplay" class="flex flex-col-reverse items-center justify-center gap-10 w-full min-h-screen lg:min-h-screen lg:flex-row py-10">
+                <!-- IMAGES -->
+                <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-full lg:w-[60%] lg:h-[600px] lg:p-0">
+                    <div class="flex items-center justify-center lg:-mb-10 lg:mr-52 w-[300px] lg:w-[350px] z-30">
+                        <a href="/gameplay#home">
+                            <img class="w-full h-full" src="/images/gp_playprog.png" alt="Gameplay Image">
+                        </a>
+                    </div>
+                    <div class="flex items-center justify-center lg:ml-52 w-[300px] lg:w-[350px] z-20">
+                        <a href="/gameplay#rewards">
+                            <img class="w-full h-full" src="/images/gp_dungeonreward.png" alt="Gameplay Image">
+                        </a>
+                    </div>
+                    <div class="flex items-center justify-center lg:-mt-10 lg:mr-52 w-[290px] lg:w-[350px] border-4 border-main-gold z-10">
+                        <a href="/gameplay#controls">
+                            <img class="w-full h-full" src="/images/gp_controls.png" alt="Gameplay Image">
+                        </a>
+                    </div>
                 </div>
                 <!-- CONTENT -->
-                <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-10 p-5 lg:p-10">
+                <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 lg:pr-20">
                     <!-- TITLE -->
-                    <div class="px-4 py-1 text-2xl text-right text-main-gold lg:text-5xl font-header">Gameplay</div>
+                    <div class="px-4 py-1 text-3xl text-right text-main-gold lg:text-5xl font-header">Gameplay</div>
                     <!-- DESCRIPTION -->
-                    <div class="text-center text-white text-md font-body lg:text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.
+                    <div class=" text-white text-md font-body text-justify">
+                    Chromahunt is a 2D Side-Scrolling Multiplayer Online Role-Playing Game where players will need to work together to retrieve the lost ChromaGems and defeat The Colorless King. 
+                    The players would travel through Iris' eight kingdoms, defeating creatures that guard the ChromaGems. Each kingdom has one ChromaGem, which is obtained at the end of each boss. The players begin their trip in the forest, where they may encounter monsters such as goblins.
                     </div>
                 </div>
             </section>
 
             <!-- MODES -->
             <section id="modes" class="flex flex-col items-center justify-center w-full min-h-screen">
-                <div class="flex flex-col-reverse items-center justify-center w-full h-full gap-10 py-32">
+                <div class="flex flex-col-reverse items-center justify-center w-full h-full gap-10 pt-20 pb-20">
                     <!-- MODES IMAGES -->
                     <div class="flex flex-wrap items-center justify-center w-full gap-3 lg:flex-row md:gap-10 lg:gap-20">
-                        <a href="/gamemode" class="flex items-start justify-center px-40 py-40" style="background-image:url('../images/gmodes_coop.png'); background-size: cover">
+                        <a href="/gamemode" class="flex items-start justify-center w-[250px] lg:w-[320px]">
+                            <img class="w-full h-full" src="/images/gmodes_coop.png" alt="Gamemode Image">
                         </a>
-                        <a href="/gamemode" class="flex items-start justify-center px-40 py-40" style="background-image:url('../images/gmode_story.png'); background-size: cover">
+                        <a href="/gamemode" class="flex items-start justify-center w-[250px] lg:w-[320px]">
+                            <img class="w-full h-full" src="/images/gmode_story.png" alt="Gamemode Image">
                         </a>
                     </div>
                     <!-- CONTENT -->
-                    <div class="flex items-center justify-center w-full px-10 text-center lg:px-16 ">
+                    <div class="flex items-center justify-center w-full px-10 text-center lg:px-10 ">
                         <div class="w-full border-2 border-main-gold"></div>
                             <!-- TITLE -->
-                            <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
+                            <div class="flex items-center justify-center px-8 py-1 text-3xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
                             GAME MODES
                             </div>
                         <div class="w-full border-2 border-main-gold"></div>
                     </div>
                 </div>
-                <!-- <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="flex items-center justify-center w-full px-10 text-center ">
                     <div class="w-full border-2 border-main-gold"></div>
-                </div> -->
+                </div>
             <section>
 
             <!-- LEVELS -->
             <section id="levels" class="flex flex-col items-center justify-center w-full min-h-screen">
-                <div class="flex flex-col items-center justify-center w-full h-full gap-20 lg:flex-row lg:py-0 lg:px-6">
+                <div class="flex flex-col items-center justify-center w-full h-full gap-10 lg:flex-row lg:py-0 lg:px-6 py-10">
                     <!-- CONTENT -->
-                    <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 text-left lg:pl-10">
+                    <div class="flex flex-col items-center justify-center lg:items-start lg:justify-end w-[80%] md:w-[60%] lg:w-[40%] gap-3 lg:pl-10">
                         <!-- TITLE -->
-                        <div class="px-4 py-1 text-2xl text-main-gold lg:text-5xl font-header">Levels</div>
+                        <div class="px-4 py-1 text-3xl text-main-gold lg:text-5xl font-header">Levels</div>
                         <!-- DESCRIPTION -->
-                        <div class="text-center text-white text-md font-body lg:text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto, reprehenderit officia cum fuga sit ipsam quidem, ab animi minima consequuntur hic dignissimos obcaecati quis.                    </div>
+                        <div class=" text-white text-md font-body text-justify">
+                        Explore the eight kingdoms in the world of Iris. Each kingdom will have an arbitrary amount of stages. Each stage will have mobs ranging from basic to elite level. As the levels rise, the monsters become more powerful. Every kingdom’s last stage will be a Boss Stage, ranging from the Goblin King to The Colorless King himself.
+                        </div>
                     </div>
                     <!-- LEVEL IMAGES -->
-                    <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center w-full h-[300px] lg:w-[80%] lg:h-[600px]">
-                        <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
+                    <div class="flex flex-wrap lg:flex-nowrap lg:flex-col items-center justify-center gap-1 py-2 w-full h-full lg:w-[80%] lg:h-[600px]">
+                        <div class="flex items-center justify-center lg:-mb-10 lg:ml-52 w-[300px] lg:w-[350px] border-4 border-main-gold z-10">
+                            <a href="/levels">
+                                <img class="w-full h-full" src="/images/level1BG.png" alt="Levels Image">
+                            </a>
+                        </div>
+                        <div class="flex items-center justify-center lg:mr-52 w-[300px] lg:w-[350px] border-4 border-main-gold z-20">
+                            <a href="/levels">
+                                <img class="w-full h-full" src="/images/level2BG.png" alt="Levels Image">
+                            </a>
+                        </div>
+                        <div class="flex items-center justify-center lg:-mt-10 lg:ml-52 w-[300px] lg:w-[350px] border-4 border-main-gold z-30">
+                            <a href="/levels">
+                                <img class="w-full h-full" src="/images/level3BG.png" alt="Levels Image">
+                            </a>
+                        </div>
+                    
+                    
+                        <!-- <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
                             <div class="flex items-center justify-center m-1 lg:-mb-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-4 border-main-gold z-4" style="background-image:url('../images/level1BG.png'); background-size: cover"></div>
                         </a>
                         <a href="/levels" class="flex items-center lg:items-end w-1/2 lg:w-[80%] h-1/2">
@@ -177,7 +204,7 @@
                         </a>
                         <a href="/levels" class="flex items-center lg:items-start w-1/2 lg:w-[80%] h-1/2">
                             <div class="flex items-center justify-center mt-20 lg:-mt-20 lg:ml-80 w-[250px] lg:w-[350px] h-[200px] lg:h-[250px] border-4 border-main-gold z-6" style="background-image:url('../images/level3BG.png'); background-size: cover"></div>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </section>

@@ -18,41 +18,43 @@
 
         <!-- HOME -->
         <div class="w-full h-full bg-main-main" style="background-image:url('../images/Gameplay inner1.png'); background-size: cover">
-            <main id="home" class="flex flex-col w-full min-h-screen">
+            <main id="home" class="w-full min-h-screen">
                 <!-- NAVIGATION BAR -->
                 <livewire:navbar />
                 <!-- GAMEPLAY -->
-                <div class="flex items-center justify-center w-full px-16 text-center ">
+                <div class="flex items-center justify-center w-full px-10 text-center ">
                     <div class="w-full border-2 border-main-gold"></div>
                         <!-- TITLE -->
-                        <div class="flex items-center justify-center px-8 py-1 text-2xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
+                        <div class="flex items-center justify-center px-8 py-1 text-4xl whitespace-nowrap w-fit lg:text-5xl font-header text-main-gold">
                         Gameplay
                         </div>
                     <div class="w-full border-2 border-main-gold"></div>
                 </div>
-                <div class="flex flex-col md:flex-row items-center justify-around min-h-[90vh] w-full p-2">
+                <div class="flex flex-col items-center justify-around w-full min-h-screen md:flex-row">
                     <!-- CONTENT -->
-                    <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                        <div class="text-2xl lg:text-4xl text-main-gold font-header">Character Progression</div>
+                    <div class="flex flex-col md:w-[35%] w-[85%] p-2 gap-5">
+                        <div class="text-3xl lg:text-4xl text-main-gold font-header">Character Progression</div>
                         <div class="text-sm lg:text-base text-white font-body text-justify">
                         Each character will gain experience points from every stage cleared and as the players level up they will gain affinity points that can be used to upgrade skills. Once a character reaches a certain level, they can select a new Job Tier (i.e, Knight -> Holy Knight). Once selected a path, the player must do a prerequisite quest to advance to the new Job. 
                         </div>
                     </div>
                     <!-- IMAGE -->
-                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[620px]" style="background-image:url('../images/gp_playprog.png'); background-size: cover">
+                    <div class="flex justify-center items-center w-[400px] lg:w-[600px]">
+                        <img class="w-full h-full" src="/images/gp_playprog.png" alt="Character Progression">
                     </div>
                 </div>
             </main>
 
             <!-- REWARDS -->
-            <section id="rewards" class="flex items-center justify-between w-full min-h-screen">
-                <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen p-2 md:flex-row">
+            <section id="rewards" class="w-full min-h-screen">
+                <div class="flex flex-col-reverse items-center justify-around w-full min-h-screen md:flex-row">
                     <!-- IMAGE -->
-                    <div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[620px] " style="background-image:url('../images/gp_dungeonreward.png'); background-size: cover">
+                    <div class="flex justify-center items-center w-[400px] lg:w-[600px]">
+                        <img class="w-full h-full" src="/images/gp_dungeonreward.png" alt="Dungeon Rewards">
                     </div>
                     <!-- CONTENT -->
-                    <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5 text-right">
-                        <div class="text-2xl lg:text-4xl text-main-gold font-header">Dungeon Rewards</div>
+                    <div class="flex flex-col md:w-[35%] w-[85%] p-2 gap-5 text-justify lg:text-right">
+                        <div class="text-3xl lg:text-4xl text-main-gold font-header">Dungeon Rewards</div>
                         <div class="text-sm lg:text-base text-white font-body">
                         Each Dungeon will have X number of stages. Each stage will be composed of basic level mobs to elite level mobs. The monsters become stronger as the floors go higher. The last stage in every dungeon will be a Boss Stage.
                         <br><br>
@@ -65,11 +67,11 @@
             </section>
 
             <!-- CONTROLS -->
-            <section id="controls" class="flex items-center justify-between w-full min-h-screen">
-                <div class="flex flex-col items-center justify-around w-full min-h-screen p-2 md:flex-row ">
+            <section id="controls" class="w-full min-h-screen">
+                <div class="flex flex-col items-center justify-around w-full min-h-screen lg:flex-row ">
                     <!-- CONTENT -->
-                    <div class="flex flex-col md:w-[35%] w-[85%] p-5 gap-5">
-                        <div class="text-2xl lg:text-4xl text-main-gold font-header">Controls</div>
+                    <div class="flex flex-col md:w-[35%] w-[85%] p-2 gap-5">
+                        <div class="text-3xl lg:text-4xl text-main-gold font-header">Controls</div>
                         <div class="text-sm lg:text-base text-white font-body text-justify">
                         Players can press:
                         <br>
@@ -81,12 +83,14 @@
                         Basic Skill – E <br>
                         Special Skill - Q 
                         </div>
+                    </div>
                     <!-- IMAGE -->
-                    </div><div class="flex justify-center items-center w-[85%] lg:w-[55%] h-[300px] lg:h-[620px] border-4 border-main-gold" style="background-image:url('../images/gp_controls.png'); background-size: cover">
+                    <div class="flex justify-center items-center w-[400px] lg:w-[600px] border-4 border-main-gold">
+                        <img class="w-full h-full" src="/images/gp_controls.png" alt="Controls">
                     </div>
                 </div>
             </section>
-            <div class="flex items-center justify-center w-full px-16 pb-10 text-center ">
+            <div class="flex items-center justify-center w-full px-10 pb-10">
                 <div class="w-full border-2 border-main-gold"></div>
             </div>
         </div>
