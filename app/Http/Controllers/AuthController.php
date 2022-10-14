@@ -39,7 +39,7 @@ class AuthController extends Controller
             return redirect('login')->with('message', 'Registration Successful');
         }
 
-        return redirect('register')->with('message', 'Passwords does not match');
+        return redirect('register')->with('message', 'Passwords do not match');
     }
 
     function loginuser(Request $request)
